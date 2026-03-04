@@ -1,0 +1,2894 @@
+{
+  "type": "hebrew-signs-acrostic-validation",
+  "description": "Acrostic text validation for Hebrew Signs project — tests letter ordering against actual text",
+  "generated": "2026-03-02T08:17:00.512Z",
+  "psalm_119": {
+    "psalm": 119,
+    "type": "alphabetic-acrostic",
+    "stanza_count": 22,
+    "verses_per_stanza": 8,
+    "note": "Each stanza begins with successive Hebrew letter. The psalmist deliberately chose this structure.",
+    "chapter_6q": {
+      "6q_what": "An extended acrostic meditation extolling the supreme value of Yahweh's law, precepts, statutes, commandments, and word as the source of blessing, purity, wisdom, revival, and eternal truth amid affliction, persecution, and temptation. The psalmist expresses wholehearted devotion, longing for divine teaching, and commitment to obedience while contrasting fidelity with the waywardness of the proud and wicked.",
+      "6q_who": "Psalmist (devout servant), Yahweh (divine lawgiver and reviver), the proud (cursed wanderers), princes (slanderers), the wicked (persecutors), those who fear Yahweh (fellow observers).",
+      "6q_when": "Undated post-exilic era, evoking timeless covenantal faithfulness across generations.",
+      "6q_where": "Earthly sojourn as a stranger, contrasted with heaven where Yahweh's word is eternally settled.",
+      "6q_how": "Acrostic psalm structured in 22 stanzas of eight verses each following the Hebrew alphabet, employing repetitive synonymous parallelism for Torah terms (law, statutes, precepts, commandments, word, testimonies, ordinances, judgments).",
+      "6q_why": "Affirms the eternality, perfection, and transformative power of God's word as life's guiding light, source of wisdom surpassing human insight, and anchor of hope in suffering, underscoring Torah piety as the path to blessing and ultimate salvation in redemptive history.",
+      "6q_summary": "The longest psalm celebrates unwavering devotion to Yahweh's multifaceted word as the ultimate delight, counselor, reviver, and light amid trials, surpassing all earthly treasures in value and efficacy.",
+      "6q_tags": [
+        "torah",
+        "word-of-god",
+        "meditation",
+        "obedience",
+        "blessing",
+        "persecution",
+        "eternal-truth",
+        "divine-revival"
+      ]
+    },
+    "stanzas": [
+      {
+        "stanza": 1,
+        "letter": "א",
+        "letter_name": "Aleph",
+        "proposed_meaning": "Authority",
+        "verses": "1-8",
+        "total_words": 48,
+        "words_starting_with_letter": 12,
+        "unique_word_count": 42,
+        "initial_words_sample": [
+          "אַשְׁרֵ֥י",
+          "אַ֭שְׁרֵי",
+          "אַ֭ף",
+          "אַ֭תָּה",
+          "אַ֭חֲלַי"
+        ]
+      },
+      {
+        "stanza": 2,
+        "letter": "ב",
+        "letter_name": "Bet",
+        "proposed_meaning": "Creation",
+        "verses": "9-16",
+        "total_words": 44,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 42,
+        "initial_words_sample": [
+          "בַּמֶּ֣ה",
+          "בְּכָל־",
+          "בְּ֭לִבִּי",
+          "בָּר֖וּךְ",
+          "בִּשְׂפָתַ֥י"
+        ]
+      },
+      {
+        "stanza": 3,
+        "letter": "ג",
+        "letter_name": "Gimel",
+        "proposed_meaning": "Causation",
+        "verses": "17-24",
+        "total_words": 50,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 45,
+        "initial_words_sample": [
+          "גְּמֹ֖ל",
+          "גַּל־",
+          "גֵּ֣ר",
+          "גָּרְסָ֣ה",
+          "גָּ֭עַרְתָּ"
+        ]
+      },
+      {
+        "stanza": 4,
+        "letter": "ד",
+        "letter_name": "Dalet",
+        "proposed_meaning": "Intersection",
+        "verses": "25-32",
+        "total_words": 42,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 37,
+        "initial_words_sample": [
+          "דָּֽבְקָ֣ה",
+          "דְּרָכַ֣י",
+          "דֶּֽרֶךְ־",
+          "דָּלְפָ֣ה",
+          "דֶּֽרֶךְ־"
+        ]
+      },
+      {
+        "stanza": 5,
+        "letter": "ה",
+        "letter_name": "Hei",
+        "proposed_meaning": "Revelation",
+        "verses": "33-40",
+        "total_words": 48,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 43,
+        "initial_words_sample": [
+          "הוֹרֵ֣נִי",
+          "הֲ֭בִינֵנִי",
+          "הַ֭דְרִיכֵנִי",
+          "הַט־",
+          "הַעֲבֵ֣ר"
+        ]
+      },
+      {
+        "stanza": 6,
+        "letter": "ו",
+        "letter_name": "Vav",
+        "proposed_meaning": "Connection",
+        "verses": "41-48",
+        "total_words": 49,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 44,
+        "initial_words_sample": [
+          "וִֽיבֹאֻ֣נִי",
+          "וְאֶֽעֱנֶ֣ה",
+          "וְֽאַל־",
+          "וְאֶשְׁמְרָ֖ה",
+          "וָעֶֽד׃"
+        ]
+      },
+      {
+        "stanza": 7,
+        "letter": "ז",
+        "letter_name": "Zayin",
+        "proposed_meaning": "Intervention",
+        "verses": "49-56",
+        "total_words": 47,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 41,
+        "initial_words_sample": [
+          "זְכֹר־",
+          "זֹ֣את",
+          "זֵ֭דִים",
+          "זָ֘כַ֤רְתִּי",
+          "זַלְעָפָ֣ה"
+        ]
+      },
+      {
+        "stanza": 8,
+        "letter": "ח",
+        "letter_name": "Chet",
+        "proposed_meaning": "Possession",
+        "verses": "57-64",
+        "total_words": 49,
+        "words_starting_with_letter": 10,
+        "unique_word_count": 47,
+        "initial_words_sample": [
+          "חֶלְקִ֖י",
+          "חִלִּ֣יתִי",
+          "חָ֝נֵּ֗נִי",
+          "חִשַּׁ֥בְתִּי",
+          "חַ֭שְׁתִּי"
+        ]
+      },
+      {
+        "stanza": 9,
+        "letter": "ט",
+        "letter_name": "Tet",
+        "proposed_meaning": "Harvest",
+        "verses": "65-72",
+        "total_words": 54,
+        "words_starting_with_letter": 9,
+        "unique_word_count": 44,
+        "initial_words_sample": [
+          "ט֭וֹב",
+          "ט֤וּב",
+          "טַ֣עַם",
+          "טֶ֣רֶם",
+          "טוֹב־"
+        ]
+      },
+      {
+        "stanza": 10,
+        "letter": "י",
+        "letter_name": "Yud",
+        "proposed_meaning": "Desire and Action",
+        "verses": "73-80",
+        "total_words": 51,
+        "words_starting_with_letter": 12,
+        "unique_word_count": 46,
+        "initial_words_sample": [
+          "יָדֶ֣יךָ",
+          "יְ֭רֵאֶיךָ",
+          "יִרְא֣וּנִי",
+          "יִחָֽלְתִּי׃",
+          "יָדַ֣עְתִּי"
+        ]
+      },
+      {
+        "stanza": 11,
+        "letter": "כ",
+        "letter_name": "Kaf",
+        "proposed_meaning": "Dependence",
+        "verses": "81-88",
+        "total_words": 50,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 47,
+        "initial_words_sample": [
+          "כָּלְתָ֣ה",
+          "כָּל֣וּ",
+          "כִּֽי־",
+          "כְּנֹ֣אד",
+          "כַּמָּ֥ה"
+        ]
+      },
+      {
+        "stanza": 12,
+        "letter": "ל",
+        "letter_name": "Lamed",
+        "proposed_meaning": "Learning",
+        "verses": "89-96",
+        "total_words": 49,
+        "words_starting_with_letter": 10,
+        "unique_word_count": 45,
+        "initial_words_sample": [
+          "לְעוֹלָ֥ם",
+          "לְדֹ֣ר",
+          "לְֽ֭מִשְׁפָּטֶיךָ",
+          "לוּלֵ֣י",
+          "לְ֭עוֹלָם"
+        ]
+      },
+      {
+        "stanza": 13,
+        "letter": "מ",
+        "letter_name": "Mem",
+        "proposed_meaning": "Life",
+        "verses": "97-104",
+        "total_words": 53,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 43,
+        "initial_words_sample": [
+          "מָֽה־",
+          "מֵ֭אֹ֣יְבַי",
+          "מִצְוֺתֶ֑ךָ",
+          "מִכָּל־",
+          "מְלַמְּדַ֥י"
+        ]
+      },
+      {
+        "stanza": 14,
+        "letter": "נ",
+        "letter_name": "Nun",
+        "proposed_meaning": "Seed",
+        "verses": "105-112",
+        "total_words": 49,
+        "words_starting_with_letter": 9,
+        "unique_word_count": 45,
+        "initial_words_sample": [
+          "נֵר־",
+          "נִשְׁבַּ֥עְתִּי",
+          "נַעֲנֵ֥יתִי",
+          "נִדְב֣וֹת",
+          "נָ֣א"
+        ]
+      },
+      {
+        "stanza": 15,
+        "letter": "ס",
+        "letter_name": "Samekh",
+        "proposed_meaning": "Protection",
+        "verses": "113-120",
+        "total_words": 46,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 44,
+        "initial_words_sample": [
+          "סֵעֲפִ֥ים",
+          "סִתְרִ֣י",
+          "סֽוּרוּ־",
+          "סָמְכֵ֣נִי",
+          "סְעָדֵ֥נִי"
+        ]
+      },
+      {
+        "stanza": 16,
+        "letter": "ע",
+        "letter_name": "Ayin",
+        "proposed_meaning": "Perception",
+        "verses": "121-128",
+        "total_words": 49,
+        "words_starting_with_letter": 12,
+        "unique_word_count": 43,
+        "initial_words_sample": [
+          "עָ֭שִׂיתִי",
+          "עֲרֹ֣ב",
+          "עַבְדְּךָ֣",
+          "עֵ֭ינַי",
+          "עֲשֵׂ֖ה"
+        ]
+      },
+      {
+        "stanza": 17,
+        "letter": "פ",
+        "letter_name": "Pe",
+        "proposed_meaning": "Speech",
+        "verses": "129-136",
+        "total_words": 50,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 49,
+        "initial_words_sample": [
+          "פְּלָא֥וֹת",
+          "פֵּ֖תַח",
+          "פְּתָיִֽים׃",
+          "פִּֽי־",
+          "פָ֭עַרְתִּי"
+        ]
+      },
+      {
+        "stanza": 18,
+        "letter": "צ",
+        "letter_name": "Tsadi",
+        "proposed_meaning": "Righteousness",
+        "verses": "137-144",
+        "total_words": 42,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 38,
+        "initial_words_sample": [
+          "צַדִּ֣יק",
+          "צִ֭וִּיתָ",
+          "צֶ֣דֶק",
+          "צִמְּתַ֥תְנִי",
+          "צָרָֽי׃"
+        ]
+      },
+      {
+        "stanza": 19,
+        "letter": "ק",
+        "letter_name": "Qof",
+        "proposed_meaning": "Present Moment",
+        "verses": "145-152",
+        "total_words": 44,
+        "words_starting_with_letter": 8,
+        "unique_word_count": 42,
+        "initial_words_sample": [
+          "קָרָ֣אתִי",
+          "קְרָאתִ֥יךָ",
+          "קִדַּ֣מְתִּי",
+          "קִדְּמ֣וּ",
+          "ק֭וֹלִי"
+        ]
+      },
+      {
+        "stanza": 20,
+        "letter": "ר",
+        "letter_name": "Resh",
+        "proposed_meaning": "Intellect",
+        "verses": "153-160",
+        "total_words": 51,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 41,
+        "initial_words_sample": [
+          "רְאֵֽה־",
+          "רִיבָ֣ה",
+          "רִ֭יבִי",
+          "רָח֣וֹק",
+          "רַחֲמֶ֖יךָ"
+        ]
+      },
+      {
+        "stanza": 21,
+        "letter": "ש",
+        "letter_name": "Shin",
+        "proposed_meaning": "Separation",
+        "verses": "161-168",
+        "total_words": 48,
+        "words_starting_with_letter": 10,
+        "unique_word_count": 45,
+        "initial_words_sample": [
+          "שָׂ֭רִים",
+          "שָׂ֣שׂ",
+          "שָׁלָ֥ל",
+          "שֶׁ֣קֶר",
+          "שָׂ֭נֵאתִי"
+        ]
+      },
+      {
+        "stanza": 22,
+        "letter": "ת",
+        "letter_name": "Tav",
+        "proposed_meaning": "Mark",
+        "verses": "169-176",
+        "total_words": 49,
+        "words_starting_with_letter": 11,
+        "unique_word_count": 43,
+        "initial_words_sample": [
+          "תִּקְרַ֤ב",
+          "תָּב֣וֹא",
+          "תְחִנָּתִ֣י",
+          "תַּבַּ֣עְנָה",
+          "תְּהִלָּ֑ה"
+        ]
+      }
+    ]
+  },
+  "lamentations": {
+    "book": "Lamentations",
+    "chapters": [
+      {
+        "chapter": 1,
+        "type": "single-acrostic",
+        "sections": [
+          {
+            "verse": 1,
+            "expected_letter": "א",
+            "expected_name": "Aleph",
+            "proposed_meaning": "Authority",
+            "first_word": "אֵיכָ֣ה ׀",
+            "first_word_consonantal": "איכה",
+            "actual_initial": "א",
+            "matches": true,
+            "word_count": 14
+          },
+          {
+            "verse": 2,
+            "expected_letter": "ב",
+            "expected_name": "Bet",
+            "proposed_meaning": "Creation",
+            "first_word": "בָּכ֨וֹ",
+            "first_word_consonantal": "בכו",
+            "actual_initial": "ב",
+            "matches": true,
+            "word_count": 18
+          },
+          {
+            "verse": 3,
+            "expected_letter": "ג",
+            "expected_name": "Gimel",
+            "proposed_meaning": "Causation",
+            "first_word": "גָּֽלְתָ֨ה",
+            "first_word_consonantal": "גלתה",
+            "actual_initial": "ג",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 4,
+            "expected_letter": "ד",
+            "expected_name": "Dalet",
+            "proposed_meaning": "Intersection",
+            "first_word": "דַּרְכֵ֨י",
+            "first_word_consonantal": "דרכי",
+            "actual_initial": "ד",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 5,
+            "expected_letter": "ה",
+            "expected_name": "Hei",
+            "proposed_meaning": "Revelation",
+            "first_word": "הָי֨וּ",
+            "first_word_consonantal": "היו",
+            "actual_initial": "ה",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 6,
+            "expected_letter": "ו",
+            "expected_name": "Vav",
+            "proposed_meaning": "Connection",
+            "first_word": "וַיֵּצֵ֥א",
+            "first_word_consonantal": "ויצא",
+            "actual_initial": "ו",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 7,
+            "expected_letter": "ז",
+            "expected_name": "Zayin",
+            "proposed_meaning": "Intervention",
+            "first_word": "זָֽכְרָ֣ה",
+            "first_word_consonantal": "זכרה",
+            "actual_initial": "ז",
+            "matches": true,
+            "word_count": 23
+          },
+          {
+            "verse": 8,
+            "expected_letter": "ח",
+            "expected_name": "Chet",
+            "proposed_meaning": "Possession",
+            "first_word": "חֵ֤טְא",
+            "first_word_consonantal": "חטא",
+            "actual_initial": "ח",
+            "matches": true,
+            "word_count": 18
+          },
+          {
+            "verse": 9,
+            "expected_letter": "ט",
+            "expected_name": "Tet",
+            "proposed_meaning": "Harvest",
+            "first_word": "טֻמְאָתָ֣הּ",
+            "first_word_consonantal": "טמאתה",
+            "actual_initial": "ט",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 10,
+            "expected_letter": "י",
+            "expected_name": "Yud",
+            "proposed_meaning": "Desire and Action",
+            "first_word": "יָדוֹ֙",
+            "first_word_consonantal": "ידו",
+            "actual_initial": "י",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 11,
+            "expected_letter": "כ",
+            "expected_name": "Kaf",
+            "proposed_meaning": "Dependence",
+            "first_word": "כָּל־",
+            "first_word_consonantal": "כל",
+            "actual_initial": "כ",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 12,
+            "expected_letter": "ל",
+            "expected_name": "Lamed",
+            "proposed_meaning": "Learning",
+            "first_word": "ל֣וֹא",
+            "first_word_consonantal": "לוא",
+            "actual_initial": "ל",
+            "matches": true,
+            "word_count": 20
+          },
+          {
+            "verse": 13,
+            "expected_letter": "מ",
+            "expected_name": "Mem",
+            "proposed_meaning": "Life",
+            "first_word": "מִמָּר֛וֹם",
+            "first_word_consonantal": "ממרום",
+            "actual_initial": "מ",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 14,
+            "expected_letter": "נ",
+            "expected_name": "Nun",
+            "proposed_meaning": "Seed",
+            "first_word": "נִשְׂקַד֩",
+            "first_word_consonantal": "נשקד",
+            "actual_initial": "נ",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 15,
+            "expected_letter": "ס",
+            "expected_name": "Samekh",
+            "proposed_meaning": "Protection",
+            "first_word": "סִלָּ֨ה",
+            "first_word_consonantal": "סלה",
+            "actual_initial": "ס",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 16,
+            "expected_letter": "ע",
+            "expected_name": "Ayin",
+            "proposed_meaning": "Perception",
+            "first_word": "עַל־",
+            "first_word_consonantal": "על",
+            "actual_initial": "ע",
+            "matches": true,
+            "word_count": 20
+          },
+          {
+            "verse": 17,
+            "expected_letter": "פ",
+            "expected_name": "Pe",
+            "proposed_meaning": "Speech",
+            "first_word": "פֵּֽרְשָׂ֨ה",
+            "first_word_consonantal": "פרשה",
+            "actual_initial": "פ",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 18,
+            "expected_letter": "צ",
+            "expected_name": "Tsadi",
+            "proposed_meaning": "Righteousness",
+            "first_word": "צַדִּ֥יק",
+            "first_word_consonantal": "צדיק",
+            "actual_initial": "צ",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 19,
+            "expected_letter": "ק",
+            "expected_name": "Qof",
+            "proposed_meaning": "Present Moment",
+            "first_word": "קָרָ֤אתִי",
+            "first_word_consonantal": "קראתי",
+            "actual_initial": "ק",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 20,
+            "expected_letter": "ר",
+            "expected_name": "Resh",
+            "proposed_meaning": "Intellect",
+            "first_word": "רְאֵ֨ה",
+            "first_word_consonantal": "ראה",
+            "actual_initial": "ר",
+            "matches": true,
+            "word_count": 18
+          },
+          {
+            "verse": 21,
+            "expected_letter": "ש",
+            "expected_name": "Shin",
+            "proposed_meaning": "Separation",
+            "first_word": "שָׁמְע֞וּ",
+            "first_word_consonantal": "שמעו",
+            "actual_initial": "ש",
+            "matches": true,
+            "word_count": 20
+          },
+          {
+            "verse": 22,
+            "expected_letter": "ת",
+            "expected_name": "Tav",
+            "proposed_meaning": "Mark",
+            "first_word": "תָּבֹ֨א",
+            "first_word_consonantal": "תבא",
+            "actual_initial": "ת",
+            "matches": true,
+            "word_count": 17
+          }
+        ],
+        "match_rate": 1,
+        "matches": 22,
+        "total": 22
+      },
+      {
+        "chapter": 2,
+        "type": "single-acrostic",
+        "sections": [
+          {
+            "verse": 1,
+            "expected_letter": "א",
+            "expected_name": "Aleph",
+            "proposed_meaning": "Authority",
+            "first_word": "אֵיכָה֩",
+            "first_word_consonantal": "איכה",
+            "actual_initial": "א",
+            "matches": true,
+            "word_count": 18
+          },
+          {
+            "verse": 2,
+            "expected_letter": "ב",
+            "expected_name": "Bet",
+            "proposed_meaning": "Creation",
+            "first_word": "בִּלַּ֨ע",
+            "first_word_consonantal": "בלע",
+            "actual_initial": "ב",
+            "matches": true,
+            "word_count": 18
+          },
+          {
+            "verse": 3,
+            "expected_letter": "ג",
+            "expected_name": "Gimel",
+            "proposed_meaning": "Causation",
+            "first_word": "גָּדַ֣ע",
+            "first_word_consonantal": "גדע",
+            "actual_initial": "ג",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 4,
+            "expected_letter": "ד",
+            "expected_name": "Dalet",
+            "proposed_meaning": "Intersection",
+            "first_word": "דָּרַ֨ךְ",
+            "first_word_consonantal": "דרך",
+            "actual_initial": "ד",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 5,
+            "expected_letter": "ה",
+            "expected_name": "Hei",
+            "proposed_meaning": "Revelation",
+            "first_word": "הָיָ֨ה",
+            "first_word_consonantal": "היה",
+            "actual_initial": "ה",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 6,
+            "expected_letter": "ו",
+            "expected_name": "Vav",
+            "proposed_meaning": "Connection",
+            "first_word": "וַיַּחְמֹ֤ס",
+            "first_word_consonantal": "ויחמס",
+            "actual_initial": "ו",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 7,
+            "expected_letter": "ז",
+            "expected_name": "Zayin",
+            "proposed_meaning": "Intervention",
+            "first_word": "זָנַ֨ח",
+            "first_word_consonantal": "זנח",
+            "actual_initial": "ז",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 8,
+            "expected_letter": "ח",
+            "expected_name": "Chet",
+            "proposed_meaning": "Possession",
+            "first_word": "חָשַׁ֨ב",
+            "first_word_consonantal": "חשב",
+            "actual_initial": "ח",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 9,
+            "expected_letter": "ט",
+            "expected_name": "Tet",
+            "proposed_meaning": "Harvest",
+            "first_word": "טָבְע֤וּ",
+            "first_word_consonantal": "טבעו",
+            "actual_initial": "ט",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 10,
+            "expected_letter": "י",
+            "expected_name": "Yud",
+            "proposed_meaning": "Desire and Action",
+            "first_word": "יֵשְׁב֨וּ",
+            "first_word_consonantal": "ישבו",
+            "actual_initial": "י",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 11,
+            "expected_letter": "כ",
+            "expected_name": "Kaf",
+            "proposed_meaning": "Dependence",
+            "first_word": "כָּל֨וּ",
+            "first_word_consonantal": "כלו",
+            "actual_initial": "כ",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 12,
+            "expected_letter": "ל",
+            "expected_name": "Lamed",
+            "proposed_meaning": "Learning",
+            "first_word": "לְאִמֹּתָם֙",
+            "first_word_consonantal": "לאמתם",
+            "actual_initial": "ל",
+            "matches": true,
+            "word_count": 14
+          },
+          {
+            "verse": 13,
+            "expected_letter": "מ",
+            "expected_name": "Mem",
+            "proposed_meaning": "Life",
+            "first_word": "מָֽה־",
+            "first_word_consonantal": "מה",
+            "actual_initial": "מ",
+            "matches": true,
+            "word_count": 21
+          },
+          {
+            "verse": 14,
+            "expected_letter": "נ",
+            "expected_name": "Nun",
+            "proposed_meaning": "Seed",
+            "first_word": "נְבִיאַ֗יִךְ",
+            "first_word_consonantal": "נביאיך",
+            "actual_initial": "נ",
+            "matches": true,
+            "word_count": 16
+          },
+          {
+            "verse": 15,
+            "expected_letter": "ס",
+            "expected_name": "Samekh",
+            "proposed_meaning": "Protection",
+            "first_word": "סָֽפְק֨וּ",
+            "first_word_consonantal": "ספקו",
+            "actual_initial": "ס",
+            "matches": true,
+            "word_count": 20
+          },
+          {
+            "verse": 16,
+            "expected_letter": "ע",
+            "expected_name": "Ayin",
+            "proposed_meaning": "Perception",
+            "first_word": "פָּצ֨וּ",
+            "first_word_consonantal": "פצו",
+            "actual_initial": "פ",
+            "matches": false,
+            "word_count": 16
+          },
+          {
+            "verse": 17,
+            "expected_letter": "פ",
+            "expected_name": "Pe",
+            "proposed_meaning": "Speech",
+            "first_word": "עָשָׂ֨ה",
+            "first_word_consonantal": "עשה",
+            "actual_initial": "ע",
+            "matches": false,
+            "word_count": 19
+          },
+          {
+            "verse": 18,
+            "expected_letter": "צ",
+            "expected_name": "Tsadi",
+            "proposed_meaning": "Righteousness",
+            "first_word": "צָעַ֥ק",
+            "first_word_consonantal": "צעק",
+            "actual_initial": "צ",
+            "matches": true,
+            "word_count": 20
+          },
+          {
+            "verse": 19,
+            "expected_letter": "ק",
+            "expected_name": "Qof",
+            "proposed_meaning": "Present Moment",
+            "first_word": "ק֣וּמִי ׀",
+            "first_word_consonantal": "קומי",
+            "actual_initial": "ק",
+            "matches": true,
+            "word_count": 22
+          },
+          {
+            "verse": 20,
+            "expected_letter": "ר",
+            "expected_name": "Resh",
+            "proposed_meaning": "Intellect",
+            "first_word": "רְאֵ֤ה",
+            "first_word_consonantal": "ראה",
+            "actual_initial": "ר",
+            "matches": true,
+            "word_count": 18
+          },
+          {
+            "verse": 21,
+            "expected_letter": "ש",
+            "expected_name": "Shin",
+            "proposed_meaning": "Separation",
+            "first_word": "שָׁכְב֨וּ",
+            "first_word_consonantal": "שכבו",
+            "actual_initial": "ש",
+            "matches": true,
+            "word_count": 15
+          },
+          {
+            "verse": 22,
+            "expected_letter": "ת",
+            "expected_name": "Tav",
+            "proposed_meaning": "Mark",
+            "first_word": "תִּקְרָא֩",
+            "first_word_consonantal": "תקרא",
+            "actual_initial": "ת",
+            "matches": true,
+            "word_count": 17
+          }
+        ],
+        "match_rate": 0.9090909090909091,
+        "matches": 20,
+        "total": 22
+      },
+      {
+        "chapter": 3,
+        "type": "triple-acrostic",
+        "sections": [
+          {
+            "group": 1,
+            "expected_letter": "א",
+            "expected_name": "Aleph",
+            "proposed_meaning": "Authority",
+            "verses": [
+              {
+                "verse": 1,
+                "first_word": "אֲנִ֤י",
+                "actual_initial": "א",
+                "matches": true
+              },
+              {
+                "verse": 2,
+                "first_word": "אוֹתִ֥י",
+                "actual_initial": "א",
+                "matches": true
+              },
+              {
+                "verse": 3,
+                "first_word": "אַ֣ךְ",
+                "actual_initial": "א",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 2,
+            "expected_letter": "ב",
+            "expected_name": "Bet",
+            "proposed_meaning": "Creation",
+            "verses": [
+              {
+                "verse": 4,
+                "first_word": "בִּלָּ֤ה",
+                "actual_initial": "ב",
+                "matches": true
+              },
+              {
+                "verse": 5,
+                "first_word": "בָּנָ֥ה",
+                "actual_initial": "ב",
+                "matches": true
+              },
+              {
+                "verse": 6,
+                "first_word": "בְּמַחֲשַׁכִּ֥ים",
+                "actual_initial": "ב",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 3,
+            "expected_letter": "ג",
+            "expected_name": "Gimel",
+            "proposed_meaning": "Causation",
+            "verses": [
+              {
+                "verse": 7,
+                "first_word": "גָּדַ֧ר",
+                "actual_initial": "ג",
+                "matches": true
+              },
+              {
+                "verse": 8,
+                "first_word": "גַּ֣ם",
+                "actual_initial": "ג",
+                "matches": true
+              },
+              {
+                "verse": 9,
+                "first_word": "גָּדַ֤ר",
+                "actual_initial": "ג",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 4,
+            "expected_letter": "ד",
+            "expected_name": "Dalet",
+            "proposed_meaning": "Intersection",
+            "verses": [
+              {
+                "verse": 10,
+                "first_word": "דֹּ֣ב",
+                "actual_initial": "ד",
+                "matches": true
+              },
+              {
+                "verse": 11,
+                "first_word": "דְּרָכַ֥י",
+                "actual_initial": "ד",
+                "matches": true
+              },
+              {
+                "verse": 12,
+                "first_word": "דָּרַ֤ךְ",
+                "actual_initial": "ד",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 5,
+            "expected_letter": "ה",
+            "expected_name": "Hei",
+            "proposed_meaning": "Revelation",
+            "verses": [
+              {
+                "verse": 13,
+                "first_word": "הֵבִיא֙",
+                "actual_initial": "ה",
+                "matches": true
+              },
+              {
+                "verse": 14,
+                "first_word": "הָיִ֤יתִי",
+                "actual_initial": "ה",
+                "matches": true
+              },
+              {
+                "verse": 15,
+                "first_word": "הִשְׂבִּיעַ֥נִי",
+                "actual_initial": "ה",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 6,
+            "expected_letter": "ו",
+            "expected_name": "Vav",
+            "proposed_meaning": "Connection",
+            "verses": [
+              {
+                "verse": 16,
+                "first_word": "וַיַּגְרֵ֤ס",
+                "actual_initial": "ו",
+                "matches": true
+              },
+              {
+                "verse": 17,
+                "first_word": "וַתִּזְנַ֧ח",
+                "actual_initial": "ו",
+                "matches": true
+              },
+              {
+                "verse": 18,
+                "first_word": "וָאֹמַר֙",
+                "actual_initial": "ו",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 7,
+            "expected_letter": "ז",
+            "expected_name": "Zayin",
+            "proposed_meaning": "Intervention",
+            "verses": [
+              {
+                "verse": 19,
+                "first_word": "זְכָר־",
+                "actual_initial": "ז",
+                "matches": true
+              },
+              {
+                "verse": 20,
+                "first_word": "זָכ֣וֹר",
+                "actual_initial": "ז",
+                "matches": true
+              },
+              {
+                "verse": 21,
+                "first_word": "זֹ֛את",
+                "actual_initial": "ז",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 8,
+            "expected_letter": "ח",
+            "expected_name": "Chet",
+            "proposed_meaning": "Possession",
+            "verses": [
+              {
+                "verse": 22,
+                "first_word": "חַֽסְדֵ֤י",
+                "actual_initial": "ח",
+                "matches": true
+              },
+              {
+                "verse": 23,
+                "first_word": "חֲדָשִׁים֙",
+                "actual_initial": "ח",
+                "matches": true
+              },
+              {
+                "verse": 24,
+                "first_word": "חֶלְקִ֤י",
+                "actual_initial": "ח",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 9,
+            "expected_letter": "ט",
+            "expected_name": "Tet",
+            "proposed_meaning": "Harvest",
+            "verses": [
+              {
+                "verse": 25,
+                "first_word": "ט֤וֹב",
+                "actual_initial": "ט",
+                "matches": true
+              },
+              {
+                "verse": 26,
+                "first_word": "ט֤וֹב",
+                "actual_initial": "ט",
+                "matches": true
+              },
+              {
+                "verse": 27,
+                "first_word": "ט֣וֹב",
+                "actual_initial": "ט",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 10,
+            "expected_letter": "י",
+            "expected_name": "Yud",
+            "proposed_meaning": "Desire and Action",
+            "verses": [
+              {
+                "verse": 28,
+                "first_word": "יֵשֵׁ֤ב",
+                "actual_initial": "י",
+                "matches": true
+              },
+              {
+                "verse": 29,
+                "first_word": "יִתֵּ֤ן",
+                "actual_initial": "י",
+                "matches": true
+              },
+              {
+                "verse": 30,
+                "first_word": "יִתֵּ֧ן",
+                "actual_initial": "י",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 11,
+            "expected_letter": "כ",
+            "expected_name": "Kaf",
+            "proposed_meaning": "Dependence",
+            "verses": [
+              {
+                "verse": 31,
+                "first_word": "כִּ֣י",
+                "actual_initial": "כ",
+                "matches": true
+              },
+              {
+                "verse": 32,
+                "first_word": "כִּ֣י",
+                "actual_initial": "כ",
+                "matches": true
+              },
+              {
+                "verse": 33,
+                "first_word": "כִּ֣י",
+                "actual_initial": "כ",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 12,
+            "expected_letter": "ל",
+            "expected_name": "Lamed",
+            "proposed_meaning": "Learning",
+            "verses": [
+              {
+                "verse": 34,
+                "first_word": "לְדַכֵּא֙",
+                "actual_initial": "ל",
+                "matches": true
+              },
+              {
+                "verse": 35,
+                "first_word": "לְהַטּוֹת֙",
+                "actual_initial": "ל",
+                "matches": true
+              },
+              {
+                "verse": 36,
+                "first_word": "לְעַוֵּ֤ת",
+                "actual_initial": "ל",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 13,
+            "expected_letter": "מ",
+            "expected_name": "Mem",
+            "proposed_meaning": "Life",
+            "verses": [
+              {
+                "verse": 37,
+                "first_word": "מִ֣י",
+                "actual_initial": "מ",
+                "matches": true
+              },
+              {
+                "verse": 38,
+                "first_word": "מִפִּ֤י",
+                "actual_initial": "מ",
+                "matches": true
+              },
+              {
+                "verse": 39,
+                "first_word": "מַה־",
+                "actual_initial": "מ",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 14,
+            "expected_letter": "נ",
+            "expected_name": "Nun",
+            "proposed_meaning": "Seed",
+            "verses": [
+              {
+                "verse": 40,
+                "first_word": "נַחְפְּשָׂ֤ה",
+                "actual_initial": "נ",
+                "matches": true
+              },
+              {
+                "verse": 41,
+                "first_word": "נִשָּׂ֤א",
+                "actual_initial": "נ",
+                "matches": true
+              },
+              {
+                "verse": 42,
+                "first_word": "נַ֤חְנוּ",
+                "actual_initial": "נ",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 15,
+            "expected_letter": "ס",
+            "expected_name": "Samekh",
+            "proposed_meaning": "Protection",
+            "verses": [
+              {
+                "verse": 43,
+                "first_word": "סַכֹּ֤תָה",
+                "actual_initial": "ס",
+                "matches": true
+              },
+              {
+                "verse": 44,
+                "first_word": "סַכּ֤וֹתָה",
+                "actual_initial": "ס",
+                "matches": true
+              },
+              {
+                "verse": 45,
+                "first_word": "סְחִ֧י",
+                "actual_initial": "ס",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 16,
+            "expected_letter": "ע",
+            "expected_name": "Ayin",
+            "proposed_meaning": "Perception",
+            "verses": [
+              {
+                "verse": 46,
+                "first_word": "פָּצ֥וּ",
+                "actual_initial": "פ",
+                "matches": false
+              },
+              {
+                "verse": 47,
+                "first_word": "פַּ֧חַד",
+                "actual_initial": "פ",
+                "matches": false
+              },
+              {
+                "verse": 48,
+                "first_word": "פַּלְגֵי־",
+                "actual_initial": "פ",
+                "matches": false
+              }
+            ],
+            "all_match": false
+          },
+          {
+            "group": 17,
+            "expected_letter": "פ",
+            "expected_name": "Pe",
+            "proposed_meaning": "Speech",
+            "verses": [
+              {
+                "verse": 49,
+                "first_word": "עֵינִ֧י",
+                "actual_initial": "ע",
+                "matches": false
+              },
+              {
+                "verse": 50,
+                "first_word": "עַד־",
+                "actual_initial": "ע",
+                "matches": false
+              },
+              {
+                "verse": 51,
+                "first_word": "עֵינִי֙",
+                "actual_initial": "ע",
+                "matches": false
+              }
+            ],
+            "all_match": false
+          },
+          {
+            "group": 18,
+            "expected_letter": "צ",
+            "expected_name": "Tsadi",
+            "proposed_meaning": "Righteousness",
+            "verses": [
+              {
+                "verse": 52,
+                "first_word": "צ֥וֹד",
+                "actual_initial": "צ",
+                "matches": true
+              },
+              {
+                "verse": 53,
+                "first_word": "צָֽמְת֤וּ",
+                "actual_initial": "צ",
+                "matches": true
+              },
+              {
+                "verse": 54,
+                "first_word": "צָֽפוּ־",
+                "actual_initial": "צ",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 19,
+            "expected_letter": "ק",
+            "expected_name": "Qof",
+            "proposed_meaning": "Present Moment",
+            "verses": [
+              {
+                "verse": 55,
+                "first_word": "קָרָ֤אתִי",
+                "actual_initial": "ק",
+                "matches": true
+              },
+              {
+                "verse": 56,
+                "first_word": "קוֹלִ֖י",
+                "actual_initial": "ק",
+                "matches": true
+              },
+              {
+                "verse": 57,
+                "first_word": "קָרַ֙בְתָּ֙",
+                "actual_initial": "ק",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 20,
+            "expected_letter": "ר",
+            "expected_name": "Resh",
+            "proposed_meaning": "Intellect",
+            "verses": [
+              {
+                "verse": 58,
+                "first_word": "רַ֧בְתָּ",
+                "actual_initial": "ר",
+                "matches": true
+              },
+              {
+                "verse": 59,
+                "first_word": "רָאִ֤יתָה",
+                "actual_initial": "ר",
+                "matches": true
+              },
+              {
+                "verse": 60,
+                "first_word": "רָאִ֙יתָה֙",
+                "actual_initial": "ר",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 21,
+            "expected_letter": "ש",
+            "expected_name": "Shin",
+            "proposed_meaning": "Separation",
+            "verses": [
+              {
+                "verse": 61,
+                "first_word": "שָׁמַ֤עְתָּ",
+                "actual_initial": "ש",
+                "matches": true
+              },
+              {
+                "verse": 62,
+                "first_word": "שִׂפְתֵ֤י",
+                "actual_initial": "ש",
+                "matches": true
+              },
+              {
+                "verse": 63,
+                "first_word": "שִׁבְתָּ֤ם",
+                "actual_initial": "ש",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          },
+          {
+            "group": 22,
+            "expected_letter": "ת",
+            "expected_name": "Tav",
+            "proposed_meaning": "Mark",
+            "verses": [
+              {
+                "verse": 64,
+                "first_word": "תָּשִׁ֨יב",
+                "actual_initial": "ת",
+                "matches": true
+              },
+              {
+                "verse": 65,
+                "first_word": "תִּתֵּ֤ן",
+                "actual_initial": "ת",
+                "matches": true
+              },
+              {
+                "verse": 66,
+                "first_word": "תִּרְדֹּ֤ף",
+                "actual_initial": "ת",
+                "matches": true
+              }
+            ],
+            "all_match": true
+          }
+        ],
+        "match_rate": 0.9090909090909091,
+        "matches": 20,
+        "total": 22
+      },
+      {
+        "chapter": 4,
+        "type": "single-acrostic",
+        "sections": [
+          {
+            "verse": 1,
+            "expected_letter": "א",
+            "expected_name": "Aleph",
+            "proposed_meaning": "Authority",
+            "first_word": "אֵיכָה֙",
+            "first_word_consonantal": "איכה",
+            "actual_initial": "א",
+            "matches": true,
+            "word_count": 12
+          },
+          {
+            "verse": 2,
+            "expected_letter": "ב",
+            "expected_name": "Bet",
+            "proposed_meaning": "Creation",
+            "first_word": "בְּנֵ֤י",
+            "first_word_consonantal": "בני",
+            "actual_initial": "ב",
+            "matches": true,
+            "word_count": 12
+          },
+          {
+            "verse": 3,
+            "expected_letter": "ג",
+            "expected_name": "Gimel",
+            "proposed_meaning": "Causation",
+            "first_word": "גַּם־",
+            "first_word_consonantal": "גם",
+            "actual_initial": "ג",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 4,
+            "expected_letter": "ד",
+            "expected_name": "Dalet",
+            "proposed_meaning": "Intersection",
+            "first_word": "דָּבַ֨ק",
+            "first_word_consonantal": "דבק",
+            "actual_initial": "ד",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 5,
+            "expected_letter": "ה",
+            "expected_name": "Hei",
+            "proposed_meaning": "Revelation",
+            "first_word": "הָאֹֽכְלִים֙",
+            "first_word_consonantal": "האכלים",
+            "actual_initial": "ה",
+            "matches": true,
+            "word_count": 9
+          },
+          {
+            "verse": 6,
+            "expected_letter": "ו",
+            "expected_name": "Vav",
+            "proposed_meaning": "Connection",
+            "first_word": "וַיִּגְדַּל֙",
+            "first_word_consonantal": "ויגדל",
+            "actual_initial": "ו",
+            "matches": true,
+            "word_count": 13
+          },
+          {
+            "verse": 7,
+            "expected_letter": "ז",
+            "expected_name": "Zayin",
+            "proposed_meaning": "Intervention",
+            "first_word": "זַכּ֤וּ",
+            "first_word_consonantal": "זכו",
+            "actual_initial": "ז",
+            "matches": true,
+            "word_count": 9
+          },
+          {
+            "verse": 8,
+            "expected_letter": "ח",
+            "expected_name": "Chet",
+            "proposed_meaning": "Possession",
+            "first_word": "חָשַׁ֤ךְ",
+            "first_word_consonantal": "חשך",
+            "actual_initial": "ח",
+            "matches": true,
+            "word_count": 13
+          },
+          {
+            "verse": 9,
+            "expected_letter": "ט",
+            "expected_name": "Tet",
+            "proposed_meaning": "Harvest",
+            "first_word": "טוֹבִ֤ים",
+            "first_word_consonantal": "טובים",
+            "actual_initial": "ט",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 10,
+            "expected_letter": "י",
+            "expected_name": "Yud",
+            "proposed_meaning": "Desire and Action",
+            "first_word": "יְדֵ֗י",
+            "first_word_consonantal": "ידי",
+            "actual_initial": "י",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 11,
+            "expected_letter": "כ",
+            "expected_name": "Kaf",
+            "proposed_meaning": "Dependence",
+            "first_word": "כִּלָּ֤ה",
+            "first_word_consonantal": "כלה",
+            "actual_initial": "כ",
+            "matches": true,
+            "word_count": 12
+          },
+          {
+            "verse": 12,
+            "expected_letter": "ל",
+            "expected_name": "Lamed",
+            "proposed_meaning": "Learning",
+            "first_word": "לֹ֤א",
+            "first_word_consonantal": "לא",
+            "actual_initial": "ל",
+            "matches": true,
+            "word_count": 13
+          },
+          {
+            "verse": 13,
+            "expected_letter": "מ",
+            "expected_name": "Mem",
+            "proposed_meaning": "Life",
+            "first_word": "מֵֽחַטֹּ֣את",
+            "first_word_consonantal": "מחטאת",
+            "actual_initial": "מ",
+            "matches": true,
+            "word_count": 8
+          },
+          {
+            "verse": 14,
+            "expected_letter": "נ",
+            "expected_name": "Nun",
+            "proposed_meaning": "Seed",
+            "first_word": "נָע֤וּ",
+            "first_word_consonantal": "נעו",
+            "actual_initial": "נ",
+            "matches": true,
+            "word_count": 9
+          },
+          {
+            "verse": 15,
+            "expected_letter": "ס",
+            "expected_name": "Samekh",
+            "proposed_meaning": "Protection",
+            "first_word": "ס֣וּרוּ",
+            "first_word_consonantal": "סורו",
+            "actual_initial": "ס",
+            "matches": true,
+            "word_count": 17
+          },
+          {
+            "verse": 16,
+            "expected_letter": "ע",
+            "expected_name": "Ayin",
+            "proposed_meaning": "Perception",
+            "first_word": "פְּנֵ֤י",
+            "first_word_consonantal": "פני",
+            "actual_initial": "פ",
+            "matches": false,
+            "word_count": 12
+          },
+          {
+            "verse": 17,
+            "expected_letter": "פ",
+            "expected_name": "Pe",
+            "proposed_meaning": "Speech",
+            "first_word": "עוֹדֵ֙ינוּ֙",
+            "first_word_consonantal": "עודינו",
+            "actual_initial": "ע",
+            "matches": false,
+            "word_count": 12
+          },
+          {
+            "verse": 18,
+            "expected_letter": "צ",
+            "expected_name": "Tsadi",
+            "proposed_meaning": "Righteousness",
+            "first_word": "צָד֣וּ",
+            "first_word_consonantal": "צדו",
+            "actual_initial": "צ",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 19,
+            "expected_letter": "ק",
+            "expected_name": "Qof",
+            "proposed_meaning": "Present Moment",
+            "first_word": "קַלִּ֤ים",
+            "first_word_consonantal": "קלים",
+            "actual_initial": "ק",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 20,
+            "expected_letter": "ר",
+            "expected_name": "Resh",
+            "proposed_meaning": "Intellect",
+            "first_word": "ר֤וּחַ",
+            "first_word_consonantal": "רוח",
+            "actual_initial": "ר",
+            "matches": true,
+            "word_count": 11
+          },
+          {
+            "verse": 21,
+            "expected_letter": "ש",
+            "expected_name": "Shin",
+            "proposed_meaning": "Separation",
+            "first_word": "שִׂ֤ישִׂי",
+            "first_word_consonantal": "שישי",
+            "actual_initial": "ש",
+            "matches": true,
+            "word_count": 13
+          },
+          {
+            "verse": 22,
+            "expected_letter": "ת",
+            "expected_name": "Tav",
+            "proposed_meaning": "Mark",
+            "first_word": "תַּם־",
+            "first_word_consonantal": "תם",
+            "actual_initial": "ת",
+            "matches": true,
+            "word_count": 14
+          }
+        ],
+        "match_rate": 0.9090909090909091,
+        "matches": 20,
+        "total": 22
+      }
+    ]
+  },
+  "other_acrostics": [
+    {
+      "text": "Proverbs 31:10-31",
+      "type": "Eshet Chayil (Woman of Valor)",
+      "match_rate": 1,
+      "verses": [
+        {
+          "verse": 10,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "proposed_meaning": "Authority",
+          "first_word": "אֵֽשֶׁת־",
+          "actual_initial": "א",
+          "matches": true
+        },
+        {
+          "verse": 11,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "proposed_meaning": "Creation",
+          "first_word": "בָּ֣טַח",
+          "actual_initial": "ב",
+          "matches": true
+        },
+        {
+          "verse": 12,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "proposed_meaning": "Causation",
+          "first_word": "גְּמָלַ֣תְהוּ",
+          "actual_initial": "ג",
+          "matches": true
+        },
+        {
+          "verse": 13,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "proposed_meaning": "Intersection",
+          "first_word": "דָּ֭רְשָׁה",
+          "actual_initial": "ד",
+          "matches": true
+        },
+        {
+          "verse": 14,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "proposed_meaning": "Revelation",
+          "first_word": "הָ֭יְתָה",
+          "actual_initial": "ה",
+          "matches": true
+        },
+        {
+          "verse": 15,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "proposed_meaning": "Connection",
+          "first_word": "וַתָּ֤קָם ׀",
+          "actual_initial": "ו",
+          "matches": true
+        },
+        {
+          "verse": 16,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "proposed_meaning": "Intervention",
+          "first_word": "זָמְמָ֣ה",
+          "actual_initial": "ז",
+          "matches": true
+        },
+        {
+          "verse": 17,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "proposed_meaning": "Possession",
+          "first_word": "חָֽגְרָ֣ה",
+          "actual_initial": "ח",
+          "matches": true
+        },
+        {
+          "verse": 18,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "proposed_meaning": "Harvest",
+          "first_word": "טָ֭עֲמָה",
+          "actual_initial": "ט",
+          "matches": true
+        },
+        {
+          "verse": 19,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "proposed_meaning": "Desire and Action",
+          "first_word": "יָ֭דֶיהָ",
+          "actual_initial": "י",
+          "matches": true
+        },
+        {
+          "verse": 20,
+          "expected_letter": "כ",
+          "expected_name": "Kaf",
+          "proposed_meaning": "Dependence",
+          "first_word": "כַּ֭פָּהּ",
+          "actual_initial": "כ",
+          "matches": true
+        },
+        {
+          "verse": 21,
+          "expected_letter": "ל",
+          "expected_name": "Lamed",
+          "proposed_meaning": "Learning",
+          "first_word": "לֹא־",
+          "actual_initial": "ל",
+          "matches": true
+        },
+        {
+          "verse": 22,
+          "expected_letter": "מ",
+          "expected_name": "Mem",
+          "proposed_meaning": "Life",
+          "first_word": "מַרְבַדִּ֥ים",
+          "actual_initial": "מ",
+          "matches": true
+        },
+        {
+          "verse": 23,
+          "expected_letter": "נ",
+          "expected_name": "Nun",
+          "proposed_meaning": "Seed",
+          "first_word": "נוֹדָ֣ע",
+          "actual_initial": "נ",
+          "matches": true
+        },
+        {
+          "verse": 24,
+          "expected_letter": "ס",
+          "expected_name": "Samekh",
+          "proposed_meaning": "Protection",
+          "first_word": "סָדִ֣ין",
+          "actual_initial": "ס",
+          "matches": true
+        },
+        {
+          "verse": 25,
+          "expected_letter": "ע",
+          "expected_name": "Ayin",
+          "proposed_meaning": "Perception",
+          "first_word": "עֹז־",
+          "actual_initial": "ע",
+          "matches": true
+        },
+        {
+          "verse": 26,
+          "expected_letter": "פ",
+          "expected_name": "Pe",
+          "proposed_meaning": "Speech",
+          "first_word": "פִּ֭יהָ",
+          "actual_initial": "פ",
+          "matches": true
+        },
+        {
+          "verse": 27,
+          "expected_letter": "צ",
+          "expected_name": "Tsadi",
+          "proposed_meaning": "Righteousness",
+          "first_word": "צ֭וֹפִיָּה",
+          "actual_initial": "צ",
+          "matches": true
+        },
+        {
+          "verse": 28,
+          "expected_letter": "ק",
+          "expected_name": "Qof",
+          "proposed_meaning": "Present Moment",
+          "first_word": "קָ֣מוּ",
+          "actual_initial": "ק",
+          "matches": true
+        },
+        {
+          "verse": 29,
+          "expected_letter": "ר",
+          "expected_name": "Resh",
+          "proposed_meaning": "Intellect",
+          "first_word": "רַבּ֣וֹת",
+          "actual_initial": "ר",
+          "matches": true
+        },
+        {
+          "verse": 30,
+          "expected_letter": "ש",
+          "expected_name": "Shin",
+          "proposed_meaning": "Separation",
+          "first_word": "שֶׁ֣קֶר",
+          "actual_initial": "ש",
+          "matches": true
+        },
+        {
+          "verse": 31,
+          "expected_letter": "ת",
+          "expected_name": "Tav",
+          "proposed_meaning": "Mark",
+          "first_word": "תְּנוּ־",
+          "actual_initial": "ת",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "text": "Psalm 145",
+      "type": "Praise acrostic (missing Nun in MT)",
+      "match_rate": 0.5714285714285714,
+      "verses": [
+        {
+          "verse": 1,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "proposed_meaning": "Authority",
+          "first_word": "תְּהִלָּ֗ה",
+          "actual_initial": "ת",
+          "matches": false
+        },
+        {
+          "verse": 2,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "proposed_meaning": "Creation",
+          "first_word": "בְּכָל־",
+          "actual_initial": "ב",
+          "matches": true
+        },
+        {
+          "verse": 3,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "proposed_meaning": "Causation",
+          "first_word": "גָּ֘ד֤וֹל",
+          "actual_initial": "ג",
+          "matches": true
+        },
+        {
+          "verse": 4,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "proposed_meaning": "Intersection",
+          "first_word": "דּ֣וֹר",
+          "actual_initial": "ד",
+          "matches": true
+        },
+        {
+          "verse": 5,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "proposed_meaning": "Revelation",
+          "first_word": "הֲ֭דַר",
+          "actual_initial": "ה",
+          "matches": true
+        },
+        {
+          "verse": 6,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "proposed_meaning": "Connection",
+          "first_word": "וֶעֱז֣וּז",
+          "actual_initial": "ו",
+          "matches": true
+        },
+        {
+          "verse": 7,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "proposed_meaning": "Intervention",
+          "first_word": "זֵ֣כֶר",
+          "actual_initial": "ז",
+          "matches": true
+        },
+        {
+          "verse": 8,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "proposed_meaning": "Possession",
+          "first_word": "חַנּ֣וּן",
+          "actual_initial": "ח",
+          "matches": true
+        },
+        {
+          "verse": 9,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "proposed_meaning": "Harvest",
+          "first_word": "טוֹב־",
+          "actual_initial": "ט",
+          "matches": true
+        },
+        {
+          "verse": 10,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "proposed_meaning": "Desire and Action",
+          "first_word": "יוֹד֣וּךָ",
+          "actual_initial": "י",
+          "matches": true
+        },
+        {
+          "verse": 11,
+          "expected_letter": "כ",
+          "expected_name": "Kaf",
+          "proposed_meaning": "Dependence",
+          "first_word": "כְּב֣וֹד",
+          "actual_initial": "כ",
+          "matches": true
+        },
+        {
+          "verse": 12,
+          "expected_letter": "ל",
+          "expected_name": "Lamed",
+          "proposed_meaning": "Learning",
+          "first_word": "לְהוֹדִ֤יעַ ׀",
+          "actual_initial": "ל",
+          "matches": true
+        },
+        {
+          "verse": 13,
+          "expected_letter": "מ",
+          "expected_name": "Mem",
+          "proposed_meaning": "Life",
+          "first_word": "מַֽלְכוּתְךָ֗",
+          "actual_initial": "מ",
+          "matches": true
+        },
+        {
+          "verse": 14,
+          "expected_letter": "נ",
+          "expected_name": "Nun",
+          "proposed_meaning": "Seed",
+          "first_word": "סוֹמֵ֣ךְ",
+          "actual_initial": "ס",
+          "matches": false
+        },
+        {
+          "verse": 15,
+          "expected_letter": "ס",
+          "expected_name": "Samekh",
+          "proposed_meaning": "Protection",
+          "first_word": "עֵֽינֵי־",
+          "actual_initial": "ע",
+          "matches": false
+        },
+        {
+          "verse": 16,
+          "expected_letter": "ע",
+          "expected_name": "Ayin",
+          "proposed_meaning": "Perception",
+          "first_word": "פּוֹתֵ֥חַ",
+          "actual_initial": "פ",
+          "matches": false
+        },
+        {
+          "verse": 17,
+          "expected_letter": "פ",
+          "expected_name": "Pe",
+          "proposed_meaning": "Speech",
+          "first_word": "צַדִּ֣יק",
+          "actual_initial": "צ",
+          "matches": false
+        },
+        {
+          "verse": 18,
+          "expected_letter": "צ",
+          "expected_name": "Tsadi",
+          "proposed_meaning": "Righteousness",
+          "first_word": "קָר֣וֹב",
+          "actual_initial": "ק",
+          "matches": false
+        },
+        {
+          "verse": 19,
+          "expected_letter": "ק",
+          "expected_name": "Qof",
+          "proposed_meaning": "Present Moment",
+          "first_word": "רְצוֹן־",
+          "actual_initial": "ר",
+          "matches": false
+        },
+        {
+          "verse": 20,
+          "expected_letter": "ר",
+          "expected_name": "Resh",
+          "proposed_meaning": "Intellect",
+          "first_word": "שׁוֹמֵ֣ר",
+          "actual_initial": "ש",
+          "matches": false
+        },
+        {
+          "verse": 21,
+          "expected_letter": "ש",
+          "expected_name": "Shin",
+          "proposed_meaning": "Separation",
+          "first_word": "תְּהִלַּ֥ת",
+          "actual_initial": "ת",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "text": "Psalm 111",
+      "type": "Half-verse acrostic (verse-initial check only)",
+      "match_rate": 0,
+      "verses": [
+        {
+          "verse": 1,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "first_word": "הַ֥לְלוּ",
+          "actual_initial": "ה",
+          "matches": false
+        },
+        {
+          "verse": 2,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "first_word": "גְּ֭דֹלִים",
+          "actual_initial": "ג",
+          "matches": false
+        },
+        {
+          "verse": 3,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "first_word": "הוֹד־",
+          "actual_initial": "ה",
+          "matches": false
+        },
+        {
+          "verse": 4,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "first_word": "זֵ֣כֶר",
+          "actual_initial": "ז",
+          "matches": false
+        },
+        {
+          "verse": 5,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "first_word": "טֶ֭רֶף",
+          "actual_initial": "ט",
+          "matches": false
+        },
+        {
+          "verse": 6,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "first_word": "כֹּ֣חַ",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 7,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "first_word": "מַעֲשֵׂ֣י",
+          "actual_initial": "מ",
+          "matches": false
+        },
+        {
+          "verse": 8,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "first_word": "סְמוּכִ֣ים",
+          "actual_initial": "ס",
+          "matches": false
+        },
+        {
+          "verse": 9,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "first_word": "פְּד֤וּת ׀",
+          "actual_initial": "פ",
+          "matches": false
+        },
+        {
+          "verse": 10,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "first_word": "רֵ֘אשִׁ֤ית",
+          "actual_initial": "ר",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "text": "Psalm 112",
+      "type": "Half-verse acrostic (verse-initial check only)",
+      "match_rate": 0,
+      "verses": [
+        {
+          "verse": 1,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "first_word": "הַ֥לְלוּ",
+          "actual_initial": "ה",
+          "matches": false
+        },
+        {
+          "verse": 2,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "first_word": "גִּבּ֣וֹר",
+          "actual_initial": "ג",
+          "matches": false
+        },
+        {
+          "verse": 3,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "first_word": "הוֹן־",
+          "actual_initial": "ה",
+          "matches": false
+        },
+        {
+          "verse": 4,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "first_word": "זָ֘רַ֤ח",
+          "actual_initial": "ז",
+          "matches": false
+        },
+        {
+          "verse": 5,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "first_word": "טֽוֹב־",
+          "actual_initial": "ט",
+          "matches": false
+        },
+        {
+          "verse": 6,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "first_word": "כִּֽי־",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 7,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "first_word": "מִשְּׁמוּעָ֣ה",
+          "actual_initial": "מ",
+          "matches": false
+        },
+        {
+          "verse": 8,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "first_word": "סָמ֣וּךְ",
+          "actual_initial": "ס",
+          "matches": false
+        },
+        {
+          "verse": 9,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "first_word": "פִּזַּ֤ר ׀",
+          "actual_initial": "פ",
+          "matches": false
+        },
+        {
+          "verse": 10,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "first_word": "רָ֘שָׁ֤ע",
+          "actual_initial": "ר",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "text": "Psalm 25",
+      "type": "Alphabetic acrostic (with possible irregularities)",
+      "match_rate": 0.13636363636363635,
+      "verses": [
+        {
+          "verse": 1,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "first_word": "לְדָוִ֡ד",
+          "actual_initial": "ל",
+          "matches": false
+        },
+        {
+          "verse": 2,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "first_word": "אֱ‍ֽלֹהַ֗י",
+          "actual_initial": "א",
+          "matches": false
+        },
+        {
+          "verse": 3,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "first_word": "גַּ֣ם",
+          "actual_initial": "ג",
+          "matches": true
+        },
+        {
+          "verse": 4,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "first_word": "דְּרָכֶ֣יךָ",
+          "actual_initial": "ד",
+          "matches": true
+        },
+        {
+          "verse": 5,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "first_word": "הַדְרִ֘יכֵ֤נִי",
+          "actual_initial": "ה",
+          "matches": true
+        },
+        {
+          "verse": 6,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "first_word": "זְכֹר־",
+          "actual_initial": "ז",
+          "matches": false
+        },
+        {
+          "verse": 7,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "first_word": "חַטֹּ֤אות",
+          "actual_initial": "ח",
+          "matches": false
+        },
+        {
+          "verse": 8,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "first_word": "טוֹב־",
+          "actual_initial": "ט",
+          "matches": false
+        },
+        {
+          "verse": 9,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "first_word": "יַדְרֵ֣ךְ",
+          "actual_initial": "י",
+          "matches": false
+        },
+        {
+          "verse": 10,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "first_word": "כָּל־",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 11,
+          "expected_letter": "כ",
+          "expected_name": "Kaf",
+          "first_word": "לְמַֽעַן־",
+          "actual_initial": "ל",
+          "matches": false
+        },
+        {
+          "verse": 12,
+          "expected_letter": "ל",
+          "expected_name": "Lamed",
+          "first_word": "מִי־",
+          "actual_initial": "מ",
+          "matches": false
+        },
+        {
+          "verse": 13,
+          "expected_letter": "מ",
+          "expected_name": "Mem",
+          "first_word": "נַ֭פְשׁוֹ",
+          "actual_initial": "נ",
+          "matches": false
+        },
+        {
+          "verse": 14,
+          "expected_letter": "נ",
+          "expected_name": "Nun",
+          "first_word": "ס֣וֹד",
+          "actual_initial": "ס",
+          "matches": false
+        },
+        {
+          "verse": 15,
+          "expected_letter": "ס",
+          "expected_name": "Samekh",
+          "first_word": "עֵינַ֣י",
+          "actual_initial": "ע",
+          "matches": false
+        },
+        {
+          "verse": 16,
+          "expected_letter": "ע",
+          "expected_name": "Ayin",
+          "first_word": "פְּנֵה־",
+          "actual_initial": "פ",
+          "matches": false
+        },
+        {
+          "verse": 17,
+          "expected_letter": "פ",
+          "expected_name": "Pe",
+          "first_word": "צָר֣וֹת",
+          "actual_initial": "צ",
+          "matches": false
+        },
+        {
+          "verse": 18,
+          "expected_letter": "צ",
+          "expected_name": "Tsadi",
+          "first_word": "רְאֵ֣ה",
+          "actual_initial": "ר",
+          "matches": false
+        },
+        {
+          "verse": 19,
+          "expected_letter": "ק",
+          "expected_name": "Qof",
+          "first_word": "רְאֵֽה־",
+          "actual_initial": "ר",
+          "matches": false
+        },
+        {
+          "verse": 20,
+          "expected_letter": "ר",
+          "expected_name": "Resh",
+          "first_word": "שָׁמְרָ֣ה",
+          "actual_initial": "ש",
+          "matches": false
+        },
+        {
+          "verse": 21,
+          "expected_letter": "ש",
+          "expected_name": "Shin",
+          "first_word": "תֹּם־",
+          "actual_initial": "ת",
+          "matches": false
+        },
+        {
+          "verse": 22,
+          "expected_letter": "ת",
+          "expected_name": "Tav",
+          "first_word": "פְּדֵ֣ה",
+          "actual_initial": "פ",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "text": "Psalm 34",
+      "type": "Alphabetic acrostic (with possible irregularities)",
+      "match_rate": 0.7272727272727273,
+      "verses": [
+        {
+          "verse": 1,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "first_word": "לְדָוִ֗ד",
+          "actual_initial": "ל",
+          "matches": false
+        },
+        {
+          "verse": 2,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "first_word": "אֲבָרֲכָ֣ה",
+          "actual_initial": "א",
+          "matches": false
+        },
+        {
+          "verse": 3,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "first_word": "בַּ֭יהוָה",
+          "actual_initial": "ב",
+          "matches": false
+        },
+        {
+          "verse": 4,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "first_word": "גַּדְּל֣וּ",
+          "actual_initial": "ג",
+          "matches": false
+        },
+        {
+          "verse": 5,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "first_word": "דָּרַ֣שְׁתִּי",
+          "actual_initial": "ד",
+          "matches": false
+        },
+        {
+          "verse": 6,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "first_word": "הִבִּ֣יטוּ",
+          "actual_initial": "ה",
+          "matches": false
+        },
+        {
+          "verse": 7,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "first_word": "זֶ֤ה",
+          "actual_initial": "ז",
+          "matches": true
+        },
+        {
+          "verse": 8,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "first_word": "חֹנֶ֤ה",
+          "actual_initial": "ח",
+          "matches": true
+        },
+        {
+          "verse": 9,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "first_word": "טַעֲמ֣וּ",
+          "actual_initial": "ט",
+          "matches": true
+        },
+        {
+          "verse": 10,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "first_word": "יְר֣אוּ",
+          "actual_initial": "י",
+          "matches": true
+        },
+        {
+          "verse": 11,
+          "expected_letter": "כ",
+          "expected_name": "Kaf",
+          "first_word": "כְּ֭פִירִים",
+          "actual_initial": "כ",
+          "matches": true
+        },
+        {
+          "verse": 12,
+          "expected_letter": "ל",
+          "expected_name": "Lamed",
+          "first_word": "לְֽכוּ־",
+          "actual_initial": "ל",
+          "matches": true
+        },
+        {
+          "verse": 13,
+          "expected_letter": "מ",
+          "expected_name": "Mem",
+          "first_word": "מִֽי־",
+          "actual_initial": "מ",
+          "matches": true
+        },
+        {
+          "verse": 14,
+          "expected_letter": "נ",
+          "expected_name": "Nun",
+          "first_word": "נְצֹ֣ר",
+          "actual_initial": "נ",
+          "matches": true
+        },
+        {
+          "verse": 15,
+          "expected_letter": "ס",
+          "expected_name": "Samekh",
+          "first_word": "ס֣וּר",
+          "actual_initial": "ס",
+          "matches": true
+        },
+        {
+          "verse": 16,
+          "expected_letter": "ע",
+          "expected_name": "Ayin",
+          "first_word": "עֵינֵ֣י",
+          "actual_initial": "ע",
+          "matches": true
+        },
+        {
+          "verse": 17,
+          "expected_letter": "פ",
+          "expected_name": "Pe",
+          "first_word": "פְּנֵ֣י",
+          "actual_initial": "פ",
+          "matches": true
+        },
+        {
+          "verse": 18,
+          "expected_letter": "צ",
+          "expected_name": "Tsadi",
+          "first_word": "צָעֲק֣וּ",
+          "actual_initial": "צ",
+          "matches": true
+        },
+        {
+          "verse": 19,
+          "expected_letter": "ק",
+          "expected_name": "Qof",
+          "first_word": "קָר֣וֹב",
+          "actual_initial": "ק",
+          "matches": true
+        },
+        {
+          "verse": 20,
+          "expected_letter": "ר",
+          "expected_name": "Resh",
+          "first_word": "רַ֭בּוֹת",
+          "actual_initial": "ר",
+          "matches": true
+        },
+        {
+          "verse": 21,
+          "expected_letter": "ש",
+          "expected_name": "Shin",
+          "first_word": "שֹׁמֵ֥ר",
+          "actual_initial": "ש",
+          "matches": true
+        },
+        {
+          "verse": 22,
+          "expected_letter": "ת",
+          "expected_name": "Tav",
+          "first_word": "תְּמוֹתֵ֣ת",
+          "actual_initial": "ת",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "text": "Psalm 37",
+      "type": "Alphabetic acrostic (with possible irregularities)",
+      "match_rate": 0.045454545454545456,
+      "verses": [
+        {
+          "verse": 1,
+          "expected_letter": "א",
+          "expected_name": "Aleph",
+          "first_word": "לְדָוִ֨ד ׀",
+          "actual_initial": "ל",
+          "matches": false
+        },
+        {
+          "verse": 2,
+          "expected_letter": "ב",
+          "expected_name": "Bet",
+          "first_word": "כִּ֣י",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 3,
+          "expected_letter": "ג",
+          "expected_name": "Gimel",
+          "first_word": "בְּטַ֣ח",
+          "actual_initial": "ב",
+          "matches": false
+        },
+        {
+          "verse": 4,
+          "expected_letter": "ד",
+          "expected_name": "Dalet",
+          "first_word": "וְהִתְעַנַּ֥ג",
+          "actual_initial": "ו",
+          "matches": false
+        },
+        {
+          "verse": 5,
+          "expected_letter": "ה",
+          "expected_name": "Hei",
+          "first_word": "גּ֣וֹל",
+          "actual_initial": "ג",
+          "matches": false
+        },
+        {
+          "verse": 6,
+          "expected_letter": "ו",
+          "expected_name": "Vav",
+          "first_word": "וְהוֹצִ֣יא",
+          "actual_initial": "ו",
+          "matches": true
+        },
+        {
+          "verse": 7,
+          "expected_letter": "ז",
+          "expected_name": "Zayin",
+          "first_word": "דּ֤וֹם ׀",
+          "actual_initial": "ד",
+          "matches": false
+        },
+        {
+          "verse": 8,
+          "expected_letter": "ח",
+          "expected_name": "Chet",
+          "first_word": "הֶ֣רֶף",
+          "actual_initial": "ה",
+          "matches": false
+        },
+        {
+          "verse": 9,
+          "expected_letter": "ט",
+          "expected_name": "Tet",
+          "first_word": "כִּֽי־",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 10,
+          "expected_letter": "י",
+          "expected_name": "Yud",
+          "first_word": "וְע֣וֹד",
+          "actual_initial": "ו",
+          "matches": false
+        },
+        {
+          "verse": 11,
+          "expected_letter": "כ",
+          "expected_name": "Kaf",
+          "first_word": "וַעֲנָוִ֥ים",
+          "actual_initial": "ו",
+          "matches": false
+        },
+        {
+          "verse": 12,
+          "expected_letter": "ל",
+          "expected_name": "Lamed",
+          "first_word": "זֹמֵ֣ם",
+          "actual_initial": "ז",
+          "matches": false
+        },
+        {
+          "verse": 13,
+          "expected_letter": "מ",
+          "expected_name": "Mem",
+          "first_word": "אֲדֹנָ֥י",
+          "actual_initial": "א",
+          "matches": false
+        },
+        {
+          "verse": 14,
+          "expected_letter": "נ",
+          "expected_name": "Nun",
+          "first_word": "חֶ֤רֶב ׀",
+          "actual_initial": "ח",
+          "matches": false
+        },
+        {
+          "verse": 15,
+          "expected_letter": "ס",
+          "expected_name": "Samekh",
+          "first_word": "חַ֭רְבָּם",
+          "actual_initial": "ח",
+          "matches": false
+        },
+        {
+          "verse": 16,
+          "expected_letter": "ע",
+          "expected_name": "Ayin",
+          "first_word": "טוֹב־",
+          "actual_initial": "ט",
+          "matches": false
+        },
+        {
+          "verse": 17,
+          "expected_letter": "פ",
+          "expected_name": "Pe",
+          "first_word": "כִּ֤י",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 18,
+          "expected_letter": "צ",
+          "expected_name": "Tsadi",
+          "first_word": "יוֹדֵ֣עַ",
+          "actual_initial": "י",
+          "matches": false
+        },
+        {
+          "verse": 19,
+          "expected_letter": "ק",
+          "expected_name": "Qof",
+          "first_word": "לֹֽא־",
+          "actual_initial": "ל",
+          "matches": false
+        },
+        {
+          "verse": 20,
+          "expected_letter": "ר",
+          "expected_name": "Resh",
+          "first_word": "כִּ֤י",
+          "actual_initial": "כ",
+          "matches": false
+        },
+        {
+          "verse": 21,
+          "expected_letter": "ש",
+          "expected_name": "Shin",
+          "first_word": "לֹוֶ֣ה",
+          "actual_initial": "ל",
+          "matches": false
+        },
+        {
+          "verse": 22,
+          "expected_letter": "ת",
+          "expected_name": "Tav",
+          "first_word": "כִּ֣י",
+          "actual_initial": "כ",
+          "matches": false
+        }
+      ]
+    }
+  ]
+}

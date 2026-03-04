@@ -1,0 +1,20 @@
+# Large generated files
+data/tanach-word-corpus.json
+data/glosser-output/
+
+# Source XML (downloaded via scripts/download-corpus.sh)
+source-xml/
+
+# Checkpoints
+data/*-checkpoint.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
