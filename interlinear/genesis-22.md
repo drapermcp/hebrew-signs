@@ -18,6 +18,18 @@ Prefix dynamics: ב=Containment, ה=Revelation, ו=Conjunction, כ=Actualization
 
 Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 (completes).
 
+**Verb Stems** (binyanim) — detected via MorphHB morphological tagging:
+
+| Label | Stem | Meaning Shift |
+|-------|------|---------------|
+| *(unmarked)* | Qal | Base/simple action |
+| [received/reflected] | Niphal | Passive or reflexive |
+| [intensive] | Piel | Intensive or factitive |
+| [intensive-received] | Pual | Intensive passive |
+| [causative] | Hiphil | Causative active |
+| [causative-received] | Hophal | Causative passive |
+| [reflexive] | Hitpael | Reflexive or reciprocal |
+
 ---
 
 ### Genesis 22:1
@@ -33,7 +45,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 3 | הַדְּבָרִ֣ים | the words/things | ה + **דבר** + ים | Revelation + Passage → Containment → Headship (masculine plural) |
 | 4 | הָאֵ֔לֶּה | these | ה + **אלה** | Revelation + Origination → Direction → Revelation |
 | 5 | וְהָ֣אֱלֹהִ֔ים | and the God | וה + **אלה** + ים | Conjunction+Revelation + Origination → Direction → Revelation (masculine plural) |
-| 6 | נִסָּ֖ה | tested | **נסה** | Propagation → Encirclement → Revelation |
+| 6 | נִסָּ֖ה | tested | **נסה** | [intensive] Propagation → Encirclement → Revelation |
 | 7 | אֶת־ | direct object marker | את | Origination → Completion |
 | 8 | אַבְרָהָ֑ם | Abraham | **אבר** + הם | Origination → Containment → Headship (their (m)) |
 | 9 | וַיֹּ֣אמֶר | and he said | וי + **אמר** | Conjunction+*Yud* + Origination → Flow → Headship |
@@ -46,7 +58,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיֹּ֡אמֶר קַח־ נָ֠א אֶת־ בִּנְךָ֨ אֶת־ יְחִֽידְךָ֤ אֲשֶׁר־ אָהַ֙בְתָּ֙ אֶת־ יִצְחָ֔ק וְלֶךְ־ לְךָ֔ אֶל־ אֶ֖רֶץ הַמֹּרִיָּ֑ה וְהַעֲלֵ֤הוּ שָׁם֙ לְעֹלָ֔ה עַ֚ל אַחַ֣ד הֶֽהָרִ֔ים אֲשֶׁ֖ר אֹמַ֥ר אֵלֶֽיךָ׃
 >
-> *and he said take please direct object marker your son direct object marker your only one which you have loved direct object marker Isaac and go to you to land the Moriah and offer him up there — upon one the mountains which I will tell to you*
+> *and he said take please direct object marker your son direct object marker your only one which you have loved direct object marker Isaac and go to you to land the Moriah and offer him up there as burnt offering on one of the mountains which I will tell to you*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -66,12 +78,12 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 14 | אֶל־ | to | אל | Origination → Direction |
 | 15 | אֶ֖רֶץ | land | **ארץ** | Origination → Headship → Alignment |
 | 16 | הַמֹּרִיָּ֑ה | the Moriah | המ + **ריה** | Revelation+Flow + Headship → Agency → Revelation |
-| 17 | וְהַעֲלֵ֤הוּ | and offer him up | וה + **עלה** + ו | Conjunction+Revelation + Perception → Direction → Revelation (his/him) |
+| 17 | וְהַעֲלֵ֤הוּ | and offer him up | וה + **עלה** + ו | Conjunction+Revelation + [causative] Perception → Direction → Revelation (his/him) |
 | 18 | שָׁם֙ | there | שם | Intensification → Flow |
-| 19 | לְעֹלָ֔ה | — | ל + **עלה** | Direction + Perception → Direction → Revelation |
-| 20 | עַ֚ל | upon | על | Perception → Direction |
+| 19 | לְעֹלָ֔ה | as burnt offering | ל + **עלה** | Direction + Perception → Direction → Revelation |
+| 20 | עַ֚ל | on | על | Perception → Direction |
 | 21 | אַחַ֣ד | one | **אחד** | Origination → Vitalization → Passage |
-| 22 | הֶֽהָרִ֔ים | the mountains | הה + **רים** | Revelation+Revelation + Headship → Agency → Flow |
+| 22 | הֶֽהָרִ֔ים | of the mountains | הה + **רים** | Revelation+Revelation + Headship → Agency → Flow |
 | 23 | אֲשֶׁ֖ר | which | **אשר** | Origination → Intensification → Headship |
 | 24 | אֹמַ֥ר | I will tell | **אמר** | Origination → Flow → Headship |
 | 25 | אֵלֶֽיךָ׃ | to you | **אלי** + ך | Origination → Direction → Agency (your (m.sg)) |
@@ -84,7 +96,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיַּשְׁכֵּ֨ם | and arose early | וי + **שכם** | Conjunction+*Yud* + Intensification → Actualization → Flow |
+| 1 | וַיַּשְׁכֵּ֨ם | and arose early | וי + **שכם** | Conjunction+*Yud* + [causative] Intensification → Actualization → Flow |
 | 2 | אַבְרָהָ֜ם | Abraham | **אבר** + הם | Origination → Containment → Headship (their (m)) |
 | 3 | בַּבֹּ֗קֶר | in the morning | ב + **בקר** | Containment + Containment → Summons → Headship |
 | 4 | וַֽיַחֲבֹשׁ֙ | and saddled | ו + **יחבש** | Conjunction + Agency → Vitalization → Containment → Intensification |
@@ -98,7 +110,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 12 | וְאֵ֖ת | and direct object | **ואת** | Conjunction → Origination → Completion |
 | 13 | יִצְחָ֣ק | Isaac | י + **צחק** | *Yud* + Alignment → Vitalization → Summons |
 | 14 | בְּנ֑וֹ | his son | **בנו** | Containment → Propagation → Conjunction |
-| 15 | וַיְבַקַּע֙ | and split | ו + **יבק** + ע | Conjunction + Agency → Containment → Summons (suffix) |
+| 15 | וַיְבַקַּע֙ | and split | ו + **יבק** + ע | Conjunction + [intensive] Agency → Containment → Summons (suffix) |
 | 16 | עֲצֵ֣י | woods of | **עצי** | Perception → Alignment → Agency |
 | 17 | עֹלָ֔ה | burnt offering | **עלה** | Perception → Direction → Revelation |
 | 18 | וַיָּ֣קָם | and arose | ו + **יקם** | Conjunction + Agency → Summons → Flow |
@@ -159,14 +171,14 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיִּקַּ֨ח אַבְרָהָ֜ם אֶת־ עֲצֵ֣י הָעֹלָ֗ה וַיָּ֙שֶׂם֙ עַל־ יִצְחָ֣ק בְּנ֔וֹ וַיִּקַּ֣ח בְּיָד֔וֹ אֶת־ הָאֵ֖שׁ וְאֶת־ הַֽמַּאֲכֶ֑לֶת וַיֵּלְכ֥וּ שְׁנֵיהֶ֖ם יַחְדָּֽו׃
 >
-> *and took Abraham direct object marker woods of the burnt offering and put upon Isaac his son and took in his hand direct object marker the fire and direct object marker the knife and they went both of them together*
+> *and took Abraham direct object marker trees of the burnt offering and put upon Isaac his son and took in his hand direct object marker the fire and direct object marker the knife and they went both of them together*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וַיִּקַּ֨ח | and took | ו + **יקח** | Conjunction + Agency → Summons → Vitalization |
 | 2 | אַבְרָהָ֜ם | Abraham | **אבר** + הם | Origination → Containment → Headship (their (m)) |
 | 3 | אֶת־ | direct object marker | את | Origination → Completion |
-| 4 | עֲצֵ֣י | woods of | **עצי** | Perception → Alignment → Agency |
+| 4 | עֲצֵ֣י | trees of | **עצי** | Perception → Alignment → Agency |
 | 5 | הָעֹלָ֗ה | the burnt offering | ה + **עלה** | Revelation + Perception → Direction → Revelation |
 | 6 | וַיָּ֙שֶׂם֙ | and put | ו + **ישם** | Conjunction + Agency → Intensification → Flow |
 | 7 | עַל־ | upon | על | Perception → Direction |
@@ -232,7 +244,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיָּבֹ֗אוּ אֶֽל־ הַמָּקוֹם֮ אֲשֶׁ֣ר אָֽמַר־ ל֣וֹ הָאֱלֹהִים֒ וַיִּ֨בֶן שָׁ֤ם אַבְרָהָם֙ אֶת־ הַמִּזְבֵּ֔חַ וַֽיַּעֲרֹ֖ךְ אֶת־ הָעֵצִ֑ים וַֽיַּעֲקֹד֙ אֶת־ יִצְחָ֣ק בְּנ֔וֹ וַיָּ֤שֶׂם אֹתוֹ֙ עַל־ הַמִּזְבֵּ֔חַ מִמַּ֖עַל לָעֵצִֽים׃
 >
-> *and they came to the place which he said to him the God and he built there Abraham [direct object marker] the altar and he arranged [direct object marker] the woods and he bound [direct object marker] Isaac his son and he put him upon the altar above upon the woods*
+> *and they came to the place which he said to him the God and he built there Abraham [direct object marker] the altar and he arranged [direct object marker] the wood and he bound [direct object marker] Isaac his son and he put him upon the altar above on the wood*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -250,7 +262,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 12 | הַמִּזְבֵּ֔חַ | the altar | המ + **זבח** | Revelation+Flow + Division → Containment → Vitalization |
 | 13 | וַֽיַּעֲרֹ֖ךְ | and he arranged | ו + **יער** + ך | Conjunction + Agency → Perception → Headship (your (m.sg)) |
 | 14 | אֶת־ | [direct object marker] | את | Origination → Completion |
-| 15 | הָעֵצִ֑ים | the woods | ה + **עצי** + ם | Revelation + Perception → Alignment → Agency (their (m)) |
+| 15 | הָעֵצִ֑ים | the wood | ה + **עצי** + ם | Revelation + Perception → Alignment → Agency (their (m)) |
 | 16 | וַֽיַּעֲקֹד֙ | and he bound | ו + **יעקד** | Conjunction + Agency → Perception → Summons → Passage |
 | 17 | אֶת־ | [direct object marker] | את | Origination → Completion |
 | 18 | יִצְחָ֣ק | Isaac | י + **צחק** | *Yud* + Alignment → Vitalization → Summons |
@@ -260,7 +272,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 22 | עַל־ | upon | על | Perception → Direction |
 | 23 | הַמִּזְבֵּ֔חַ | the altar | המ + **זבח** | Revelation+Flow + Division → Containment → Vitalization |
 | 24 | מִמַּ֖עַל | above | מ + **מעל** | Flow + Flow → Perception → Direction |
-| 25 | לָעֵצִֽים׃ | upon the woods | ל + **עצי** + ם | Direction + Perception → Alignment → Agency (their (m)) |
+| 25 | לָעֵצִֽים׃ | on the wood | ל + **עצי** + ם | Direction + Perception → Alignment → Agency (their (m)) |
 
 ### Genesis 22:10
 
@@ -305,18 +317,18 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיֹּ֗אמֶר אַל־ תִּשְׁלַ֤ח יָֽדְךָ֙ אֶל־ הַנַּ֔עַר וְאַל־ תַּ֥עַשׂ ל֖וֹ מְא֑וּמָּה כִּ֣י ׀ עַתָּ֣ה יָדַ֗עְתִּי כִּֽי־ יְרֵ֤א אֱלֹהִים֙ אַ֔תָּה וְלֹ֥א חָשַׂ֛כְתָּ אֶת־ בִּנְךָ֥ אֶת־ יְחִידְךָ֖ מִמֶּֽנִּי׃
 >
-> *and he said not you send your hand not the boy and not you do to him anything for now you have known for — God you and not you withheld - your son - your only one from me*
+> *and he said not you shall send your hand not the boy and not you shall do to him anything for now you have known for — God you and not you withheld - your son - your only one from me*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וַיֹּ֗אמֶר | and he said | וי + **אמר** | Conjunction+*Yud* + Origination → Flow → Headship |
 | 2 | אַל־ | not | אל | Origination → Direction |
-| 3 | תִּשְׁלַ֤ח | you send | ת + **שלח** | *Tav* + Intensification → Direction → Vitalization |
+| 3 | תִּשְׁלַ֤ח | you shall send | ת + **שלח** | *Tav* + Intensification → Direction → Vitalization |
 | 4 | יָֽדְךָ֙ | your hand | **ידך** | Agency → Passage → Actualization |
 | 5 | אֶל־ | not | אל | Origination → Direction |
 | 6 | הַנַּ֔עַר | the boy | ה + **נער** | Revelation + Propagation → Perception → Headship |
 | 7 | וְאַל־ | and not | **ואל** | Conjunction → Origination → Direction |
-| 8 | תַּ֥עַשׂ | you do | **תעש** | Completion → Perception → Intensification |
+| 8 | תַּ֥עַשׂ | you shall do | **תעש** | Completion → Perception → Intensification |
 | 9 | ל֖וֹ | to him | לו | Direction → Conjunction |
 | 10 | מְא֑וּמָּה | anything | מ + **אומ** + ה | Flow + Origination → Conjunction → Flow (feminine/directional) |
 | 11 | כִּ֣י ׀ | for | כי | Actualization → Agency |
@@ -338,7 +350,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיִּשָּׂ֨א אַבְרָהָ֜ם אֶת־ עֵינָ֗יו וַיַּרְא֙ וְהִנֵּה־ אַ֔יִל אַחַ֕ר נֶאֱחַ֥ז בַּסְּבַ֖ךְ בְּקַרְנָ֑יו וַיֵּ֤לֶךְ אַבְרָהָם֙ וַיִּקַּ֣ח אֶת־ הָאַ֔יִל וַיַּעֲלֵ֥הוּ לְעֹלָ֖ה תַּ֥חַת בְּנֽוֹ׃
 >
-> *and he took Abraham direct object marker his eyes and he saw and behold ram behind is caught in the thicket in its horns and he went Abraham and he took direct object marker the ram and he offered it up as a burnt offering instead of his son*
+> *and he took Abraham direct object marker his eyes and he saw and behold ram behind is caught in the thicket in its horns and he went Abraham and he took direct object marker the ram and he offered it up for a burnt offering instead of his son*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -350,7 +362,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 6 | וְהִנֵּה־ | and behold | ו + **הנה** | Conjunction + Revelation → Propagation → Revelation |
 | 7 | אַ֔יִל | ram | **איל** | Origination → Agency → Direction |
 | 8 | אַחַ֕ר | behind | **אחר** | Origination → Vitalization → Headship |
-| 9 | נֶאֱחַ֥ז | is caught | נ + **אחז** | *Nun* + Origination → Vitalization → Division |
+| 9 | נֶאֱחַ֥ז | is caught | נ + **אחז** | *Nun* + [received/reflected] Origination → Vitalization → Division |
 | 10 | בַּסְּבַ֖ךְ | in the thicket | ב + **סבך** | Containment + Encirclement → Containment → Actualization |
 | 11 | בְּקַרְנָ֑יו | in its horns | ב + **קרנ** + יו | Containment + Summons → Headship → Propagation (suffix) |
 | 12 | וַיֵּ֤לֶךְ | and he went | ו + **ילך** | Conjunction + Agency → Direction → Actualization |
@@ -358,8 +370,8 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 14 | וַיִּקַּ֣ח | and he took | ו + **יקח** | Conjunction + Agency → Summons → Vitalization |
 | 15 | אֶת־ | direct object marker | את | Origination → Completion |
 | 16 | הָאַ֔יִל | the ram | ה + **איל** | Revelation + Origination → Agency → Direction |
-| 17 | וַיַּעֲלֵ֥הוּ | and he offered it up | ו + **יעל** + הו | Conjunction + Agency → Perception → Direction (suffix) |
-| 18 | לְעֹלָ֖ה | as a burnt offering | ל + **עלה** | Direction + Perception → Direction → Revelation |
+| 17 | וַיַּעֲלֵ֥הוּ | and he offered it up | ו + **יעל** + הו | Conjunction + [causative] Agency → Perception → Direction (suffix) |
+| 18 | לְעֹלָ֖ה | for a burnt offering | ל + **עלה** | Direction + Perception → Direction → Revelation |
 | 19 | תַּ֥חַת | instead of | **תחת** | Completion → Vitalization → Completion |
 | 20 | בְּנֽוֹ׃ | his son | **בנו** | Containment → Propagation → Conjunction |
 
@@ -379,7 +391,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 6 | יְהוָ֣ה ׀ | LORD | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 7 | יִרְאֶ֑ה | he will see | **ירא** + ה | Agency → Headship → Origination (feminine/directional) |
 | 8 | אֲשֶׁר֙ | which | **אשר** | Origination → Intensification → Headship |
-| 9 | יֵאָמֵ֣ר | he will say | י + **אמר** | *Yud* + Origination → Flow → Headship |
+| 9 | יֵאָמֵ֣ר | he will say | י + **אמר** | *Yud* + [received/reflected] Origination → Flow → Headship |
 | 10 | הַיּ֔וֹם | the day | ה + **יום** | Revelation + Agency → Conjunction → Flow |
 | 11 | בְּהַ֥ר | in the mountain | **בהר** | Containment → Revelation → Headship |
 | 12 | יְהוָ֖ה | LORD | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
@@ -412,7 +424,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 |---|--------|---------|------|---------|
 | 1 | וַיֹּ֕אמֶר | and he said | וי + **אמר** | Conjunction+*Yud* + Origination → Flow → Headship |
 | 2 | בִּ֥י | in me | בי | Containment → Agency |
-| 3 | נִשְׁבַּ֖עְתִּי | I have sworn | נ + **שבע** + תי | *Nun* + Intensification → Containment → Perception (suffix) |
+| 3 | נִשְׁבַּ֖עְתִּי | I have sworn | נ + **שבע** + תי | *Nun* + [received/reflected] Intensification → Containment → Perception (suffix) |
 | 4 | נְאֻם־ | utterance of | **נאם** | Propagation → Origination → Flow |
 | 5 | יְהוָ֑ה | the LORD | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 6 | כִּ֗י | that | כי | Actualization → Agency |
@@ -433,42 +445,42 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > כִּֽי־ בָרֵ֣ךְ אֲבָרֶכְךָ֗ וְהַרְבָּ֨ה אַרְבֶּ֤ה אֶֽת־ זַרְעֲךָ֙ כְּכוֹכְבֵ֣י הַשָּׁמַ֔יִם וְכַח֕וֹל אֲשֶׁ֖ר עַל־ שְׂפַ֣ת הַיָּ֑ם וְיִרַ֣שׁ זַרְעֲךָ֔ אֵ֖ת שַׁ֥עַר אֹיְבָֽיו׃
 >
-> *for/because blessed I will bless you and will multiply I will multiply direct object marker your seed like the stars the heavens and like the sand which/that upon/on lip of the sea and will possess your seed direct object marker gate of his enemies*
+> *for/because blessed I will bless you and will greatly multiply I will multiply (direct object marker) your seed/offspring like the stars the heavens and like the sand which/that upon/on lip/edge the sea and will possess your seed/offspring (direct object marker) gate his enemies*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | כִּֽי־ | for/because | כי | Actualization → Agency |
-| 2 | בָרֵ֣ךְ | blessed | **ברך** | Containment → Headship → Actualization |
-| 3 | אֲבָרֶכְךָ֗ | I will bless you | **אבר** + כך | Origination → Containment → Headship (suffix) |
-| 4 | וְהַרְבָּ֨ה | and will multiply | וה + **רבה** | Conjunction+Revelation + Headship → Containment → Revelation |
-| 5 | אַרְבֶּ֤ה | I will multiply | **ארב** + ה | Origination → Headship → Containment (feminine/directional) |
-| 6 | אֶֽת־ | direct object marker | את | Origination → Completion |
-| 7 | זַרְעֲךָ֙ | your seed | **זרע** + ך | Division → Headship → Perception (your (m.sg)) |
+| 2 | בָרֵ֣ךְ | blessed | **ברך** | [intensive] Containment → Headship → Actualization |
+| 3 | אֲבָרֶכְךָ֗ | I will bless you | **אבר** + כך | [intensive] Origination → Containment → Headship (suffix) |
+| 4 | וְהַרְבָּ֨ה | and will greatly multiply | וה + **רבה** | Conjunction+Revelation + [causative] Headship → Containment → Revelation |
+| 5 | אַרְבֶּ֤ה | I will multiply | **ארב** + ה | [causative] Origination → Headship → Containment (feminine/directional) |
+| 6 | אֶֽת־ | (direct object marker) | את | Origination → Completion |
+| 7 | זַרְעֲךָ֙ | your seed/offspring | **זרע** + ך | Division → Headship → Perception (your (m.sg)) |
 | 8 | כְּכוֹכְבֵ֣י | like the stars | ככ + **וכב** + י | Actualization+Actualization + Conjunction → Actualization → Containment (my/of) |
 | 9 | הַשָּׁמַ֔יִם | the heavens | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
 | 10 | וְכַח֕וֹל | and like the sand | וכ + **חול** | Conjunction+Actualization + Vitalization → Conjunction → Direction |
 | 11 | אֲשֶׁ֖ר | which/that | **אשר** | Origination → Intensification → Headship |
 | 12 | עַל־ | upon/on | על | Perception → Direction |
-| 13 | שְׂפַ֣ת | lip of | **שפת** | Intensification → Projection → Completion |
+| 13 | שְׂפַ֣ת | lip/edge | **שפת** | Intensification → Projection → Completion |
 | 14 | הַיָּ֑ם | the sea | **הים** | Revelation → Agency → Flow |
 | 15 | וְיִרַ֣שׁ | and will possess | ו + **ירש** | Conjunction + Agency → Headship → Intensification |
-| 16 | זַרְעֲךָ֔ | your seed | **זרע** + ך | Division → Headship → Perception (your (m.sg)) |
-| 17 | אֵ֖ת | direct object marker | את | Origination → Completion |
-| 18 | שַׁ֥עַר | gate of | **שער** | Intensification → Perception → Headship |
+| 16 | זַרְעֲךָ֔ | your seed/offspring | **זרע** + ך | Division → Headship → Perception (your (m.sg)) |
+| 17 | אֵ֖ת | (direct object marker) | את | Origination → Completion |
+| 18 | שַׁ֥עַר | gate | **שער** | Intensification → Perception → Headship |
 | 19 | אֹיְבָֽיו׃ | his enemies | **איב** + יו | Origination → Agency → Containment (suffix) |
 
 ### Genesis 22:18
 
 > וְהִתְבָּרֲכ֣וּ בְזַרְעֲךָ֔ כֹּ֖ל גּוֹיֵ֣י הָאָ֑רֶץ עֵ֕קֶב אֲשֶׁ֥ר שָׁמַ֖עְתָּ בְּקֹלִֽי׃
 >
-> *and will be blessed (themselves) in your seed all nations of the earth because which you have obeyed in my voice*
+> *and will be blessed (themselves) in your seed all nations the earth because which you have obeyed in my voice*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וְהִתְבָּרֲכ֣וּ | and will be blessed (themselves) | והת + **ברכ** + ו | Conjunction+Revelation+*Tav* + Containment → Headship → Actualization (his/him) |
+| 1 | וְהִתְבָּרֲכ֣וּ | and will be blessed (themselves) | והת + **ברכ** + ו | Conjunction+Revelation+*Tav* + [reflexive] Containment → Headship → Actualization (his/him) |
 | 2 | בְזַרְעֲךָ֔ | in your seed | ב + **זרע** + ך | Containment + Division → Headship → Perception (your (m.sg)) |
 | 3 | כֹּ֖ל | all | כל | Actualization → Direction |
-| 4 | גּוֹיֵ֣י | nations of | **גוי** + י | Traversal → Conjunction → Agency (my/of) |
+| 4 | גּוֹיֵ֣י | nations | **גוי** + י | Traversal → Conjunction → Agency (my/of) |
 | 5 | הָאָ֑רֶץ | the earth | ה + **ארץ** | Revelation + Origination → Headship → Alignment |
 | 6 | עֵ֕קֶב | because | **עקב** | Perception → Summons → Containment |
 | 7 | אֲשֶׁ֥ר | which | **אשר** | Origination → Intensification → Headship |
@@ -502,19 +514,19 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיְהִ֗י אַחֲרֵי֙ הַדְּבָרִ֣ים הָאֵ֔לֶּה וַיֻּגַּ֥ד לְאַבְרָהָ֖ם לֵאמֹ֑ר הִ֠נֵּה יָלְדָ֨ה מִלְכָּ֥ה גַם־ הִ֛וא בָּנִ֖ים לְנָח֥וֹר אָחִֽיךָ׃
 >
-> *and it was after the words/matters these and it was told to Abraham saying behold she bore Milcah also she sons to Nahor your brother*
+> *and it was after the words these and it was told to Abraham saying behold she has borne Milcah also she sons to Nahor your brother*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וַיְהִ֗י | and it was | ו + **יהי** | Conjunction + Agency → Revelation → Agency |
 | 2 | אַחֲרֵי֙ | after | **אחר** + י | Origination → Vitalization → Headship (my/of) |
-| 3 | הַדְּבָרִ֣ים | the words/matters | ה + **דבר** + ים | Revelation + Passage → Containment → Headship (masculine plural) |
+| 3 | הַדְּבָרִ֣ים | the words | ה + **דבר** + ים | Revelation + Passage → Containment → Headship (masculine plural) |
 | 4 | הָאֵ֔לֶּה | these | ה + **אלה** | Revelation + Origination → Direction → Revelation |
-| 5 | וַיֻּגַּ֥ד | and it was told | ו + **יגד** | Conjunction + Agency → Traversal → Passage |
+| 5 | וַיֻּגַּ֥ד | and it was told | ו + **יגד** | Conjunction + [causative-received] Agency → Traversal → Passage |
 | 6 | לְאַבְרָהָ֖ם | to Abraham | ל + **אבר** + הם | Direction + Origination → Containment → Headship (their (m)) |
 | 7 | לֵאמֹ֑ר | saying | ל + **אמר** | Direction + Origination → Flow → Headship |
 | 8 | הִ֠נֵּה | behold | **הנה** | Revelation → Propagation → Revelation |
-| 9 | יָלְדָ֨ה | she bore | **ילד** + ה | Agency → Direction → Passage (feminine/directional) |
+| 9 | יָלְדָ֨ה | she has borne | **ילד** + ה | Agency → Direction → Passage (feminine/directional) |
 | 10 | מִלְכָּ֥ה | Milcah | מ + **לכה** | Flow + Direction → Actualization → Revelation |
 | 11 | גַם־ | also | גם | Traversal → Flow |
 | 12 | הִ֛וא | she | **הוא** | Revelation → Conjunction → Origination |
@@ -545,20 +557,20 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וְאֶת־ כֶּ֣שֶׂד וְאֶת־ חֲז֔וֹ וְאֶת־ פִּלְדָּ֖שׁ וְאֶת־ יִדְלָ֑ף וְאֵ֖ת בְּתוּאֵֽל׃
 >
-> *and [direct object marker] Kesed (proper name) and [direct object marker] his vision and [direct object marker] Pildash (proper name) and [direct object marker] it will drip and [direct object marker] with Bethuel*
+> *and [direct object marker] Kesed (proper name) and [direct object marker] they saw/vision and [direct object marker] Pildash (proper name) and [direct object marker] it will drip and [direct object marker] in/with Bethuel*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וְאֶת־ | and [direct object marker] | **ואת** | Conjunction → Origination → Completion |
 | 2 | כֶּ֣שֶׂד | Kesed (proper name) | **כשד** | Actualization → Intensification → Passage |
 | 3 | וְאֶת־ | and [direct object marker] | **ואת** | Conjunction → Origination → Completion |
-| 4 | חֲז֔וֹ | his vision | **חזו** | Vitalization → Division → Conjunction |
+| 4 | חֲז֔וֹ | they saw/vision | **חזו** | Vitalization → Division → Conjunction |
 | 5 | וְאֶת־ | and [direct object marker] | **ואת** | Conjunction → Origination → Completion |
 | 6 | פִּלְדָּ֖שׁ | Pildash (proper name) | **פלדש** | Projection → Direction → Passage → Intensification |
 | 7 | וְאֶת־ | and [direct object marker] | **ואת** | Conjunction → Origination → Completion |
 | 8 | יִדְלָ֑ף | it will drip | **ידלף** | Agency → Passage → Direction → Projection |
 | 9 | וְאֵ֖ת | and [direct object marker] | **ואת** | Conjunction → Origination → Completion |
-| 10 | בְּתוּאֵֽל׃ | with Bethuel | בת + **ואל** | Containment+*Tav* + Conjunction → Origination → Direction |
+| 10 | בְּתוּאֵֽל׃ | in/with Bethuel | בת + **ואל** | Containment+*Tav* + Conjunction → Origination → Direction |
 
 ### Genesis 22:23
 
@@ -584,7 +596,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וּפִֽילַגְשׁ֖וֹ וּשְׁמָ֣הּ רְאוּמָ֑ה וַתֵּ֤לֶד גַּם־ הִוא֙ אֶת־ טֶ֣בַח וְאֶת־ גַּ֔חַם וְאֶת־ תַּ֖חַשׁ וְאֶֽת־ מַעֲכָֽה׃
 >
-> *and his concubine and her name Reumah and she bore also she direct object marker Tebah and direct object Gaham and direct object Tahash and direct object Maacah*
+> *and his concubine and her name Reumah and she bore also she direct object marker Tebah and direct object Gaham and direct object Tachash and direct object Maacah*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -599,7 +611,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 9 | וְאֶת־ | and direct object | **ואת** | Conjunction → Origination → Completion |
 | 10 | גַּ֔חַם | Gaham | **גחם** | Traversal → Vitalization → Flow |
 | 11 | וְאֶת־ | and direct object | **ואת** | Conjunction → Origination → Completion |
-| 12 | תַּ֖חַשׁ | Tahash | **תחש** | Completion → Vitalization → Intensification |
+| 12 | תַּ֖חַשׁ | Tachash | **תחש** | Completion → Vitalization → Intensification |
 | 13 | וְאֶֽת־ | and direct object | **ואת** | Conjunction → Origination → Completion |
 | 14 | מַעֲכָֽה׃ | Maacah | **מעכ** + ה | Flow → Perception → Actualization (feminine/directional) |
 
@@ -616,7 +628,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | Conjunction → Origination → Completion | 12 | and direct object, and direct object marker, and [direct object marker] |
 | Origination → Direction → Revelation | 8 | these, and the God, the God, God |
 | Origination → Intensification → Headship | 8 | which, that, which/that |
-| Perception → Direction → Revelation | 7 | and offer him up, לעלה, burnt offering, the burnt offering |
+| Perception → Direction → Revelation | 7 | and offer him up, as burnt offering, burnt offering, the burnt offering |
 | Agency → Headship → Origination | 6 | and he saw, he will see, ירא |
 | Alignment → Vitalization → Summons | 5 | Isaac |
 | Agency → Summons → Vitalization | 5 | and took, and he took |
@@ -635,7 +647,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 ### Known Limitations
 
 - **שמים** ("heavens") is decomposed as ש+מים (Intensification + root מים). The root extraction treats ש as a prefix. The actual etymology of שמים is debated; this decomposition is heuristic.
-- **Verb stems** (binyanim) are not yet modeled. Forms like הבדיל (hiphil of בדל) show prefix stripping but do not indicate the causative/intensive meaning shift.
+- **Verb stems** (binyanim) are detected via MorphHB morphological tagging. Non-Qal verbs show a stem label (e.g., [causative] for Hiphil) before the root dynamics.
 - **Suffix labeling** is approximate. Some multi-letter suffixes are labeled generically.
 - This is a **raw dynamic reading**, not a polished translation. The dynamics show structural relationships; readable English rendering is a separate step.
 

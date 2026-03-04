@@ -10,6 +10,7 @@
 // Usage:
 //   node hebrew-signs-morphhb-extract.js              # Full extraction
 //   node hebrew-signs-morphhb-extract.js --stats      # Show stats only (no download)
+//   node hebrew-signs-morphhb-extract.js --verb-lookup # Build pointed-form → binyan lookup
 
 const fs = require('fs');
 const path = require('path');
@@ -18,6 +19,7 @@ const path = require('path');
 
 const CACHE_DIR = 'staging/hebrew-signs/morphhb-cache';
 const OUTPUT_FILE = 'staging/hebrew-signs/morphhb-binyanim.json';
+const VERB_LOOKUP_FILE = 'staging/hebrew-signs/morphhb-verb-lookup.json';
 const ROOTS_FILE = 'staging/hebrew-signs/extracted-roots.json';
 
 const BASE_URL = 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc';
@@ -305,11 +307,111 @@ function findMultiBinyanRoots(strongsMap, minBinyanim = 3) {
   return results;
 }
 
+// ─── Build pointed-form → binyan verb lookup ─────────────────────────────
+
+async function buildVerbLookup() {
+  console.log('=== Hebrew Signs — MorphHB Verb Lookup Builder ===');
+  console.log(`Date: ${new Date().toISOString().split('T')[0]}`);
+  console.log();
+
+  if (!fs.existsSync(CACHE_DIR)) {
+    fs.mkdirSync(CACHE_DIR, { recursive: true });
+  }
+
+  // Parse all verbs from cached XML
+  console.log(`Parsing ${BOOKS.length} books from MorphHB cache...`);
+  const allVerbs = [];
+
+  for (const book of BOOKS) {
+    const cachePath = path.join(CACHE_DIR, `${book}.xml`);
+    if (!fs.existsSync(cachePath)) {
+      try {
+        const xml = await downloadBook(book);
+        const verbs = parseVerbs(xml, book);
+        allVerbs.push(...verbs);
+        process.stdout.write(`  ${book.padEnd(6)} (downloaded) ${verbs.length} verbs\n`);
+        await sleep(200);
+      } catch (err) {
+        console.log(`  ${book.padEnd(6)} ERROR: ${err.message}`);
+      }
+    } else {
+      const xml = fs.readFileSync(cachePath, 'utf-8');
+      const verbs = parseVerbs(xml, book);
+      allVerbs.push(...verbs);
+    }
+  }
+  console.log(`Total verb occurrences: ${allVerbs.length}`);
+
+  // Build pointed-form → { binyan, strongs, count } map
+  // Group by NFC-normalized pointed text
+  const formMap = {};
+  for (const v of allVerbs) {
+    const key = v.text.normalize('NFC');
+    if (!formMap[key]) {
+      formMap[key] = {};
+    }
+    const binyanKey = `${v.binyan}:${v.strongs}`;
+    if (!formMap[key][binyanKey]) {
+      formMap[key][binyanKey] = { binyan: v.binyan, strongs: v.strongs, count: 0 };
+    }
+    formMap[key][binyanKey].count++;
+  }
+
+  // For each pointed form, pick the dominant (highest-count) binyan+strongs
+  const lookup = {};
+  let total = 0;
+  let ambiguous = 0;
+
+  for (const [form, variants] of Object.entries(formMap)) {
+    const sorted = Object.values(variants).sort((a, b) => b.count - a.count);
+    lookup[form] = { b: sorted[0].binyan, s: sorted[0].strongs };
+    total++;
+    if (sorted.length > 1) ambiguous++;
+  }
+
+  const unambiguous = total - ambiguous;
+  const pct = (unambiguous / total * 100).toFixed(1);
+  console.log(`\nUnique pointed forms: ${total}`);
+  console.log(`Unambiguous: ${unambiguous} (${pct}%)`);
+  console.log(`Ambiguous (multiple binyan/strongs): ${ambiguous}`);
+
+  // Binyan distribution in lookup
+  const binyanCounts = {};
+  for (const entry of Object.values(lookup)) {
+    binyanCounts[entry.b] = (binyanCounts[entry.b] || 0) + 1;
+  }
+  console.log('\nBinyan distribution in lookup:');
+  for (const [b, c] of Object.entries(binyanCounts).sort((a, b) => b[1] - a[1])) {
+    console.log(`  ${b.padEnd(10)} ${c}`);
+  }
+
+  // Save
+  const output = {
+    type: 'hebrew-signs-morphhb-verb-lookup',
+    description: 'Pointed Hebrew form → dominant binyan + Strongs mapping from MorphHB',
+    source: 'https://github.com/openscriptures/morphhb',
+    generated: new Date().toISOString(),
+    totalForms: total,
+    unambiguous,
+    ambiguous,
+    binyanDistribution: binyanCounts,
+    lookup
+  };
+
+  saveJSON(VERB_LOOKUP_FILE, output);
+  console.log(`\nWritten to: ${VERB_LOOKUP_FILE}`);
+  console.log(`File size: ${(fs.statSync(VERB_LOOKUP_FILE).size / 1024).toFixed(0)} KB`);
+}
+
 // ─── Main ──────────────────────────────────────────────────────────────────
 
 async function main() {
   const args = process.argv.slice(2);
   const statsOnly = args.includes('--stats');
+
+  if (args.includes('--verb-lookup')) {
+    return buildVerbLookup();
+  }
 
   console.log('=== Hebrew Signs — MorphHB Binyanim Extraction ===');
   console.log(`Date: ${new Date().toISOString().split('T')[0]}`);

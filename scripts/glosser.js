@@ -29,10 +29,23 @@ const CORPUS_FILE = path.join(INPUT_DIR, 'tanach-word-corpus.json');
 const ROOTS_FILE = path.join(INPUT_DIR, 'extracted-roots.json');
 const OUTPUT_DIR = path.join(INPUT_DIR, 'glosser-output');
 
+const VERB_LOOKUP_FILE = path.join(INPUT_DIR, 'morphhb-verb-lookup.json');
+
 const MODEL = 'grok-4-1-fast-non-reasoning';
 const API_URL = 'https://api.x.ai/v1/chat/completions';
 const API_KEY = process.env.XAI_API_KEY;
 const REQUEST_DELAY_MS = 200;
+
+// Binyan dynamic labels — neutral descriptors (not prefix-letter-based)
+const BINYAN_LABELS = {
+  'Qal':     null,                    // unmarked — base stem
+  'Niphal':  '[received/reflected]',
+  'Piel':    '[intensive]',
+  'Pual':    '[intensive-received]',
+  'Hiphil':  '[causative]',
+  'Hophal':  '[causative-received]',
+  'Hitpael': '[reflexive]'
+};
 
 // ─── The Corrected Framework ─────────────────────────────────────────────
 
@@ -252,6 +265,46 @@ function labelSuffix(suffixLetters) {
   }
 
   return [{ suffix: raw, grammar: 'suffix' }];
+}
+
+// ─── Verb Lookup (binyan detection via MorphHB) ─────────────────────────
+
+let VERB_LOOKUP = null; // pointed-form → { b: binyan, s: strongs }
+
+function loadVerbLookup() {
+  const data = loadJSON(VERB_LOOKUP_FILE);
+  if (!data || !data.lookup) return null;
+  return data.lookup;
+}
+
+function enrichBinyan(result) {
+  if (!VERB_LOOKUP || !result.pointed) return;
+
+  const key = result.pointed.normalize('NFC');
+  const entry = VERB_LOOKUP[key];
+  if (!entry) return;
+
+  result.isVerb = true;
+  result.binyan = entry.b;
+
+  const label = BINYAN_LABELS[entry.b];
+  if (label) {
+    result.binyanDynamic = label;
+    // Rebuild compositeDynamic: insert binyan label before root dynamics
+    const parts = [];
+    for (const p of result.prefixes) {
+      if (PREFIX_DYNAMICS[normalizeLetter(p.letter)]) {
+        parts.push(`[${p.dynamic}: ${p.reading}]`);
+      } else {
+        parts.push(`[${p.grammar}]`);
+      }
+    }
+    parts.push(`${label} ${result.rootDynamic}`);
+    if (result.suffixes.length > 0) {
+      parts.push(`(${result.suffixes.map(s => s.grammar).join(', ')})`);
+    }
+    result.compositeDynamic = parts.join(' + ');
+  }
 }
 
 // ─── Word Analysis ───────────────────────────────────────────────────────
@@ -654,6 +707,14 @@ async function main() {
     console.log('  WARNING: Root database not found, using heuristic only');
   }
 
+  // Load verb lookup for binyan detection
+  VERB_LOOKUP = loadVerbLookup();
+  if (VERB_LOOKUP) {
+    console.log(`  ${Object.keys(VERB_LOOKUP).length} verb forms loaded (binyan detection)`);
+  } else {
+    console.log('  Verb lookup not found — run morphhb-extract.js --verb-lookup to generate');
+  }
+
   let corpus = null;
   let outputWords = [];
   let outputMeta = {};
@@ -709,6 +770,7 @@ async function main() {
         const analyzed = vWords.map(w => {
           const result = analyzeWord(w.word_consonantal);
           result.pointed = w.word_pointed;
+          enrichBinyan(result);
           return result;
         });
 
@@ -743,6 +805,7 @@ async function main() {
         const analyzed = vWords.map(w => {
           const result = analyzeWord(w.word_consonantal);
           result.pointed = w.word_pointed;
+          enrichBinyan(result);
           return result;
         });
 
@@ -769,6 +832,7 @@ async function main() {
       const analyzed = words.map(w => {
         const result = analyzeWord(w.word_consonantal);
         result.pointed = w.word_pointed;
+        enrichBinyan(result);
         return result;
       });
 
@@ -804,6 +868,7 @@ async function main() {
       const consonantal = stripToConsonantal(w);
       const result = analyzeWord(consonantal);
       result.pointed = w !== consonantal ? w : undefined;
+      enrichBinyan(result);
       return result;
     });
 

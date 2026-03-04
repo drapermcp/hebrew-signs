@@ -18,6 +18,18 @@ Prefix dynamics: ב=Containment, ה=Revelation, ו=Conjunction, כ=Actualization
 
 Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 (completes).
 
+**Verb Stems** (binyanim) — detected via MorphHB morphological tagging:
+
+| Label | Stem | Meaning Shift |
+|-------|------|---------------|
+| *(unmarked)* | Qal | Base/simple action |
+| [received/reflected] | Niphal | Passive or reflexive |
+| [intensive] | Piel | Intensive or factitive |
+| [intensive-received] | Pual | Intensive passive |
+| [causative] | Hiphil | Causative active |
+| [causative-received] | Hophal | Causative passive |
+| [reflexive] | Hitpael | Reflexive or reciprocal |
+
 ---
 
 ### Genesis 2:1
@@ -28,7 +40,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיְכֻלּ֛וּ | and they were finished | ו + **יכל** + ו | Conjunction + Agency → Actualization → Direction (his/him) |
+| 1 | וַיְכֻלּ֛וּ | and they were finished | ו + **יכל** + ו | Conjunction + [intensive-received] Agency → Actualization → Direction (his/him) |
 | 2 | הַשָּׁמַ֥יִם | the heavens | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
 | 3 | וְהָאָ֖רֶץ | and the earth | וה + **ארץ** | Conjunction+Revelation + Origination → Headship → Alignment |
 | 4 | וְכָל־ | and all | **וכל** | Conjunction → Actualization → Direction |
@@ -38,18 +50,18 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכָּל־ מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃
 >
-> *and he finished God on the day the seventh his work which he had made and he rested on the day the seventh from all his work which he had made*
+> *and completed God on the day the seventh his work which he had made and rested on the day the seventh from all his work which he had made*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיְכַ֤ל | and he finished | ו + **יכל** | Conjunction + Agency → Actualization → Direction |
+| 1 | וַיְכַ֤ל | and completed | ו + **יכל** | Conjunction + [intensive] Agency → Actualization → Direction |
 | 2 | אֱלֹהִים֙ | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 3 | בַּיּ֣וֹם | on the day | ב + **יום** | Containment + Agency → Conjunction → Flow |
 | 4 | הַשְּׁבִיעִ֔י | the seventh | הש + **ביע** + י | Revelation+Intensification + Containment → Agency → Perception (my/of) |
 | 5 | מְלַאכְתּ֖וֹ | his work | מל + **אכת** + ו | Flow+Direction + Origination → Actualization → Completion (his/him) |
 | 6 | אֲשֶׁ֣ר | which | **אשר** | Origination → Intensification → Headship |
 | 7 | עָשָׂ֑ה | he had made | **עשה** | Perception → Intensification → Revelation |
-| 8 | וַיִּשְׁבֹּת֙ | and he rested | ו + **ישב** + ת | Conjunction + Agency → Intensification → Containment (feminine/construct) |
+| 8 | וַיִּשְׁבֹּת֙ | and rested | ו + **ישב** + ת | Conjunction + Agency → Intensification → Containment (feminine/construct) |
 | 9 | בַּיּ֣וֹם | on the day | ב + **יום** | Containment + Agency → Conjunction → Flow |
 | 10 | הַשְּׁבִיעִ֔י | the seventh | הש + **ביע** + י | Revelation+Intensification + Containment → Agency → Perception (my/of) |
 | 11 | מִכָּל־ | from all | **מכל** | Flow → Actualization → Direction |
@@ -61,24 +73,24 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־ י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכָּל־ מְלַאכְתּ֔וֹ אֲשֶׁר־ בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃
 >
-> *and blessed God direct object marker day the seventh and sanctified it it (direct object) for/because in it he rested from all his work which/that (he) created God to do/make*
+> *and blessed God direct object marker day the seventh and sanctified it him/it (direct object) for/because in it he rested from all his work which/that he created God to do/make*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיְבָ֤רֶךְ | and blessed | ו + **יבר** + ך | Conjunction + Agency → Containment → Headship (your (m.sg)) |
+| 1 | וַיְבָ֤רֶךְ | and blessed | ו + **יבר** + ך | Conjunction + [intensive] Agency → Containment → Headship (your (m.sg)) |
 | 2 | אֱלֹהִים֙ | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 3 | אֶת־ | direct object marker | את | Origination → Completion |
 | 4 | י֣וֹם | day | **יום** | Agency → Conjunction → Flow |
 | 5 | הַשְּׁבִיעִ֔י | the seventh | הש + **ביע** + י | Revelation+Intensification + Containment → Agency → Perception (my/of) |
-| 6 | וַיְקַדֵּ֖שׁ | and sanctified it | וי + **קדש** | Conjunction+*Yud* + Summons → Passage → Intensification |
-| 7 | אֹת֑וֹ | it (direct object) | **אתו** | Origination → Completion → Conjunction |
+| 6 | וַיְקַדֵּ֖שׁ | and sanctified it | וי + **קדש** | Conjunction+*Yud* + [intensive] Summons → Passage → Intensification |
+| 7 | אֹת֑וֹ | him/it (direct object) | **אתו** | Origination → Completion → Conjunction |
 | 8 | כִּ֣י | for/because | כי | Actualization → Agency |
 | 9 | ב֤וֹ | in it | בו | Containment → Conjunction |
 | 10 | שָׁבַת֙ | he rested | **שבת** | Intensification → Containment → Completion |
 | 11 | מִכָּל־ | from all | **מכל** | Flow → Actualization → Direction |
 | 12 | מְלַאכְתּ֔וֹ | his work | מל + **אכת** + ו | Flow+Direction + Origination → Actualization → Completion (his/him) |
 | 13 | אֲשֶׁר־ | which/that | **אשר** | Origination → Intensification → Headship |
-| 14 | בָּרָ֥א | (he) created | **ברא** | Containment → Headship → Origination |
+| 14 | בָּרָ֥א | he created | **ברא** | Containment → Headship → Origination |
 | 15 | אֱלֹהִ֖ים | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 16 | לַעֲשֽׂוֹת׃ | to do/make | ל + **עשו** + ת | Direction + Perception → Intensification → Conjunction (feminine/construct) |
 
@@ -86,7 +98,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > אֵ֣לֶּה תוֹלְד֧וֹת הַשָּׁמַ֛יִם וְהָאָ֖רֶץ בְּהִבָּֽרְאָ֑ם בְּי֗וֹם עֲשׂ֛וֹת יְהוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְשָׁמָֽיִם׃
 >
-> *these generations the heavens and the earth when they were created in the day to make YHWH God earth and heavens*
+> *these generations the heavens and the earth in their creation in the day to make YHWH God earth and heavens*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -94,7 +106,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 2 | תוֹלְד֧וֹת | generations | **תול** + דות | Completion → Conjunction → Direction (feminine plural) |
 | 3 | הַשָּׁמַ֛יִם | the heavens | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
 | 4 | וְהָאָ֖רֶץ | and the earth | וה + **ארץ** | Conjunction+Revelation + Origination → Headship → Alignment |
-| 5 | בְּהִבָּֽרְאָ֑ם | when they were created | בה + **ברא** + ם | Containment+Revelation + Containment → Headship → Origination (their (m)) |
+| 5 | בְּהִבָּֽרְאָ֑ם | in their creation | בה + **ברא** + ם | Containment+Revelation + [received/reflected] Containment → Headship → Origination (their (m)) |
 | 6 | בְּי֗וֹם | in the day | ב + **יום** | Containment + Agency → Conjunction → Flow |
 | 7 | עֲשׂ֛וֹת | to make | **עשו** + ת | Perception → Intensification → Conjunction (feminine/construct) |
 | 8 | יְהוָ֥ה | YHWH | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
@@ -106,62 +118,62 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וְכֹ֣ל ׀ שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכָל־ עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהוָ֤ה אֱלֹהִים֙ עַל־ הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־ הֽ͏ָאֲדָמָֽה׃
 >
-> *and every/all — the field before he will be in the land/earth and every/all herb/grass the field before it will grow for/because not he had rained YHWH God upon/over the earth/land and man/Adam there is not to work/till (direct object marker) the ground/soil*
+> *and all bush/plant the field before will be in the land and all herb/grass the field before will grow for/because not he had rained YHWH God upon the earth and man there is not to work (direct object marker) the ground*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וְכֹ֣ל ׀ | and every/all | **וכל** | Conjunction → Actualization → Direction |
-| 2 | שִׂ֣יחַ | — | **שיח** | Intensification → Agency → Vitalization |
+| 1 | וְכֹ֣ל ׀ | and all | **וכל** | Conjunction → Actualization → Direction |
+| 2 | שִׂ֣יחַ | bush/plant | **שיח** | Intensification → Agency → Vitalization |
 | 3 | הַשָּׂדֶ֗ה | the field | ה + **שדה** | Revelation + Intensification → Passage → Revelation |
 | 4 | טֶ֚רֶם | before | **טרם** | Materialization → Headship → Flow |
-| 5 | יִֽהְיֶ֣ה | he will be | **יהי** + ה | Agency → Revelation → Agency (feminine/directional) |
-| 6 | בָאָ֔רֶץ | in the land/earth | ב + **ארץ** | Containment + Origination → Headship → Alignment |
-| 7 | וְכָל־ | and every/all | **וכל** | Conjunction → Actualization → Direction |
+| 5 | יִֽהְיֶ֣ה | will be | **יהי** + ה | Agency → Revelation → Agency (feminine/directional) |
+| 6 | בָאָ֔רֶץ | in the land | ב + **ארץ** | Containment + Origination → Headship → Alignment |
+| 7 | וְכָל־ | and all | **וכל** | Conjunction → Actualization → Direction |
 | 8 | עֵ֥שֶׂב | herb/grass | **עשב** | Perception → Intensification → Containment |
 | 9 | הַשָּׂדֶ֖ה | the field | ה + **שדה** | Revelation + Intensification → Passage → Revelation |
 | 10 | טֶ֣רֶם | before | **טרם** | Materialization → Headship → Flow |
-| 11 | יִצְמָ֑ח | it will grow | י + **צמח** | *Yud* + Alignment → Flow → Vitalization |
+| 11 | יִצְמָ֑ח | will grow | י + **צמח** | *Yud* + Alignment → Flow → Vitalization |
 | 12 | כִּי֩ | for/because | כי | Actualization → Agency |
 | 13 | לֹ֨א | not | לא | Direction → Origination |
-| 14 | הִמְטִ֜יר | he had rained | המ + **טיר** | Revelation+Flow + Materialization → Agency → Headship |
+| 14 | הִמְטִ֜יר | he had rained | המ + **טיר** | Revelation+Flow + [causative] Materialization → Agency → Headship |
 | 15 | יְהוָ֤ה | YHWH | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 16 | אֱלֹהִים֙ | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
-| 17 | עַל־ | upon/over | על | Perception → Direction |
-| 18 | הָאָ֔רֶץ | the earth/land | ה + **ארץ** | Revelation + Origination → Headship → Alignment |
-| 19 | וְאָדָ֣ם | and man/Adam | ו + **אדם** | Conjunction + Origination → Passage → Flow |
+| 17 | עַל־ | upon | על | Perception → Direction |
+| 18 | הָאָ֔רֶץ | the earth | ה + **ארץ** | Revelation + Origination → Headship → Alignment |
+| 19 | וְאָדָ֣ם | and man | ו + **אדם** | Conjunction + Origination → Passage → Flow |
 | 20 | אַ֔יִן | there is not | **אין** | Origination → Agency → Propagation |
-| 21 | לַֽעֲבֹ֖ד | to work/till | ל + **עבד** | Direction + Perception → Containment → Passage |
+| 21 | לַֽעֲבֹ֖ד | to work | ל + **עבד** | Direction + Perception → Containment → Passage |
 | 22 | אֶת־ | (direct object marker) | את | Origination → Completion |
-| 23 | הֽ͏ָאֲדָמָֽה׃ | the ground/soil | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
+| 23 | הֽ͏ָאֲדָמָֽה׃ | the ground | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
 
 ### Genesis 2:6
 
 > וְאֵ֖ד יַֽעֲלֶ֣ה מִן־ הָאָ֑רֶץ וְהִשְׁקָ֖ה אֶֽת־ כָּל־ פְּנֵֽי־ הָֽאֲדָמָֽה׃
 >
-> *and mist will go up from the ground and will water (direct object marker) all faces/surface of the ground/earth*
+> *and mist it will go up from the ground and he will water [direct object marker] all faces/surface of the earth/ground*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וְאֵ֖ד | and mist | **ואד** | Conjunction → Origination → Passage |
-| 2 | יַֽעֲלֶ֣ה | will go up | **יעל** + ה | Agency → Perception → Direction (feminine/directional) |
+| 2 | יַֽעֲלֶ֣ה | it will go up | **יעל** + ה | Agency → Perception → Direction (feminine/directional) |
 | 3 | מִן־ | from | מן | Flow → Propagation |
 | 4 | הָאָ֑רֶץ | the ground | ה + **ארץ** | Revelation + Origination → Headship → Alignment |
-| 5 | וְהִשְׁקָ֖ה | and will water | וה + **שקה** | Conjunction+Revelation + Intensification → Summons → Revelation |
-| 6 | אֶֽת־ | (direct object marker) | את | Origination → Completion |
+| 5 | וְהִשְׁקָ֖ה | and he will water | וה + **שקה** | Conjunction+Revelation + [causative] Intensification → Summons → Revelation |
+| 6 | אֶֽת־ | [direct object marker] | את | Origination → Completion |
 | 7 | כָּל־ | all | כל | Actualization → Direction |
 | 8 | פְּנֵֽי־ | faces/surface of | **פני** | Projection → Propagation → Agency |
-| 9 | הָֽאֲדָמָֽה׃ | the ground/earth | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
+| 9 | הָֽאֲדָמָֽה׃ | the earth/ground | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
 
 ### Genesis 2:7
 
 > וַיִּיצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים אֶת־ הָֽאָדָ֗ם עָפָר֙ מִן־ הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַֽיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃
 >
-> *and he formed YHWH God direct object marker the man dust from the ground and he breathed in his nostrils breath of life and became the man a living being*
+> *and he formed the LORD God direct object marker the man dust from the ground and he breathed into his nostrils breath of life and became the man a living being*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וַיִּיצֶר֩ | and he formed | וי + **יצר** | Conjunction+*Yud* + Agency → Alignment → Headship |
-| 2 | יְהוָ֨ה | YHWH | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
+| 2 | יְהוָ֨ה | the LORD | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 3 | אֱלֹהִ֜ים | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 4 | אֶת־ | direct object marker | את | Origination → Completion |
 | 5 | הָֽאָדָ֗ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
@@ -169,7 +181,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 7 | מִן־ | from | מן | Flow → Propagation |
 | 8 | הָ֣אֲדָמָ֔ה | the ground | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
 | 9 | וַיִּפַּ֥ח | and he breathed | ו + **יפח** | Conjunction + Agency → Projection → Vitalization |
-| 10 | בְּאַפָּ֖יו | in his nostrils | ב + **אפי** + ו | Containment + Origination → Projection → Agency (his/him) |
+| 10 | בְּאַפָּ֖יו | into his nostrils | ב + **אפי** + ו | Containment + Origination → Projection → Agency (his/him) |
 | 11 | נִשְׁמַ֣ת | breath of | **נשמ** + ת | Propagation → Intensification → Flow (feminine/construct) |
 | 12 | חַיִּ֑ים | life | **חיי** + ם | Vitalization → Agency → Agency (their (m)) |
 | 13 | וַֽיְהִ֥י | and became | ו + **יהי** | Conjunction + Agency → Revelation → Agency |
@@ -202,25 +214,25 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיַּצְמַ֞ח יְהוָ֤ה אֱלֹהִים֙ מִן־ הָ֣אֲדָמָ֔ה כָּל־ עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃
 >
-> *and He caused to grow the LORD God from the ground every tree desirable for seeing and good for food and tree of life in midst the garden and tree of knowledge good and evil*
+> *and caused to grow the LORD God from the ground every tree desirable to see and good for food and tree of life in midst of garden and tree of knowledge good and evil*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיַּצְמַ֞ח | and He caused to grow | וי + **צמח** | Conjunction+*Yud* + Alignment → Flow → Vitalization |
+| 1 | וַיַּצְמַ֞ח | and caused to grow | וי + **צמח** | Conjunction+*Yud* + [causative] Alignment → Flow → Vitalization |
 | 2 | יְהוָ֤ה | the LORD | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 3 | אֱלֹהִים֙ | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 4 | מִן־ | from | מן | Flow → Propagation |
 | 5 | הָ֣אֲדָמָ֔ה | the ground | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
 | 6 | כָּל־ | every | כל | Actualization → Direction |
 | 7 | עֵ֛ץ | tree | עץ | Perception → Alignment |
-| 8 | נֶחְמָ֥ד | desirable | נ + **חמד** | *Nun* + Vitalization → Flow → Passage |
-| 9 | לְמַרְאֶ֖ה | for seeing | למ + **ראה** | Direction+Flow + Headship → Origination → Revelation |
+| 8 | נֶחְמָ֥ד | desirable | נ + **חמד** | *Nun* + [received/reflected] Vitalization → Flow → Passage |
+| 9 | לְמַרְאֶ֖ה | to see | למ + **ראה** | Direction+Flow + Headship → Origination → Revelation |
 | 10 | וְט֣וֹב | and good | ו + **טוב** | Conjunction + Materialization → Conjunction → Containment |
 | 11 | לְמַאֲכָ֑ל | for food | למ + **אכל** | Direction+Flow + Origination → Actualization → Direction |
 | 12 | וְעֵ֤ץ | and tree | **ועץ** | Conjunction → Perception → Alignment |
 | 13 | הַֽחַיִּים֙ | of life | ה + **חיי** + ם | Revelation + Vitalization → Agency → Agency (their (m)) |
 | 14 | בְּת֣וֹךְ | in midst | ב + **תוך** | Containment + Completion → Conjunction → Actualization |
-| 15 | הַגָּ֔ן | the garden | **הגן** | Revelation → Traversal → Propagation |
+| 15 | הַגָּ֔ן | of garden | **הגן** | Revelation → Traversal → Propagation |
 | 16 | וְעֵ֕ץ | and tree | **ועץ** | Conjunction → Perception → Alignment |
 | 17 | הַדַּ֖עַת | of knowledge | ה + **דעת** | Revelation + Passage → Perception → Completion |
 | 18 | ט֥וֹב | good | **טוב** | Materialization → Conjunction → Containment |
@@ -230,19 +242,19 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וְנָהָר֙ יֹצֵ֣א מֵעֵ֔דֶן לְהַשְׁק֖וֹת אֶת־ הַגָּ֑ן וּמִשָּׁם֙ יִפָּרֵ֔ד וְהָיָ֖ה לְאַרְבָּעָ֥ה רָאשִֽׁים׃
 >
-> *and a river goes out from Eden to irrigate [direct object marker] the garden and from there it divides and it was into four heads*
+> *and a river goes out from Eden to irrigate the [direct object marker] garden and from there it divides and it becomes into four heads*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וְנָהָר֙ | and a river | ו + **נהר** | Conjunction + Propagation → Revelation → Headship |
 | 2 | יֹצֵ֣א | goes out | **יצא** | Agency → Alignment → Origination |
 | 3 | מֵעֵ֔דֶן | from Eden | מ + **עדן** | Flow + Perception → Passage → Propagation |
-| 4 | לְהַשְׁק֖וֹת | to irrigate | לה + **שקו** + ת | Direction+Revelation + Intensification → Summons → Conjunction (feminine/construct) |
+| 4 | לְהַשְׁק֖וֹת | to irrigate the | לה + **שקו** + ת | Direction+Revelation + [causative] Intensification → Summons → Conjunction (feminine/construct) |
 | 5 | אֶת־ | [direct object marker] | את | Origination → Completion |
-| 6 | הַגָּ֑ן | the garden | **הגן** | Revelation → Traversal → Propagation |
+| 6 | הַגָּ֑ן | garden | **הגן** | Revelation → Traversal → Propagation |
 | 7 | וּמִשָּׁם֙ | and from there | ו + **משם** | Conjunction + Flow → Intensification → Flow |
-| 8 | יִפָּרֵ֔ד | it divides | י + **פרד** | *Yud* + Projection → Headship → Passage |
-| 9 | וְהָיָ֖ה | and it was | ו + **היה** | Conjunction + Revelation → Agency → Revelation |
+| 8 | יִפָּרֵ֔ד | it divides | י + **פרד** | *Yud* + [received/reflected] Projection → Headship → Passage |
+| 9 | וְהָיָ֖ה | and it becomes | ו + **היה** | Conjunction + Revelation → Agency → Revelation |
 | 10 | לְאַרְבָּעָ֥ה | into four | ל + **ארב** + עה | Direction + Origination → Headship → Containment (suffix) |
 | 11 | רָאשִֽׁים׃ | heads | **ראש** + ים | Headship → Origination → Intensification (masculine plural) |
 
@@ -307,37 +319,37 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וְשֵׁ֨ם הַנָּהָ֤ר הַשְּׁלִישִׁי֙ חִדֶּ֔קֶל ה֥וּא הַֽהֹלֵ֖ךְ קִדְמַ֣ת אַשּׁ֑וּר וְהַנָּהָ֥ר הָֽרְבִיעִ֖י ה֥וּא פְרָֽת׃
 >
-> *and the name the river the third (one) Tigris that/it is the (one) going east of Assyria and the river the fourth that/it is Euphrates*
+> *and name the river the third Tigris that/it the one going east of Assyria and the river the fourth that/it Euphrates*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וְשֵׁ֨ם | and the name | **ושם** | Conjunction → Intensification → Flow |
+| 1 | וְשֵׁ֨ם | and name | **ושם** | Conjunction → Intensification → Flow |
 | 2 | הַנָּהָ֤ר | the river | ה + **נהר** | Revelation + Propagation → Revelation → Headship |
-| 3 | הַשְּׁלִישִׁי֙ | the third (one) | הש + **ליש** + י | Revelation+Intensification + Direction → Agency → Intensification (my/of) |
+| 3 | הַשְּׁלִישִׁי֙ | the third | הש + **ליש** + י | Revelation+Intensification + Direction → Agency → Intensification (my/of) |
 | 4 | חִדֶּ֔קֶל | Tigris | **חדקל** | Vitalization → Passage → Summons → Direction |
-| 5 | ה֥וּא | that/it is | **הוא** | Revelation → Conjunction → Origination |
-| 6 | הַֽהֹלֵ֖ךְ | the (one) going | ה + **הלך** | Revelation + Revelation → Direction → Actualization |
+| 5 | ה֥וּא | that/it | **הוא** | Revelation → Conjunction → Origination |
+| 6 | הַֽהֹלֵ֖ךְ | the one going | ה + **הלך** | Revelation + Revelation → Direction → Actualization |
 | 7 | קִדְמַ֣ת | east of | **קדמ** + ת | Summons → Passage → Flow (feminine/construct) |
 | 8 | אַשּׁ֑וּר | Assyria | א + **שור** | *Aleph* + Intensification → Conjunction → Headship |
 | 9 | וְהַנָּהָ֥ר | and the river | וה + **נהר** | Conjunction+Revelation + Propagation → Revelation → Headship |
 | 10 | הָֽרְבִיעִ֖י | the fourth | ה + **רבי** + עי | Revelation + Headship → Containment → Agency (suffix) |
-| 11 | ה֥וּא | that/it is | **הוא** | Revelation → Conjunction → Origination |
+| 11 | ה֥וּא | that/it | **הוא** | Revelation → Conjunction → Origination |
 | 12 | פְרָֽת׃ | Euphrates | **פרת** | Projection → Headship → Completion |
 
 ### Genesis 2:15
 
 > וַיִּקַּ֛ח יְהוָ֥ה אֱלֹהִ֖ים אֶת־ הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־ עֵ֔דֶן לְעָבְדָ֖הּ וּלְשָׁמְרָֽהּ׃
 >
-> *and took YHWH God direct object marker the man and placed him in garden Eden to work it and to keep it*
+> *and took Yahweh God direct object marker the man and placed him in garden Eden to work it and to keep it*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וַיִּקַּ֛ח | and took | ו + **יקח** | Conjunction + Agency → Summons → Vitalization |
-| 2 | יְהוָ֥ה | YHWH | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
+| 2 | יְהוָ֥ה | Yahweh | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 3 | אֱלֹהִ֖ים | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 4 | אֶת־ | direct object marker | את | Origination → Completion |
 | 5 | הָֽאָדָ֑ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
-| 6 | וַיַּנִּחֵ֣הוּ | and placed him | ו + **ינח** + הו | Conjunction + Agency → Propagation → Vitalization (suffix) |
+| 6 | וַיַּנִּחֵ֣הוּ | and placed him | ו + **ינח** + הו | Conjunction + [causative] Agency → Propagation → Vitalization (suffix) |
 | 7 | בְגַן־ | in garden | **בגן** | Containment → Traversal → Propagation |
 | 8 | עֵ֔דֶן | Eden | **עדן** | Perception → Passage → Propagation |
 | 9 | לְעָבְדָ֖הּ | to work it | ל + **עבד** + ה | Direction + Perception → Containment → Passage (feminine/directional) |
@@ -351,7 +363,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיְצַו֙ | and he commanded | ו + **יצו** | Conjunction + Agency → Alignment → Conjunction |
+| 1 | וַיְצַו֙ | and he commanded | ו + **יצו** | Conjunction + [intensive] Agency → Alignment → Conjunction |
 | 2 | יְהוָ֣ה | YHWH | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 3 | אֱלֹהִ֔ים | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 4 | עַל־ | upon | על | Perception → Direction |
@@ -367,7 +379,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וּמֵעֵ֗ץ הַדַּ֙עַת֙ ט֣וֹב וָרָ֔ע לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ כִּ֗י בְּי֛וֹם אֲכָלְךָ֥ מִמֶּ֖נּוּ מ֥וֹת תָּמֽוּת׃
 >
-> *and from the tree the knowledge good and evil not you shall eat from it for in the day will eat you from it death you shall die*
+> *and from the tree the knowledge good and evil not you shall eat from it for in the day it will eat you from it death you shall die*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -380,7 +392,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 7 | מִמֶּ֑נּוּ | from it | מ + **מנו** | Flow + Flow → Propagation → Conjunction |
 | 8 | כִּ֗י | for | כי | Actualization → Agency |
 | 9 | בְּי֛וֹם | in the day | ב + **יום** | Containment + Agency → Conjunction → Flow |
-| 10 | אֲכָלְךָ֥ | will eat you | **אכל** + ך | Origination → Actualization → Direction (your (m.sg)) |
+| 10 | אֲכָלְךָ֥ | it will eat you | **אכל** + ך | Origination → Actualization → Direction (your (m.sg)) |
 | 11 | מִמֶּ֖נּוּ | from it | מ + **מנו** | Flow + Flow → Propagation → Conjunction |
 | 12 | מ֥וֹת | death | **מות** | Flow → Conjunction → Completion |
 | 13 | תָּמֽוּת׃ | you shall die | ת + **מות** | *Tav* + Flow → Conjunction → Completion |
@@ -389,7 +401,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיֹּ֙אמֶר֙ יְהוָ֣ה אֱלֹהִ֔ים לֹא־ ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֽ͏ֶעֱשֶׂהּ־ לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃
 >
-> *and he said the LORD God not good being the man by himself I will make for him helper corresponding to him*
+> *and he said the LORD God not good being the man alone I will make for him helper corresponding to him*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -400,7 +412,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 5 | ט֛וֹב | good | **טוב** | Materialization → Conjunction → Containment |
 | 6 | הֱי֥וֹת | being | ה + **יות** | Revelation + Agency → Conjunction → Completion |
 | 7 | הָֽאָדָ֖ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
-| 8 | לְבַדּ֑וֹ | by himself | ל + **בדו** | Direction + Containment → Passage → Conjunction |
+| 8 | לְבַדּ֑וֹ | alone | ל + **בדו** | Direction + Containment → Passage → Conjunction |
 | 9 | אֽ͏ֶעֱשֶׂהּ־ | I will make | **אעש** + ה | Origination → Perception → Intensification (feminine/directional) |
 | 10 | לּ֥וֹ | for him | לו | Direction → Conjunction |
 | 11 | עֵ֖זֶר | helper | **עזר** | Perception → Division → Headship |
@@ -410,7 +422,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיִּצֶר֩ יְהוָ֨ה אֱלֹהִ֜ים מִן־ הָֽאֲדָמָ֗ה כָּל־ חַיַּ֤ת הַשָּׂדֶה֙ וְאֵת֙ כָּל־ ע֣וֹף הַשָּׁמַ֔יִם וַיָּבֵא֙ אֶל־ הָ֣אָדָ֔ם לִרְא֖וֹת מַה־ יִּקְרָא־ ל֑וֹ וְכֹל֩ אֲשֶׁ֨ר יִקְרָא־ ל֧וֹ הֽ͏ָאָדָ֛ם נֶ֥פֶשׁ חַיָּ֖ה ה֥וּא שְׁמֽוֹ׃
 >
-> *and formed YHWH God from the ground every wild beast the field and the every birds the heavens and brought to the man to see what he would call to it and every that he would call to it the man soul living it its name*
+> *and formed YHWH God from the ground every wild beast — and (direct object marker) every bird — and brought to — to see what he would call to it and every that he would call to it — soul living it its name*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
@@ -421,14 +433,14 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 5 | הָֽאֲדָמָ֗ה | the ground | ה + **אדמ** + ה | Revelation + Origination → Passage → Flow (feminine/directional) |
 | 6 | כָּל־ | every | כל | Actualization → Direction |
 | 7 | חַיַּ֤ת | wild beast | **חית** | Vitalization → Agency → Completion |
-| 8 | הַשָּׂדֶה֙ | the field | ה + **שדה** | Revelation + Intensification → Passage → Revelation |
-| 9 | וְאֵת֙ | and the | **ואת** | Conjunction → Origination → Completion |
+| 8 | הַשָּׂדֶה֙ | — | ה + **שדה** | Revelation + Intensification → Passage → Revelation |
+| 9 | וְאֵת֙ | and (direct object marker) | **ואת** | Conjunction → Origination → Completion |
 | 10 | כָּל־ | every | כל | Actualization → Direction |
-| 11 | ע֣וֹף | birds | **עוף** | Perception → Conjunction → Projection |
-| 12 | הַשָּׁמַ֔יִם | the heavens | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
-| 13 | וַיָּבֵא֙ | and brought | ו + **יבא** | Conjunction + Agency → Containment → Origination |
+| 11 | ע֣וֹף | bird | **עוף** | Perception → Conjunction → Projection |
+| 12 | הַשָּׁמַ֔יִם | — | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
+| 13 | וַיָּבֵא֙ | and brought | ו + **יבא** | Conjunction + [causative] Agency → Containment → Origination |
 | 14 | אֶל־ | to | אל | Origination → Direction |
-| 15 | הָ֣אָדָ֔ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
+| 15 | הָ֣אָדָ֔ם | — | ה + **אדם** | Revelation + Origination → Passage → Flow |
 | 16 | לִרְא֖וֹת | to see | ל + **ראו** + ת | Direction + Headship → Origination → Conjunction (feminine/construct) |
 | 17 | מַה־ | what | מה | Flow → Revelation |
 | 18 | יִּקְרָא־ | he would call | י + **קרא** | *Yud* + Summons → Headship → Origination |
@@ -437,7 +449,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 21 | אֲשֶׁ֨ר | that | **אשר** | Origination → Intensification → Headship |
 | 22 | יִקְרָא־ | he would call | י + **קרא** | *Yud* + Summons → Headship → Origination |
 | 23 | ל֧וֹ | to it | לו | Direction → Conjunction |
-| 24 | הֽ͏ָאָדָ֛ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
+| 24 | הֽ͏ָאָדָ֛ם | — | ה + **אדם** | Revelation + Origination → Passage → Flow |
 | 25 | נֶ֥פֶשׁ | soul | **נפש** | Propagation → Projection → Intensification |
 | 26 | חַיָּ֖ה | living | **חיה** | Vitalization → Agency → Revelation |
 | 27 | ה֥וּא | it | **הוא** | Revelation → Conjunction → Origination |
@@ -447,20 +459,20 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכָל־ הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־ מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃
 >
-> *and he called the man names (that/which) to every to the beast and to the bird of the heavens and to every wild animal of the field and to man not found helper corresponding to him*
+> *and he called the man names of to every the beasts and to birds the heavens and to every field animals the field and to man not found helper corresponding to him*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | וַיִּקְרָ֨א | and he called | וי + **קרא** | Conjunction+*Yud* + Summons → Headship → Origination |
 | 2 | הָֽאָדָ֜ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
-| 3 | שֵׁמ֗וֹת | names (that/which) | ש + **מות** | Intensification + Flow → Conjunction → Completion |
+| 3 | שֵׁמ֗וֹת | names of | ש + **מות** | Intensification + Flow → Conjunction → Completion |
 | 4 | לְכָל־ | to every | **לכל** | Direction → Actualization → Direction |
-| 5 | הַבְּהֵמָה֙ | to the beast | הב + **המה** | Revelation+Containment + Revelation → Flow → Revelation |
-| 6 | וּלְע֣וֹף | and to the bird | ול + **עוף** | Conjunction+Direction + Perception → Conjunction → Projection |
-| 7 | הַשָּׁמַ֔יִם | of the heavens | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
+| 5 | הַבְּהֵמָה֙ | the beasts | הב + **המה** | Revelation+Containment + Revelation → Flow → Revelation |
+| 6 | וּלְע֣וֹף | and to birds | ול + **עוף** | Conjunction+Direction + Perception → Conjunction → Projection |
+| 7 | הַשָּׁמַ֔יִם | the heavens | הש + **מים** | Revelation+Intensification + Flow → Agency → Flow |
 | 8 | וּלְכֹ֖ל | and to every | ו + **לכל** | Conjunction + Direction → Actualization → Direction |
-| 9 | חַיַּ֣ת | wild animal | **חית** | Vitalization → Agency → Completion |
-| 10 | הַשָּׂדֶ֑ה | of the field | ה + **שדה** | Revelation + Intensification → Passage → Revelation |
+| 9 | חַיַּ֣ת | field animals | **חית** | Vitalization → Agency → Completion |
+| 10 | הַשָּׂדֶ֑ה | the field | ה + **שדה** | Revelation + Intensification → Passage → Revelation |
 | 11 | וּלְאָדָ֕ם | and to man | ול + **אדם** | Conjunction+Direction + Origination → Passage → Flow |
 | 12 | לֹֽא־ | not | לא | Direction → Origination |
 | 13 | מָצָ֥א | found | **מצא** | Flow → Alignment → Origination |
@@ -475,7 +487,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
-| 1 | וַיַּפֵּל֩ | and caused to fall | ו + **יפל** | Conjunction + Agency → Projection → Direction |
+| 1 | וַיַּפֵּל֩ | and caused to fall | ו + **יפל** | Conjunction + [causative] Agency → Projection → Direction |
 | 2 | יְהוָ֨ה | the LORD | **יהו** + ה | Agency → Revelation → Conjunction (feminine/directional) |
 | 3 | אֱלֹהִ֧ים ׀ | God | **אלה** + ים | Origination → Direction → Revelation (masculine plural) |
 | 4 | תַּרְדֵּמָ֛ה | deep sleep | **תרד** + מה | Completion → Headship → Passage (suffix) |
@@ -507,7 +519,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 8 | מִן־ | from | מן | Flow → Propagation |
 | 9 | הָֽאָדָ֖ם | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
 | 10 | לְאִשָּׁ֑ה | for a wife | ל + **אשה** | Direction + Origination → Intensification → Revelation |
-| 11 | וַיְבִאֶ֖הָ | and he brought her | ו + **יבא** + ה | Conjunction + Agency → Containment → Origination (feminine/directional) |
+| 11 | וַיְבִאֶ֖הָ | and he brought her | ו + **יבא** + ה | Conjunction + [causative] Agency → Containment → Origination (feminine/directional) |
 | 12 | אֶל־ | to | אל | Origination → Direction |
 | 13 | הֽ͏ָאָדָֽם׃ | the man | ה + **אדם** | Revelation + Origination → Passage → Flow |
 
@@ -528,7 +540,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 | 7 | וּבָשָׂ֖ר | and flesh | ו + **בשר** | Conjunction + Containment → Intensification → Headship |
 | 8 | מִבְּשָׂרִ֑י | from my flesh | מב + **שרי** | Flow+Containment + Intensification → Headship → Agency |
 | 9 | לְזֹאת֙ | for this | ל + **זאת** | Direction + Division → Origination → Completion |
-| 10 | יִקָּרֵ֣א | he will be called | י + **קרא** | *Yud* + Summons → Headship → Origination |
+| 10 | יִקָּרֵ֣א | he will be called | י + **קרא** | *Yud* + [received/reflected] Summons → Headship → Origination |
 | 11 | אִשָּׁ֔ה | woman | **אשה** | Origination → Intensification → Revelation |
 | 12 | כִּ֥י | for/because | כי | Actualization → Agency |
 | 13 | מֵאִ֖ישׁ | from man | מ + **איש** | Flow + Origination → Agency → Intensification |
@@ -539,22 +551,22 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 > עַל־ כֵּן֙ יֽ͏ַעֲזָב־ אִ֔ישׁ אֶת־ אָבִ֖יו וְאֶת־ אִמּ֑וֹ וְדָבַ֣ק בְּאִשְׁתּ֔וֹ וְהָי֖וּ לְבָשָׂ֥ר אֶחָֽד׃
 >
-> *upon/on thus/so he will abandon/leave man/husband direct object marker his father and (direct object) his mother and he clings in/with his wife and they will be to/for flesh one*
+> *upon/on thus/so he will abandon his man/husband direct object marker his father and direct object his mother and he clings in his wife and they were to one flesh one*
 
 | # | Hebrew | Meaning | Root | Dynamic |
 |---|--------|---------|------|---------|
 | 1 | עַל־ | upon/on | על | Perception → Direction |
 | 2 | כֵּן֙ | thus/so | כן | Actualization → Propagation |
-| 3 | יֽ͏ַעֲזָב־ | he will abandon/leave | י + **עזב** | *Yud* + Perception → Division → Containment |
-| 4 | אִ֔ישׁ | man/husband | **איש** | Origination → Agency → Intensification |
+| 3 | יֽ͏ַעֲזָב־ | he will abandon | י + **עזב** | *Yud* + Perception → Division → Containment |
+| 4 | אִ֔ישׁ | his man/husband | **איש** | Origination → Agency → Intensification |
 | 5 | אֶת־ | direct object marker | את | Origination → Completion |
 | 6 | אָבִ֖יו | his father | **אבי** + ו | Origination → Containment → Agency (his/him) |
-| 7 | וְאֶת־ | and (direct object) | **ואת** | Conjunction → Origination → Completion |
+| 7 | וְאֶת־ | and direct object | **ואת** | Conjunction → Origination → Completion |
 | 8 | אִמּ֑וֹ | his mother | **אמו** | Origination → Flow → Conjunction |
 | 9 | וְדָבַ֣ק | and he clings | ו + **דבק** | Conjunction + Passage → Containment → Summons |
-| 10 | בְּאִשְׁתּ֔וֹ | in/with his wife | ב + **אשת** + ו | Containment + Origination → Intensification → Completion (his/him) |
-| 11 | וְהָי֖וּ | and they will be | ו + **היו** | Conjunction + Revelation → Agency → Conjunction |
-| 12 | לְבָשָׂ֥ר | to/for flesh | ל + **בשר** | Direction + Containment → Intensification → Headship |
+| 10 | בְּאִשְׁתּ֔וֹ | in his wife | ב + **אשת** + ו | Containment + Origination → Intensification → Completion (his/him) |
+| 11 | וְהָי֖וּ | and they were | ו + **היו** | Conjunction + Revelation → Agency → Conjunction |
+| 12 | לְבָשָׂ֥ר | to one flesh | ל + **בשר** | Direction + Containment → Intensification → Headship |
 | 13 | אֶחָֽד׃ | one | **אחד** | Origination → Vitalization → Passage |
 
 ### Genesis 2:25
@@ -581,16 +593,16 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 
 | Dynamic Pattern | Occurrences | Words |
 |-----------------|-------------|-------|
-| Origination → Passage → Flow | 21 | and man/Adam, the ground/soil, the ground/earth, the man |
+| Origination → Passage → Flow | 21 | and man, the ground, the earth/ground, the man |
 | Origination → Direction → Revelation | 15 | God, these |
-| Agency → Revelation → Conjunction | 11 | YHWH, the LORD |
-| Origination → Headship → Alignment | 9 | and the earth, earth, in the land/earth, the earth/land |
+| Agency → Revelation → Conjunction | 11 | YHWH, the LORD, Yahweh |
+| Origination → Headship → Alignment | 9 | and the earth, earth, in the land, the earth |
 | Origination → Intensification → Headship | 7 | which, which/that, whom, that |
-| Revelation → Conjunction → Origination | 6 | he/it, that one, it, that/it is |
-| Flow → Agency → Flow | 5 | the heavens, and heavens, of the heavens |
+| Revelation → Conjunction → Origination | 6 | he/it, that one, it, that/it |
+| Flow → Agency → Flow | 5 | the heavens, and heavens, השמים |
 | Agency → Conjunction → Flow | 5 | on the day, day, in the day |
 | Materialization → Conjunction → Containment | 5 | and good, good |
-| Origination → Actualization → Direction | 5 | for food, you shall eat, you may eat, will eat you |
+| Origination → Actualization → Direction | 5 | for food, you shall eat, you may eat, it will eat you |
 
 ### Key Observations
 
@@ -605,7 +617,7 @@ Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 
 ### Known Limitations
 
 - **שמים** ("heavens") is decomposed as ש+מים (Intensification + root מים). The root extraction treats ש as a prefix. The actual etymology of שמים is debated; this decomposition is heuristic.
-- **Verb stems** (binyanim) are not yet modeled. Forms like הבדיל (hiphil of בדל) show prefix stripping but do not indicate the causative/intensive meaning shift.
+- **Verb stems** (binyanim) are detected via MorphHB morphological tagging. Non-Qal verbs show a stem label (e.g., [causative] for Hiphil) before the root dynamics.
 - **Suffix labeling** is approximate. Some multi-letter suffixes are labeled generically.
 - This is a **raw dynamic reading**, not a polished translation. The dynamics show structural relationships; readable English rendering is a separate step.
 

@@ -32,18 +32,25 @@ function formatDynamic(word) {
     parts.push(prefStrs.join('+'));
   }
 
+  // Binyan label (for non-Qal verbs)
+  const binyanLabel = word.binyanDynamic || '';
+
   // Root
   if (word.root) {
+    let rootStr;
     if (word.root.r1) {
-      parts.push(`${word.root.r1.dynamic} → ${word.root.r2.dynamic} → ${word.root.r3.dynamic}`);
+      rootStr = `${word.root.r1.dynamic} → ${word.root.r2.dynamic} → ${word.root.r3.dynamic}`;
     } else if (word.root.dynamics) {
-      parts.push(word.root.dynamics.map(d => d.dynamic).join(' → '));
+      rootStr = word.root.dynamics.map(d => d.dynamic).join(' → ');
     } else if (word.root.extended && word.root.dynamics) {
-      parts.push(word.root.dynamics.map(d => d.dynamic).join(' → '));
+      rootStr = word.root.dynamics.map(d => d.dynamic).join(' → ');
+    }
+    if (rootStr) {
+      parts.push(binyanLabel ? `${binyanLabel} ${rootStr}` : rootStr);
     }
   } else {
     // Letter-by-letter
-    parts.push(word.letterByLetter);
+    parts.push(binyanLabel ? `${binyanLabel} ${word.letterByLetter}` : word.letterByLetter);
   }
 
   return parts.join(' + ');
@@ -138,6 +145,18 @@ function generateInterlinear(data) {
   lines.push('');
   lines.push('Root dynamics read as a micro-sentence: R1 (initiates) → R2 (mediates) → R3 (completes).');
   lines.push('');
+  lines.push('**Verb Stems** (binyanim) — detected via MorphHB morphological tagging:');
+  lines.push('');
+  lines.push('| Label | Stem | Meaning Shift |');
+  lines.push('|-------|------|---------------|');
+  lines.push('| *(unmarked)* | Qal | Base/simple action |');
+  lines.push('| [received/reflected] | Niphal | Passive or reflexive |');
+  lines.push('| [intensive] | Piel | Intensive or factitive |');
+  lines.push('| [intensive-received] | Pual | Intensive passive |');
+  lines.push('| [causative] | Hiphil | Causative active |');
+  lines.push('| [causative-received] | Hophal | Causative passive |');
+  lines.push('| [reflexive] | Hitpael | Reflexive or reciprocal |');
+  lines.push('');
   lines.push('---');
   lines.push('');
 
@@ -228,7 +247,7 @@ function generateInterlinear(data) {
   lines.push('### Known Limitations');
   lines.push('');
   lines.push('- **שמים** ("heavens") is decomposed as ש+מים (Intensification + root מים). The root extraction treats ש as a prefix. The actual etymology of שמים is debated; this decomposition is heuristic.');
-  lines.push('- **Verb stems** (binyanim) are not yet modeled. Forms like הבדיל (hiphil of בדל) show prefix stripping but do not indicate the causative/intensive meaning shift.');
+  lines.push('- **Verb stems** (binyanim) are detected via MorphHB morphological tagging. Non-Qal verbs show a stem label (e.g., [causative] for Hiphil) before the root dynamics.');
   lines.push('- **Suffix labeling** is approximate. Some multi-letter suffixes are labeled generically.');
   lines.push('- This is a **raw dynamic reading**, not a polished translation. The dynamics show structural relationships; readable English rendering is a separate step.');
   lines.push('');
