@@ -95,9 +95,22 @@ Also needed:
 
 **Total: 11 interlinear texts, 2,846 words, 204 verses across 6 genres.**
 
-### Phase 5 — The Dynamic Tanach
+### Phase 5 — The Dynamic Tanach (In Progress)
 
 **Goal:** Every word in the Hebrew Bible with its dynamic reading alongside the traditional translation. A complete interlinear Dynamic Tanach.
+
+**Progress:**
+
+| Book | Chapters | Words | Status |
+|------|----------|-------|--------|
+| **Genesis** | 50/50 | 20,611 | **Complete** (2026-03-04) |
+| Exodus | 2/40 | — | Ch. 3, 20 |
+| Deuteronomy | 1/34 | — | 6:4-9 |
+| Psalms | 2/150 | — | Ps. 1, 23 |
+| Isaiah | 1/66 | — | Ch. 53 |
+| Ruth | 1/4 | — | Ch. 1 |
+
+**Full corpus:** 305,463 words, 39 books. Verb coverage: 62,956 verbs detected (20.6%), 42,126 unique pointed forms via MorphHB lookup.
 
 **This is the long goal.** It requires:
 - Automated glosser running on the full 305,071-word corpus
@@ -138,7 +151,7 @@ This work should be open. The findings, tools, data, and methodology should be p
 1. **Root extraction is heuristic.** Our prefix/suffix stripping approximates roots but doesn't handle all morphological patterns. A proper morphological parser (like ETCBC or OpenScriptures) would improve accuracy.
 2. **The LLM is a judge, not an oracle.** We used Grok 4.1 to evaluate alignments. Its assessments are informed but not authoritative. Human Hebrew scholars should verify key results.
 3. **2 of 500 roots don't illuminate.** ארצ (earth) and צנה (cold) remain genuinely weak after exhaustive investigation. See [Phase 3 Failure Analysis](evidence/phase3-failure-analysis.md).
-4. **Verb stems are not yet modeled.** The 7 binyanim significantly modify root meaning. Until these are incorporated, the glosser handles base roots but not inflected forms fully.
+4. **Verb stems are detected but not deeply modeled.** The 7 binyanim are now identified via MorphHB morphological tagging (42,126 pointed forms, 99.7% unambiguous). Non-Qal verbs show stem labels ([causative], [intensive], etc.) in interlinear output. Deeper modeling — where binyan dynamics compound with root dynamics — remains future work.
 5. **This is a layer, not a replacement.** The dynamic translation adds a dimension traditional translations don't capture. It does not replace lexical, grammatical, or contextual translation. It sits alongside.
 
 ---
