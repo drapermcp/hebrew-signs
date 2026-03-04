@@ -163,7 +163,9 @@ These are **higher-order functions** — they operate on root-meanings, not on i
 
 The binyanim do not change what the root IS — they change how it is DEPLOYED. In computational terms, they are function modifiers: decorators, wrappers, or middleware applied to the base instruction.
 
-**Note:** Binyanim modeling is not yet implemented in the glosser. This is the next major extension within the Hebrew domain.
+**Validation (2026-03-04):** Blind prediction test across 100 roots (293 root-binyan pairs) achieved **78.5% predictive accuracy** — predictions based on dynamics + Qal meaning matched actual binyan meanings before seeing them. Passive binyanim scored highest (Hophal 93%, Niphal 82%, Pual 79%). Only 6% outright misses. See [Binyanim Validation](../evidence/binyanim-validation.md).
+
+**Prefix letter dynamics:** The claim that each binyan's added letters carry predictive dynamics is **partially validated**. Piel/Pual gemination (doubling R2 = intensification) rated **strong** — genuinely predictive. Niphal (נ = Propagation) and Hitpael (הת = Revelation + Completion) rated **moderate**. Hiphil/Hophal (ה = Revelation → causation) rated **weak** — this mapping is a semantic stretch and should be treated as tentative rather than established.
 
 ---
 

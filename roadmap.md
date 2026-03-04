@@ -74,7 +74,7 @@ Three lines per word: Hebrew, traditional, dynamic.
 3. **New patterns** — failures that reveal something we haven't mapped yet
 
 Also needed:
-- **Verb stems (binyanim):** Hebrew has 7 verb patterns (qal, niphal, piel, pual, hiphil, hophal, hitpael) that modify root meaning. How do these interact with letter dynamics? Does piel (intensive) correspond to a specific positional intensification?
+- **Verb stems (binyanim):** ✅ **Validated (2026-03-04).** Blind prediction test across 100 roots (293 pairs) achieved 78.5% predictive accuracy. Dynamics + Qal meaning predict binyan meaning shifts before seeing actuals. Passive binyanim scored highest (Hophal 93%). Piel/Pual gemination = intensification strongly validated. Hiphil ה prefix dynamics weak — needs revision. See [Binyanim Validation](evidence/binyanim-validation.md).
 - **Construct chains:** Hebrew noun phrases (סֵפֶר הַתּוֹרָה, "book of the Torah") have relational structure. How do letter dynamics compose across word boundaries?
 - **Pronoun suffixes:** Possessive/object suffixes (-ו, -ה, -ם) are themselves Hebrew letters with dynamics. Does "his" (ו, conjunction) imply binding? Does "her" (ה, revelation) imply making present?
 

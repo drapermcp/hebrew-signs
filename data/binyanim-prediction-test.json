@@ -1,0 +1,3893 @@
+{
+  "type": "hebrew-signs-binyanim-prediction-test",
+  "description": "Blind prediction test of binyanim meaning shifts using letter dynamics",
+  "model": "grok-4-1-fast-non-reasoning",
+  "generated": "2026-03-04T11:22:50.998Z",
+  "test1": {
+    "methodology": "Three-call blind prediction: (B) get actual meanings, (A) predict from dynamics + Qal meaning, (C) score predictions against actuals",
+    "scores": {
+      "totalPairs": 293,
+      "totalRoots": 100,
+      "counts": {
+        "precise": 205,
+        "directional": 25,
+        "partial": 45,
+        "miss": 18
+      },
+      "predictiveRate": 78.5,
+      "fullRate": 93.9,
+      "perBinyan": {
+        "Niphal": {
+          "precise": 56,
+          "directional": 4,
+          "partial": 8,
+          "miss": 5,
+          "total": 73
+        },
+        "Hiphil": {
+          "precise": 47,
+          "directional": 6,
+          "partial": 18,
+          "miss": 1,
+          "total": 72
+        },
+        "Hitpael": {
+          "precise": 20,
+          "directional": 4,
+          "partial": 7,
+          "miss": 3,
+          "total": 34
+        },
+        "Pual": {
+          "precise": 26,
+          "directional": 1,
+          "partial": 4,
+          "miss": 3,
+          "total": 34
+        },
+        "Piel": {
+          "precise": 32,
+          "directional": 8,
+          "partial": 6,
+          "miss": 6,
+          "total": 52
+        },
+        "Hophal": {
+          "precise": 24,
+          "directional": 2,
+          "partial": 2,
+          "miss": 0,
+          "total": 28
+        }
+      }
+    },
+    "results": [
+      {
+        "root": "אמר",
+        "strongs": "H559",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Hitpael"
+        ],
+        "qal_meaning": "say, speak, tell, command",
+        "dynamic_gloss": "Origination (initiating, establishing presence) → Flow (channeling from source) → Headship (leading, advancing)",
+        "predictions": {
+          "Niphal": "be said, be spoken, be commanded (propagation extends the initiation of speech to be received or reflected back)",
+          "Hiphil": "cause to say, reveal speech, proclaim (revelation makes the originating leadership of speech visible to others)",
+          "Hitpael": "reveal oneself in speaking, complete one's own declaration (revelation + completion internalizes the flow of commanding words)"
+        },
+        "actuals": {
+          "Qal": "say, speak, tell, command",
+          "Niphal": "be said, be called",
+          "Hiphil": "cause to say, declare, appoint",
+          "Hitpael": "say repeatedly, speak out"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be said, be called' closely"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'cause to say, declare, appoint'"
+          },
+          "Hitpael": {
+            "score": "directional",
+            "note": "Repetition/iteration directionally aligns with repeated speaking, despite elaborate phrasing"
+          }
+        },
+        "reasoning": "Qal: Origination (א) flows (מ) into headship (ר) = initiating authoritative speech. Niphal adds Nun-propagation for passive reception/extension of speech. Hiphil's Hei-revelation exposes the flow to cause speaking. Hitpael combines revelation + completion for self-directed authoritative expression."
+      },
+      {
+        "root": "עשה",
+        "strongs": "H6213",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual",
+          "Piel"
+        ],
+        "qal_meaning": "do, make, work, produce",
+        "dynamic_gloss": "Perception (seeing, beholding) → Intensification (extending, amplifying) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "be made, be produced, appear (propagation extends perceived intensified revelation into passive form)",
+          "Pual": "be thoroughly made, be intensely produced (intensified Shin amplifies the making passively)",
+          "Piel": "make intensively, produce repeatedly, work thoroughly (doubling Shin intensifies the amplification of perceived revelation)"
+        },
+        "actuals": {
+          "Qal": "do, make, work, produce",
+          "Niphal": "be done, be made",
+          "Pual": "be made, be done",
+          "Piel": "do, make, fashion, offer sacrifice"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be done, be made'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Matches 'be made, be done'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive sense covers 'do, make, fashion'"
+          }
+        },
+        "reasoning": "Qal: Perception (ע) intensified (ש) into revelation (ה) = beholding amplified into visible production. Niphal propagates this passively. Piel/Pual double Shin to hyper-intensify the mediating amplification in active/passive forms."
+      },
+      {
+        "root": "בוא",
+        "strongs": "H935",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Hophal"
+        ],
+        "qal_meaning": "come, enter, go, arrive",
+        "dynamic_gloss": "Containment (enclosing, housing, giving form) → Conjunction (joining, binding, linking) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Hiphil": "bring, cause to enter, lead in (revelation makes the contained conjunction toward origination visible, causing entry)",
+          "Hophal": "be brought, be caused to enter (passive reception of the revealed causation into contained origination)"
+        },
+        "actuals": {
+          "Hiphil": "bring, come, enter, go",
+          "Qal": "come, enter, go, arrive",
+          "Hophal": "be brought, be entered"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'bring, come, enter, go'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be brought, be entered'"
+          }
+        },
+        "reasoning": "Qal: Containment (ב) conjoins (ו) to origination (א) = entering a new presence. Hiphil reveals this dynamic to cause it. Hophal passively receives the causative revelation."
+      },
+      {
+        "root": "נתנ",
+        "strongs": "H5414",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hophal"
+        ],
+        "qal_meaning": "give, put, set, place",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Completion (marking endpoints, sealing) → Propagation (extending outward, transmitting)",
+        "predictions": {
+          "Niphal": "be given, be placed (propagation reflects the transmitted completion back to subject)",
+          "Hophal": "be caused to be given, be set in place (passive reception of causation on propagated completion)"
+        },
+        "actuals": {
+          "Qal": "give, put, set, place",
+          "Niphal": "be given, be put",
+          "Hophal": "be given, be put"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be given, be put'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be given, be put'"
+          }
+        },
+        "reasoning": "Qal: Propagation (נ) completes (ת) into propagation (נ) = extending to seal outward. Niphal adds propagation for reflexive/passive giving. Hophal passively receives external causation of this dynamic."
+      },
+      {
+        "root": "ראה",
+        "strongs": "H7200",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Hitpael",
+          "Hophal"
+        ],
+        "qal_meaning": "see, look, behold, perceive",
+        "dynamic_gloss": "Headship (leading, advancing) → Origination (initiating, establishing presence) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "be seen, appear, be revealed (propagation extends headship-initiated perception)",
+          "Hiphil": "cause to see, show, reveal (revelation amplifies leading perception)",
+          "Hitpael": "show oneself, reveal internally, complete one's perception (revelation + completion on leading origination)",
+          "Hophal": "be shown, be caused to be seen (passive reception of revealed perception)"
+        },
+        "actuals": {
+          "Qal": "see, look, behold, perceive",
+          "Niphal": "be seen, appear",
+          "Hiphil": "cause to see, show, present",
+          "Hitpael": "appear, look to oneself",
+          "Hophal": "be shown, be seen"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be seen, appear'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'cause to see, show, present'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Matches reflexive 'appear, look to oneself'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be shown, be seen'"
+          }
+        },
+        "reasoning": "Qal: Headship (ר) originates (א) revelation (ה) = leading perceptual unveiling. Niphal propagates passively. Hiphil reveals causatively. Hitpael reveals/completes reflexively. Hophal passivizes the causation."
+      },
+      {
+        "root": "שמע",
+        "strongs": "H8085",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Piel"
+        ],
+        "qal_meaning": "hear, listen, obey",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Flow (channeling from source) → Perception (seeing, beholding)",
+        "predictions": {
+          "Niphal": "be heard, be listened to (propagation extends intensified flow of perception)",
+          "Hiphil": "cause to hear, announce, proclaim (revelation makes amplified perceptual flow causative)",
+          "Piel": "hear intensively, obey thoroughly, proclaim repeatedly (doubling Mem intensifies the channeling of perceptual hearing)"
+        },
+        "actuals": {
+          "Qal": "hear, listen, obey",
+          "Niphal": "be heard",
+          "Hiphil": "cause to hear, tell, proclaim",
+          "Piel": "hear intelligently, pay attention"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be heard'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'cause to hear, tell, proclaim'"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive hearing aligns generally with 'hear intelligently, pay attention'"
+          }
+        },
+        "reasoning": "Qal: Intensification (ש) flows (מ) to perception (ע) = amplified hearing. Niphal propagates passively. Hiphil reveals to cause. Piel doubles Mem to hyper-channel the flow intensively."
+      },
+      {
+        "root": "דבר",
+        "strongs": "H1696",
+        "binyanim": [
+          "Piel",
+          "Qal",
+          "Hitpael",
+          "Hiphil",
+          "Pual",
+          "Niphal"
+        ],
+        "qal_meaning": "drive (herds), speak (rare)",
+        "dynamic_gloss": "Passage (directing through thresholds) → Containment (enclosing, housing, giving form) → Headship (leading, advancing)",
+        "predictions": {
+          "Piel": "speak intensively, drive thoroughly, arrange words repeatedly (doubling Bet intensifies contained passage to headship)",
+          "Hitpael": "arrange oneself, speak reciprocally, complete passage internally (revelation + completion on directed containment)",
+          "Hiphil": "cause to speak/drive, direct passage causatively (revelation exposes leading containment)",
+          "Pual": "be spoken/driven intensively (passive intensified containment)",
+          "Niphal": "be driven/spoken, pass through reflexively (propagation extends directed headship)"
+        },
+        "actuals": {
+          "Piel": "speak, say, declare, converse",
+          "Qal": "drive (herds), speak (rare)",
+          "Hitpael": "speak to one another",
+          "Hiphil": "cause to speak",
+          "Pual": "be spoken of",
+          "Niphal": "be spoken to"
+        },
+        "scores": {
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive speaking matches 'speak, say, declare'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Reciprocal speaking matches 'speak to one another'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'cause to speak'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Matches 'be spoken of'"
+          },
+          "Niphal": {
+            "score": "partial",
+            "note": "Passive speaking aligns somewhat, but misses 'to' directionality"
+          }
+        },
+        "reasoning": "Qal: Passage (ד) contained (ב) to headship (ר) = directing herds/speech forward. Piel doubles Bet for intensive containment. Hitpael reveals/completes reflexively. Hiphil reveals causatively. Pual intensifies passively. Niphal propagates passively."
+      },
+      {
+        "root": "ישב",
+        "strongs": "H3427",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal",
+          "Hophal",
+          "Piel"
+        ],
+        "qal_meaning": "sit, dwell, remain, abide",
+        "dynamic_gloss": "Agency (acting with purpose) → Intensification (extending, amplifying) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Hiphil": "cause to sit, establish dwelling, seat someone (revelation makes purposeful intensified containment visible)",
+          "Niphal": "be seated, remain passively (propagation extends agency into containment)",
+          "Hophal": "be caused to sit, be established (passive reception of revealed agency)",
+          "Piel": "sit intensively, dwell thoroughly, abide repeatedly (doubling Shin hyper-intensifies the amplification)"
+        },
+        "actuals": {
+          "Qal": "sit, dwell, remain, abide",
+          "Hiphil": "set, seat, cause to dwell",
+          "Niphal": "be seated, be settled",
+          "Hophal": "be made to dwell",
+          "Piel": "settle down"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'set, seat, cause to dwell'"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be seated, be settled'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be made to dwell'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive dwelling matches 'settle down'"
+          }
+        },
+        "reasoning": "Qal: Agency (י) intensified (ש) into containment (ב) = purposeful abiding. Hiphil reveals causatively. Niphal propagates passively. Hophal passivizes causation. Piel doubles Shin for intensive amplification."
+      },
+      {
+        "root": "יצא",
+        "strongs": "H3318",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Hophal"
+        ],
+        "qal_meaning": "go out, come out, go forth",
+        "dynamic_gloss": "Agency (acting with purpose) → Alignment (ordering toward justice) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Hiphil": "cause to go out, bring forth, release (revelation makes purposeful alignment to origination causative)",
+          "Hophal": "be brought out, be caused to exit (passive reception of revealed emergence)"
+        },
+        "actuals": {
+          "Hiphil": "bring out, lead out, send out",
+          "Qal": "go out, come out, go forth",
+          "Hophal": "be brought out, be led out"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'bring out, lead out, send out'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be brought out, be led out'"
+          }
+        },
+        "reasoning": "Qal: Agency (י) aligns (צ) to origination (א) = purposeful just emergence. Hiphil reveals to cause. Hophal passivizes the causation."
+      },
+      {
+        "root": "שוב",
+        "strongs": "H7725",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal"
+        ],
+        "qal_meaning": "turn back, return, repent",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Conjunction (joining, binding, linking) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Hiphil": "cause to return, restore, bring back (revelation makes intensified conjunction to containment causative)",
+          "Hophal": "be returned, be restored (passive reception of revealed turning)"
+        },
+        "actuals": {
+          "Qal": "turn back, return, repent",
+          "Hiphil": "bring back, restore, return",
+          "Hophal": "be returned, be restored"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'bring back, restore, return'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be returned, be restored'"
+          }
+        },
+        "reasoning": "Qal: Intensification (ש) conjoins (ו) to containment (ב) = amplified return to enclosure. Hiphil reveals causatively. Hophal passivizes the causation."
+      },
+      {
+        "root": "לקח",
+        "strongs": "H3947",
+        "binyanim": [
+          "Qal",
+          "Pual",
+          "Hitpael",
+          "Niphal"
+        ],
+        "qal_meaning": "take, seize, carry off",
+        "dynamic_gloss": "Direction (pointing toward, purposing) → Summons (calling from depth) → Vitalization (animating with life-force)",
+        "predictions": {
+          "Pual": "be taken/seized intensively, be carried off with vital force",
+          "Hitpael": "take/receive oneself purposefully with vital summons, equip oneself from depth",
+          "Niphal": "be taken/received by direction from depth, be seized through propagation"
+        },
+        "actuals": {
+          "Qal": "take, seize, carry off",
+          "Pual": "be taken",
+          "Hitpael": "take for oneself, seize for oneself",
+          "Niphal": "be taken, be captured"
+        },
+        "scores": {
+          "Pual": {
+            "score": "partial",
+            "note": "Adds unneeded 'intensively' and 'vital force'; core 'be taken' matches but extras diverge"
+          },
+          "Hitpael": {
+            "score": "partial",
+            "note": "Reflexive 'for oneself' right direction, but 'vital summons/equip from depth' diverges significantly"
+          },
+          "Niphal": {
+            "score": "partial",
+            "note": "Core 'be taken/seized' matches; extra 'from depth/propagation' is divergence"
+          }
+        },
+        "reasoning": "Qal: purposeful direction summons vital life to seize. Pual doubles ק (summons), intensifying passive reception of vital taking. Hitpael adds הת (reveal + complete), so subject reveals/completes self-taking with directed summons-vitality. Niphal adds נ (propagation), extending the seizing action passively to subject."
+      },
+      {
+        "root": "ידע",
+        "strongs": "H3045",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Hitpael",
+          "Hophal",
+          "Pual",
+          "Piel"
+        ],
+        "qal_meaning": "know, perceive, understand, be acquainted with",
+        "dynamic_gloss": "Agency (acting with purpose) → Passage (directing through thresholds) → Perception (seeing, beholding)",
+        "predictions": {
+          "Niphal": "be known/perceived, reveal oneself through extended agency",
+          "Hiphil": "cause to know/perceive, reveal directed passage to beholding",
+          "Hitpael": "know oneself purposefully, perceive through self-directed thresholds",
+          "Hophal": "be caused to know/perceive, have perception revealed passively",
+          "Pual": "be known intensively through doubled passage, be thoroughly perceived",
+          "Piel": "know intensively/perceive thoroughly, direct agency through repeated thresholds"
+        },
+        "actuals": {
+          "Qal": "know, perceive, understand, be acquainted with",
+          "Niphal": "be known",
+          "Hiphil": "make known, declare, inform",
+          "Hitpael": "act as one who knows, pretend to know",
+          "Hophal": "be made known",
+          "Pual": "be made known",
+          "Piel": "know intimately (sexual), have knowledge of"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Core 'be known' matches precisely; extras are elaborative"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'make known/declare/inform' in causative revelation"
+          },
+          "Hitpael": {
+            "score": "directional",
+            "note": "Reflexive 'know oneself' directionally fits 'act/pretend to know', but details differ"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive causative 'be made known' aligns closely"
+          },
+          "Pual": {
+            "score": "partial",
+            "note": "'Be known intensively' connects but actual is causative 'be made known'"
+          },
+          "Piel": {
+            "score": "partial",
+            "note": "Intensive 'know thoroughly' direction ok, but misses sexual intimacy specificity"
+          }
+        },
+        "reasoning": "Qal: purposeful agency directs through thresholds to perception. Niphal propagates perception to subject passively. Hiphil reveals the knowing causatively. Hitpael reveals/completes self-perception. Hophal passively receives causative revelation of knowing. Pual/Piel double ד (passage), intensifying thorough directed knowing."
+      },
+      {
+        "root": "עלה",
+        "strongs": "H5927",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal",
+          "Hophal",
+          "Hitpael"
+        ],
+        "qal_meaning": "go up, ascend, come up",
+        "dynamic_gloss": "Perception (seeing, beholding) → Direction (pointing toward, purposing) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "cause to ascend, reveal directed perception upward",
+          "Niphal": "be ascended/propagated upward, ascend reflexively through extension",
+          "Hophal": "be caused to ascend, have upward revelation received passively",
+          "Hitpael": "ascend for oneself revealingly, complete self-directed perception upward"
+        },
+        "actuals": {
+          "Qal": "go up, ascend, come up",
+          "Hiphil": "bring up, offer up, cause to ascend",
+          "Niphal": "be brought up",
+          "Hophal": "be brought up",
+          "Hitpael": "arise, rise up"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'cause to ascend/bring up' matches exactly"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be brought up' aligns with prediction core"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive causative 'be brought up' matches"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Self-ascend 'arise/rise up' fits closely"
+          }
+        },
+        "reasoning": "Qal: perceiving direction reveals ascent. Hiphil adds ה revelation to cause ascent. Niphal propagates ascent passively/reflexively. Hophal passively receives causative ascent revelation. Hitpael adds הת to reveal/complete self-ascent with perceptual direction."
+      },
+      {
+        "root": "שלח",
+        "strongs": "H7971",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Pual",
+          "Hiphil",
+          "Niphal"
+        ],
+        "qal_meaning": "send, send away, stretch out",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Direction (pointing toward, purposing) → Vitalization (animating with life-force)",
+        "predictions": {
+          "Piel": "send intensively, amplify directed vitalization repeatedly",
+          "Pual": "be sent intensively, receive amplified vital direction passively",
+          "Hiphil": "cause to send/stretch, reveal intensified vital direction",
+          "Niphal": "be sent/propagated away, extend oneself in vital sending"
+        },
+        "actuals": {
+          "Qal": "send, send away, stretch out",
+          "Piel": "send, send away",
+          "Pual": "be sent",
+          "Hiphil": "send, send away",
+          "Niphal": "be sent"
+        },
+        "scores": {
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive sending right direction, but Piel= Qal here"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive 'be sent' matches core"
+          },
+          "Hiphil": {
+            "score": "directional",
+            "note": "Causative direction right, but Hiphil= Qal semantically"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be sent' aligns"
+          }
+        },
+        "reasoning": "Qal: intensification directs vitalization to send. Piel/Pual double ל (direction), intensifying thorough sending. Hiphil reveals causative sending. Niphal propagates sending passively/reflexively."
+      },
+      {
+        "root": "מות",
+        "strongs": "H4191",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal"
+        ],
+        "qal_meaning": "die, be dead",
+        "dynamic_gloss": "Flow (channeling from source) → Conjunction (joining, binding, linking) → Completion (marking endpoints, sealing)",
+        "predictions": {
+          "Hiphil": "cause to die, reveal channeled binding to completion",
+          "Hophal": "be caused to die, receive revealed flow-binding completion passively"
+        },
+        "actuals": {
+          "Qal": "die, be dead",
+          "Hiphil": "kill, put to death, have one executed",
+          "Hophal": "be put to death, be killed"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'kill/put to death' matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive 'be killed' aligns precisely"
+          }
+        },
+        "reasoning": "Qal: flow binds to complete (death). Hiphil reveals causation of this flow-binding end. Hophal passively receives the causative completion."
+      },
+      {
+        "root": "אכל",
+        "strongs": "H398",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Piel"
+        ],
+        "qal_meaning": "eat, devour, consume",
+        "dynamic_gloss": "Origination (initiating, establishing presence) → Actualization (holding, measuring, realizing) → Direction (pointing toward, purposing)",
+        "predictions": {
+          "Niphal": "be eaten/consumed, be propagated into actualized direction",
+          "Hiphil": "cause to eat, reveal origination to held/purposed consumption",
+          "Piel": "eat intensively, actualize origination thoroughly toward purpose"
+        },
+        "actuals": {
+          "Qal": "eat, devour, consume",
+          "Niphal": "be eaten",
+          "Hiphil": "cause to eat",
+          "Piel": "devour greedily"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be eaten' matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'cause to eat' exact"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive eating direction right for 'devour greedily'"
+          }
+        },
+        "reasoning": "Qal: origination actualizes (holds) toward directed consumption. Niphal propagates consumption passively. Hiphil reveals causative eating. Piel doubles כ (actualization), intensifying thorough consumption."
+      },
+      {
+        "root": "קרא",
+        "strongs": "H7121",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual"
+        ],
+        "qal_meaning": "call, cry out, read",
+        "dynamic_gloss": "Summons (calling from depth) → Headship (leading, advancing) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Niphal": "be called/propagated from depth, call oneself reflexively",
+          "Pual": "be called intensively, receive summons-led origination passively"
+        },
+        "actuals": {
+          "Qal": "call, cry out, read",
+          "Niphal": "be called",
+          "Pual": "be called"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be called' matches core"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive 'be called' aligns"
+          }
+        },
+        "reasoning": "Qal: summons leads to originating call. Niphal propagates calling passively/reflexively. Pual doubles ר (headship), intensifying passive reception of led summons."
+      },
+      {
+        "root": "נשא",
+        "strongs": "H5375",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Hitpael",
+          "Piel"
+        ],
+        "qal_meaning": "lift, bear, carry, take up",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Intensification (extending, amplifying) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Niphal": "be lifted/propagated doubly, lift oneself through extension",
+          "Hiphil": "cause to lift/bear, reveal propagated amplification outward",
+          "Hitpael": "lift oneself revealingly, complete self-propagated intensification",
+          "Piel": "lift intensively, amplify propagation thoroughly/repeatedly"
+        },
+        "actuals": {
+          "Qal": "lift, bear, carry, take up",
+          "Niphal": "be lifted up, be exalted",
+          "Hiphil": "lift up, bear, carry, take",
+          "Hitpael": "lift oneself up, be exalted",
+          "Piel": "lift up, carry continuously"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "'Be lifted up/exalted' matches closely"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'lift up/carry' aligns"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Reflexive 'lift oneself/be exalted' fits"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive/continuous 'lift up/carry' matches"
+          }
+        },
+        "reasoning": "Qal: propagation intensifies to originate lifting. Niphal doubles נ propagation reflexively. Hiphil reveals causative lifting. Hitpael reveals/completes self-lifting. Piel doubles ש (intensification), thorough amplified lifting."
+      },
+      {
+        "root": "קומ",
+        "strongs": "H6965",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal",
+          "Piel"
+        ],
+        "qal_meaning": "arise, stand up, stand",
+        "dynamic_gloss": "Summons (calling from depth) → Conjunction (joining, binding, linking) → Flow (channeling from source)",
+        "predictions": {
+          "Hiphil": "cause to arise/stand, reveal summons-bound flow",
+          "Hophal": "be caused to arise, receive revealed deep-called standing passively",
+          "Piel": "arise intensively, bind summons to flow repeatedly/thoroughly"
+        },
+        "actuals": {
+          "Qal": "arise, stand up, stand",
+          "Hiphil": "cause to arise, raise up, establish",
+          "Hophal": "be raised up",
+          "Piel": "raise up, establish"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'raise up/establish' aligns"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive 'be raised up' matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive causative 'raise up/establish' fits"
+          }
+        },
+        "reasoning": "Qal: summons binds flow to arise. Hiphil reveals causation. Hophal passively receives it. Piel doubles ו (conjunction), intensifying bound rising."
+      },
+      {
+        "root": "שומ",
+        "strongs": "H7760",
+        "binyanim": [
+          "Qal",
+          "Hophal",
+          "Hiphil"
+        ],
+        "qal_meaning": "put, set, place, appoint",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Conjunction (joining, binding, linking) → Flow (channeling from source)",
+        "predictions": {
+          "Hophal": "be put/set passively, receive revealed intensified placement",
+          "Hiphil": "cause to put/set, reveal amplified binding into flow"
+        },
+        "actuals": {
+          "Qal": "put, set, place, appoint",
+          "Hophal": "be put, be placed",
+          "Hiphil": "set, put, appoint"
+        },
+        "scores": {
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive 'be put/placed' matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'set/put/appoint' aligns with Qal"
+          }
+        },
+        "reasoning": "Qal: intensification binds flow to place. Hophal passively receives causative placement. Hiphil reveals the causation."
+      },
+      {
+        "root": "עבר",
+        "strongs": "H5674",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Hitpael",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "pass over, cross over, pass through",
+        "dynamic_gloss": "Perception (seeing, beholding) → Containment (enclosing, housing, giving form) → Headship (leading, advancing)",
+        "predictions": {
+          "Hiphil": "reveal or make visible a crossing/passing over; cause to be seen advancing through containment",
+          "Hitpael": "reveal and complete one's own passing over; make oneself visible in crossing/advancing",
+          "Piel": "intensively enclose/form the passing (doubled Bet intensifies containment during transit)",
+          "Niphal": "be extended/propagated in passing over; the crossing propagates to the subject"
+        },
+        "actuals": {
+          "Qal": "pass over, cross over, pass through",
+          "Niphal": "pass over, be passed over",
+          "Piel": "cause to pass over, pass over, transgress",
+          "Hitpael": "pass oneself over",
+          "Hiphil": "cause to pass over, bring across, transgress, pass through"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation and passing right, but 'reveal/visible' diverges significantly from actual transitive causing"
+          },
+          "Hitpael": {
+            "score": "partial",
+            "note": "Reflexive passing connected, but 'reveal/complete/visible' adds unrelated layers"
+          },
+          "Piel": {
+            "score": "miss",
+            "note": "Enclose/containment interpretation mismatches causation/transgression"
+          },
+          "Niphal": {
+            "score": "directional",
+            "note": "Passive passing right directionally, propagation nuance differs"
+          }
+        },
+        "reasoning": "Qal: Perception (ע) beholds containment (ב) advancing (ר) as crossing. Hiphil adds Hei revelation to cause visibility in leading through. Hitpael adds Hei+Tav for self-revealing completion of advance. Piel doubles Bet to intensify containment in the perceptual transit. Niphal Nun extends the perceptual advance passively."
+      },
+      {
+        "root": "עמד",
+        "strongs": "H5975",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal"
+        ],
+        "qal_meaning": "stand, take one's stand, stand still, attend",
+        "dynamic_gloss": "Perception (seeing, beholding) → Flow (channeling from source) → Passage (directing through thresholds)",
+        "predictions": {
+          "Hiphil": "cause to be revealed in standing; make visible one's stance through directed flow",
+          "Hophal": "be caused to stand still visibly; receive revelation of perceptual flow through passage"
+        },
+        "actuals": {
+          "Qal": "stand, take one's stand, stand still, attend",
+          "Hiphil": "cause to stand, set, station, establish",
+          "Hophal": "be placed, stationed, set"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation to stand right category, but 'reveal/visible flow' diverges"
+          },
+          "Hophal": {
+            "score": "partial",
+            "note": "Passive causation to stand connected, visibility/revelation extraneous"
+          }
+        },
+        "reasoning": "Qal: Perception (ע) channels flow (מ) through passage (ד) as standing. Hiphil Hei reveals/causes the perceptual flow to stand. Hophal passively receives that causative revelation in directed stance."
+      },
+      {
+        "root": "הלכ",
+        "strongs": "H1980",
+        "binyanim": [
+          "Qal",
+          "Hitpael",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "go, walk, come",
+        "dynamic_gloss": "Revelation (making visible, pointing to) → Direction (pointing toward, purposing) → Actualization (holding, measuring, realizing)",
+        "predictions": {
+          "Hitpael": "reveal and complete one's own going/walking; make oneself visible in purposed actualization",
+          "Piel": "intensively direct the walking (doubled Lamed intensifies purpose in revelation to actualization)",
+          "Niphal": "be propagated/extended in going; the walk propagates to/received by subject"
+        },
+        "actuals": {
+          "Qal": "go, walk, come",
+          "Niphal": "be made to go",
+          "Piel": "cause to go, lead, guide",
+          "Hitpael": "walk about, go to and fro"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "partial",
+            "note": "Reflexive walking connected, but 'reveal/complete/visible' diverges from to-and-fro sense"
+          },
+          "Piel": {
+            "score": "partial",
+            "note": "Causation/directing motion right category, intensive purpose partial fit"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be made to go' closely matches propagation to subject"
+          }
+        },
+        "reasoning": "Qal: Revelation (ה) points direction (ל) to actualization (כ) as walking. Hitpael Hei+Tav self-reveals completion of directed actualization. Piel doubles Lamed to intensify directional purpose in the revealed walk. Niphal Nun propagates the revealed direction passively."
+      },
+      {
+        "root": "ילד",
+        "strongs": "H3205",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual",
+          "Hiphil",
+          "Piel",
+          "Hophal",
+          "Hitpael"
+        ],
+        "qal_meaning": "bear, bring forth, beget",
+        "dynamic_gloss": "Agency (acting with purpose) → Direction (pointing toward, purposing) → Passage (directing through thresholds)",
+        "predictions": {
+          "Niphal": "be propagated/extended in birth; be brought forth through directed agency",
+          "Pual": "be intensively directed in birth (doubled Lamed intensifies purpose passively received)",
+          "Hiphil": "cause to reveal/bring forth; make visible the purposeful passage into being",
+          "Piel": "intensively direct the begetting (doubled Lamed amplifies purpose in agency through passage)",
+          "Hophal": "be caused to be revealed in birth; receive visible purposeful passage passively",
+          "Hitpael": "reveal and complete one's own begetting; self-purposefully bring forth through passage"
+        },
+        "actuals": {
+          "Qal": "bear, bring forth, beget",
+          "Niphal": "be born",
+          "Piel": "cause to bear, beget",
+          "Pual": "be born",
+          "Hiphil": "cause to bring forth",
+          "Hophal": "be brought forth",
+          "Hitpael": "tremble, writhe (in birth pangs)"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive birth matches exactly"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive intensive birth matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative bringing forth matches closely"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive causation in begetting matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive causative birth matches"
+          },
+          "Hitpael": {
+            "score": "miss",
+            "note": "Self-begetting mismatches birth pangs/tremble"
+          }
+        },
+        "reasoning": "Qal: Agency (י) directs (ל) through passage (ד) as bearing. Niphal Nun extends birth passively. Pual doubles Lamed for intensive passive direction. Hiphil Hei reveals causative agency. Piel doubles Lamed to intensify direction. Hophal passive causative revelation. Hitpael Hei+Tav self-completes directed agency."
+      },
+      {
+        "root": "שמר",
+        "strongs": "H8104",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hitpael",
+          "Piel"
+        ],
+        "qal_meaning": "keep, guard, observe, give heed",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Flow (channeling from source) → Headship (leading, advancing)",
+        "predictions": {
+          "Niphal": "be propagated/extended in keeping; be guarded through amplified flow",
+          "Hitpael": "reveal and complete one's own keeping; make oneself visible in intensified flow leading",
+          "Piel": "intensively channel the guarding (doubled Mem amplifies flow in intensification to headship)"
+        },
+        "actuals": {
+          "Qal": "keep, guard, observe, give heed",
+          "Niphal": "be on guard, be kept",
+          "Piel": "keep, guard, observe carefully",
+          "Hitpael": "take heed, guard oneself"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive guarding/being kept matches"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Reflexive self-guarding matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive guarding matches"
+          }
+        },
+        "reasoning": "Qal: Intensification (ש) channels flow (מ) to headship (ר) as keeping. Niphal Nun propagates guarding passively. Hitpael Hei+Tav self-reveals completion of amplified flow. Piel doubles Mem to intensify channeling in the leading guard."
+      },
+      {
+        "root": "מצא",
+        "strongs": "H4672",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil"
+        ],
+        "qal_meaning": "find, attain, meet",
+        "dynamic_gloss": "Flow (channeling from source) → Alignment (ordering toward justice) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Niphal": "be propagated/extended in finding; be attained through aligned flow",
+          "Hiphil": "cause to reveal/find; make visible the flow-ordered origination"
+        },
+        "actuals": {
+          "Qal": "find, attain, meet",
+          "Niphal": "be found",
+          "Hiphil": "cause to find, find out, procure"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive being found matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative finding/procuring matches closely"
+          }
+        },
+        "reasoning": "Qal: Flow (מ) aligns (צ) to origination (א) as finding. Niphal Nun extends finding passively. Hiphil Hei reveals/causes the aligned flow to originate/meet."
+      },
+      {
+        "root": "נפל",
+        "strongs": "H5307",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Hitpael"
+        ],
+        "qal_meaning": "fall, lie, die",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Projection (propelling outward) → Direction (pointing toward, purposing)",
+        "predictions": {
+          "Hiphil": "cause to reveal falling; make visible the propagated projection directed downward",
+          "Hitpael": "reveal and complete one's own falling; self-direct the outward propulsion"
+        },
+        "actuals": {
+          "Qal": "fall, lie, die",
+          "Hiphil": "cause to fall, throw down, overthrow",
+          "Hitpael": "fall upon, attack, desert"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "directional",
+            "note": "Causative falling right, visibility extraneous"
+          },
+          "Hitpael": {
+            "score": "partial",
+            "note": "Reflexive falling connected loosely to attack, but diverges"
+          }
+        },
+        "reasoning": "Qal: Propagation (נ) projects (פ) directionally (ל) as falling. Hiphil Hei reveals/causes the propagating projection. Hitpael Hei+Tav self-completes the directed fall."
+      },
+      {
+        "root": "ירד",
+        "strongs": "H3381",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal"
+        ],
+        "qal_meaning": "go down, descend",
+        "dynamic_gloss": "Agency (acting with purpose) → Headship (leading, advancing) → Passage (directing through thresholds)",
+        "predictions": {
+          "Hiphil": "cause to reveal descending; make visible the purposeful leading through passage",
+          "Hophal": "be caused to descend visibly; receive revelation of agency-headship passage"
+        },
+        "actuals": {
+          "Qal": "go down, descend",
+          "Hiphil": "bring down, cause to descend",
+          "Hophal": "be brought down"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative descending matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive causative descending matches"
+          }
+        },
+        "reasoning": "Qal: Agency (י) leads (ר) through passage (ד) as descending. Hiphil Hei reveals/causes the leading descent. Hophal passively receives that causative revelation."
+      },
+      {
+        "root": "מלכ",
+        "strongs": "H4427",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal",
+          "Hophal"
+        ],
+        "qal_meaning": "reign, be king",
+        "dynamic_gloss": "Flow (channeling from source) → Direction (pointing toward, purposing) → Actualization (holding, measuring, realizing)",
+        "predictions": {
+          "Hiphil": "cause to reveal reigning; make visible the flowed direction actualized as king",
+          "Niphal": "be propagated/extended in reigning; be established as king through flow",
+          "Hophal": "be caused to reign visibly; receive revelation of directed actualization"
+        },
+        "actuals": {
+          "Qal": "reign, be king",
+          "Niphal": "be made king",
+          "Hiphil": "cause to reign, enthrone",
+          "Hophal": "be enthroned"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative reigning/enthroning matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive being made king matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive enthroning matches"
+          }
+        },
+        "reasoning": "Qal: Flow (מ) directs (ל) to actualization (כ) as reigning. Hiphil Hei reveals/causes the kingship. Niphal Nun propagates reigning passively. Hophal passive causative revelation."
+      },
+      {
+        "root": "ברכ",
+        "strongs": "H1288",
+        "binyanim": [
+          "Piel",
+          "Qal",
+          "Niphal",
+          "Hitpael",
+          "Hiphil",
+          "Pual"
+        ],
+        "qal_meaning": "bless, kneel",
+        "dynamic_gloss": "Containment (enclosing, housing, giving form) → Headship (leading, advancing) → Actualization (holding, measuring, realizing)",
+        "predictions": {
+          "Piel": "intensively lead the blessing (doubled Resh amplifies headship in containment to actualization)",
+          "Niphal": "be propagated/extended in blessing; be enclosed and actualized as blessed",
+          "Hitpael": "reveal and complete one's own blessing/kneeling; self-actualize contained headship",
+          "Hiphil": "cause to reveal blessing; make visible the contained leading into reality",
+          "Pual": "be intensively led in blessing (doubled Resh intensifies headship passively received)"
+        },
+        "actuals": {
+          "Qal": "bless, kneel",
+          "Niphal": "be blessed",
+          "Piel": "bless, praise",
+          "Pual": "be blessed",
+          "Hitpael": "bless oneself",
+          "Hiphil": "cause to bless, praise"
+        },
+        "scores": {
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive blessing matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive being blessed matches"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Reflexive self-blessing matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative blessing matches"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive intensive blessing matches"
+          }
+        },
+        "reasoning": "Qal: Containment (ב) leads (ר) to actualization (כ) as blessing. Piel doubles Resh to intensify leading. Niphal Nun propagates blessing passively. Hitpael Hei+Tav self-reveals completion. Hiphil Hei causes revelation. Pual intensive passive with doubled Resh."
+      },
+      {
+        "root": "ענה",
+        "strongs": "H6030",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "be afflicted, humbled; answer, speak",
+        "dynamic_gloss": "Perception (seeing, beholding) → Propagation (extending outward, transmitting) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Piel": "intensely propagate humble responses, testify repeatedly",
+          "Niphal": "be extended into affliction, receive propagated revelation"
+        },
+        "actuals": {
+          "Qal": "be afflicted, humbled; answer, speak",
+          "Piel": "afflict, humble; answer, testify",
+          "Niphal": "be afflicted, be humbled; be answered"
+        },
+        "scores": {
+          "Piel": {
+            "score": "partial",
+            "note": "Captures intensity and response/testify senses but adds extraneous 'propagate'"
+          },
+          "Niphal": {
+            "score": "miss",
+            "note": "Revelation and propagation unrelated to affliction or being answered"
+          }
+        },
+        "reasoning": "Qal anchors affliction/answering as perceiving (ע) → propagating (נ) → revealing (ה). Piel doubles נ (propagation), intensifying transmission for thorough/ repeated testifying or humbling. Niphal prefixes נ (propagation), making subject receive extended perception-revelation, as reflexive affliction or answered state."
+      },
+      {
+        "root": "ירה",
+        "strongs": "H3372",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "fear, be afraid; revere",
+        "dynamic_gloss": "Agency (acting with purpose) → Headship (leading, advancing) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Niphal": "be extended into fear, propagate reverence reflexively",
+          "Piel": "intensively lead in fear, repeatedly advance awe"
+        },
+        "actuals": {
+          "Qal": "fear, be afraid; revere",
+          "Niphal": "be feared",
+          "Piel": "cause to fear, make afraid"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches passive 'be feared' exactly"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive causation of fear matches 'cause to fear, make afraid'"
+          }
+        },
+        "reasoning": "Qal fear/revere as agency (י) → headship (ר) → origination (א). Niphal prefixes נ (propagation), extending the purposeful leading into reflexive fear state. Piel doubles ר (headship), intensifying mediation for thorough, repeated advancement in reverent agency."
+      },
+      {
+        "root": "פקד",
+        "strongs": "H6485",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Pual",
+          "Hophal",
+          "Niphal",
+          "Hitpael",
+          "Piel"
+        ],
+        "qal_meaning": "attend to, visit; muster, number",
+        "dynamic_gloss": "Projection (propelling outward) → Summons (calling from depth) → Passage (directing through thresholds)",
+        "predictions": {
+          "Hiphil": "reveal to muster, make visible attendance",
+          "Pual": "be thoroughly summoned through thresholds",
+          "Hophal": "be revealed into visitation, passively caused to pass",
+          "Niphal": "be propagated into mustering, extend attendance reflexively",
+          "Hitpael": "reveal completion in attending, complete self-mustering",
+          "Piel": "intensively summon for passage, repeatedly number"
+        },
+        "actuals": {
+          "Qal": "attend to, visit; muster, number",
+          "Hiphil": "appoint, charge; visit, punish; muster",
+          "Pual": "be appointed, be mustered",
+          "Hophal": "be visited, be punished",
+          "Niphal": "be visited, be numbered",
+          "Hitpael": "present oneself, be mustered",
+          "Piel": "visit, appoint; punish"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative direction but 'reveal/visible' diverges from appoint/visit/punish"
+          },
+          "Pual": {
+            "score": "miss",
+            "note": "'Summoned through thresholds' unrelated to being appointed/mustered"
+          },
+          "Hophal": {
+            "score": "partial",
+            "note": "Passive visitation direction but 'revealed/pass' adds irrelevance"
+          },
+          "Niphal": {
+            "score": "partial",
+            "note": "Passive sense but propagation/mustering extension loose"
+          },
+          "Hitpael": {
+            "score": "partial",
+            "note": "Self-action direction but 'reveal completion/mustering' diverges"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive visitation/summoning aligns generally with visit/appoint/punish"
+          }
+        },
+        "reasoning": "Qal attend/visit/muster as projection (פ) → summons (ק) → passage (ד). Hiphil prefixes ה (revelation), causing visible projection-summons. Pual doubles ק passively, receiving intensive summons-passage. Hophal adds ה passively, receiving caused revelation-projection. Niphal prefixes נ, propagating reflexive attendance. Hitpael adds הת (revelation-completion), self-completing summons. Piel doubles ק, intensifying summons for thorough mustering."
+      },
+      {
+        "root": "סור",
+        "strongs": "H5493",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Hophal"
+        ],
+        "qal_meaning": "turn aside, depart",
+        "dynamic_gloss": "Encirclement (surrounding, supporting) → Conjunction (joining, binding, linking) → Headship (leading, advancing)",
+        "predictions": {
+          "Hiphil": "reveal departure, make visible turning aside",
+          "Hophal": "be revealed into turning, passively caused to depart"
+        },
+        "actuals": {
+          "Hiphil": "cause to turn aside, remove, change",
+          "Qal": "turn aside, depart",
+          "Hophal": "be removed, be turned aside"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative direction but 'reveal/visible' unrelated"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive removal/turning matches exactly"
+          }
+        },
+        "reasoning": "Qal turn aside/depart as encirclement (ס) → conjunction (ו) → headship (ר). Hiphil prefixes ה (revelation), causing visible breaking of encircled links. Hophal adds ה passively, receiving the caused revelation-leading departure."
+      },
+      {
+        "root": "חזק",
+        "strongs": "H2388",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Hitpael",
+          "Piel"
+        ],
+        "qal_meaning": "be strong, firm, bold",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Division (cutting, separating forcefully) → Summons (calling from depth)",
+        "predictions": {
+          "Hiphil": "reveal vital strength, make bold through summons",
+          "Hitpael": "reveal completion in firming self, complete vital boldness",
+          "Piel": "intensively divide for strength, repeatedly summon firmness"
+        },
+        "actuals": {
+          "Hiphil": "strengthen, encourage, seize",
+          "Qal": "be strong, firm, bold",
+          "Hitpael": "strengthen oneself, take courage",
+          "Piel": "strengthen, confirm"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative strengthening direction but 'reveal/summons' diverges"
+          },
+          "Hitpael": {
+            "score": "partial",
+            "note": "Reflexive strengthening direction but 'reveal completion' extra"
+          },
+          "Piel": {
+            "score": "miss",
+            "note": "'Divide/summon' unrelated to strengthen/confirm"
+          }
+        },
+        "reasoning": "Qal strong/firm as vitalization (ח) → division (ז) → summons (ק). Hiphil prefixes ה, causing revelation of vital divisions. Hitpael adds הת, reflexively completing summoned strength. Piel doubles ז, intensifying divisive mediation for thorough vital summons."
+      },
+      {
+        "root": "כרת",
+        "strongs": "H3772",
+        "binyanim": [
+          "Niphal",
+          "Qal",
+          "Hiphil",
+          "Pual",
+          "Hophal"
+        ],
+        "qal_meaning": "cut off, cut down",
+        "dynamic_gloss": "Actualization (holding, measuring, realizing) → Headship (leading, advancing) → Completion (marking endpoints, sealing)",
+        "predictions": {
+          "Niphal": "be propagated into cutting, extend self-completion reflexively",
+          "Hiphil": "reveal cutting off, make visible sealed actualization",
+          "Pual": "be intensively led to completion, passively cut down thoroughly",
+          "Hophal": "be revealed into cutting, passively caused to seal off"
+        },
+        "actuals": {
+          "Niphal": "be cut off, destroyed",
+          "Qal": "cut off, cut down",
+          "Hiphil": "cut off, cut a covenant",
+          "Pual": "be cut off",
+          "Hophal": "be cut down"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be cut off' matches"
+          },
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative cutting direction but misses covenant; 'reveal/sealed' loose"
+          },
+          "Pual": {
+            "score": "directional",
+            "note": "Passive intensive cutting aligns"
+          },
+          "Hophal": {
+            "score": "directional",
+            "note": "Passive causative cutting but 'seal' nuance off"
+          }
+        },
+        "reasoning": "Qal cut off as actualization (כ) → headship (ר) → completion (ת). Niphal prefixes נ, propagating reflexive cutting. Hiphil prefixes ה, causing revealed leading-completion. Pual doubles ר passively, receiving intensive headship-sealing. Hophal adds ה passively, receiving caused revelation-actualization."
+      },
+      {
+        "root": "עבד",
+        "strongs": "H5647",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal",
+          "Pual",
+          "Niphal"
+        ],
+        "qal_meaning": "work, serve, do",
+        "dynamic_gloss": "Perception (seeing, beholding) → Containment (enclosing, housing, giving form) → Passage (directing through thresholds)",
+        "predictions": {
+          "Hiphil": "reveal work, make visible contained passage",
+          "Hophal": "be revealed into service, passively caused to labor",
+          "Pual": "be intensively contained in work, passively housed through thresholds",
+          "Niphal": "be propagated into serving, extend perceptual labor reflexively"
+        },
+        "actuals": {
+          "Qal": "work, serve, do",
+          "Hiphil": "perform, work, serve",
+          "Hophal": "be worked, be served",
+          "Pual": "be worked",
+          "Niphal": "be employed"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative work direction but 'reveal/contained passage' diverges"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive 'be worked/served' matches"
+          },
+          "Pual": {
+            "score": "miss",
+            "note": "'Housed through thresholds' unrelated"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be employed' aligns"
+          }
+        },
+        "reasoning": "Qal work/serve as perception (ע) → containment (ב) → passage (ד). Hiphil prefixes ה, causing revelation of contained work. Hophal adds ה passively, receiving caused perceptual containment. Pual doubles ב passively, receiving intensive housed passage. Niphal prefixes נ, propagating reflexive service."
+      },
+      {
+        "root": "קרב",
+        "strongs": "H7126",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "come near, approach",
+        "dynamic_gloss": "Summons (calling from depth) → Headship (leading, advancing) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Hiphil": "reveal approach, make near through summons",
+          "Niphal": "be propagated into nearing, extend approach reflexively",
+          "Piel": "intensively lead to containment, repeatedly draw near"
+        },
+        "actuals": {
+          "Hiphil": "bring near, approach, present",
+          "Qal": "come near, approach",
+          "Niphal": "be brought near",
+          "Piel": "bring near"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative approach direction but 'reveal/summons' extra"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be brought near' matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive 'bring/draw near' matches"
+          }
+        },
+        "reasoning": "Qal approach as summons (ק) → headship (ר) → containment (ב). Hiphil prefixes ה, causing revealed leading-nearness. Niphal prefixes נ, propagating reflexive summons-containment. Piel doubles ר, intensifying headship for thorough approaching."
+      },
+      {
+        "root": "חיה",
+        "strongs": "H2421",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Piel"
+        ],
+        "qal_meaning": "live, have life",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Agency (acting with purpose) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "reveal life, make vital agency visible",
+          "Piel": "intensively act to vitalize, repeatedly animate purposefully"
+        },
+        "actuals": {
+          "Qal": "live, have life",
+          "Hiphil": "keep alive, preserve, restore life",
+          "Piel": "keep alive, revive"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative life direction but 'reveal/agency' less specific"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive 'keep/revive alive' matches"
+          }
+        },
+        "reasoning": "Qal live as vitalization (ח) → agency (י) → revelation (ה). Hiphil prefixes ה, causing further revelation of vital acts. Piel doubles י, intensifying agency for thorough, repeated vitalization."
+      },
+      {
+        "root": "מלא",
+        "strongs": "H4390",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel",
+          "Hitpael",
+          "Pual"
+        ],
+        "qal_meaning": "be full, full, fill",
+        "dynamic_gloss": "Flow (channeling from source) → Direction (pointing toward, purposing) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Niphal": "be propagated into fullness, extend filling reflexively",
+          "Piel": "intensively direct to fill, repeatedly channel completion",
+          "Hitpael": "reveal completion in filling self, complete directed flow",
+          "Pual": "be intensively directed to fullness, passively filled thoroughly"
+        },
+        "actuals": {
+          "Qal": "be full, full, fill",
+          "Niphal": "be filled",
+          "Piel": "fill, fulfill",
+          "Hitpael": "fill oneself",
+          "Pual": "be filled"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be filled' matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive 'fill/fulfill' aligns"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Reflexive 'fill oneself' matches"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive intensive 'be filled' matches"
+          }
+        },
+        "reasoning": "Qal full/fill as flow (מ) → direction (ל) → origination (א). Niphal prefixes נ, propagating reflexive fullness. Piel doubles ל, intensifying direction for thorough filling. Hitpael adds הת, reflexively completing revealed flow. Pual doubles ל passively, receiving intensive directed origination."
+      },
+      {
+        "root": "חטא",
+        "strongs": "H2398",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Hiphil",
+          "Hitpael"
+        ],
+        "qal_meaning": "miss, sin",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Materialization (emerging physically, coiling) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Piel": "intensify the sin, coil vital life-force into thorough moral deviation",
+          "Hiphil": "reveal or make visible the missing/sinning, cause to manifest the vitalized error",
+          "Hitpael": "reveal and complete one's own vitalized material sin, purify oneself through self-animating origination"
+        },
+        "actuals": {
+          "Qal": "miss, sin",
+          "Piel": "miss, sin, lead astray",
+          "Hiphil": "cause to sin, lead astray",
+          "Hitpael": "err, go astray"
+        },
+        "scores": {
+          "Piel": {
+            "score": "partial",
+            "note": "Intensification of sin aligns loosely with 'lead astray', but 'coil vital life-force' diverges significantly"
+          },
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation to sin captured directionally via 'manifest error', but revelation focus adds divergence"
+          },
+          "Hitpael": {
+            "score": "miss",
+            "note": "Purification and vitalization contradict actual 'err, go astray'"
+          }
+        },
+        "reasoning": "Qal 'miss/sin' = vitalize (ח) into material coil (ט) originating presence (א), like animating life-force into a physical moral deviation. Piel doubles/intensifies ט's coiling for thorough/repeated sinning. Hiphil adds Hei's revelation to expose the vitalized miss. Hitpael adds Hei-Tav for self-revelation/completion of one's own animated sin, implying reflexive purification."
+      },
+      {
+        "root": "זכר",
+        "strongs": "H2142",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal"
+        ],
+        "qal_meaning": "remember, mention",
+        "dynamic_gloss": "Division (cutting, separating forcefully) → Actualization (holding, measuring, realizing) → Headship (leading, advancing)",
+        "predictions": {
+          "Hiphil": "cause to cut and hold memory into leadership, make remember by revealing separation",
+          "Niphal": "be remembered through propagated division, extend one's memory reflexively"
+        },
+        "actuals": {
+          "Qal": "remember, mention",
+          "Hiphil": "cause to remember, remind",
+          "Niphal": "be remembered"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation to remember right directionally, but 'cut/hold/separation' details diverge"
+          },
+          "Niphal": {
+            "score": "partial",
+            "note": "Passive remembrance aligns, but 'propagated division' adds unrelated nuance"
+          }
+        },
+        "reasoning": "Qal 'remember/mention' = divide (ז) to actualize/hold (כ) advancing headship (ר), like cutting to grasp leading memories. Hiphil adds Hei revelation to cause others to perform the dividing remembrance. Niphal adds Nun propagation for the memory to extend passively or reflexively onto the subject."
+      },
+      {
+        "root": "רבה",
+        "strongs": "H7235",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Piel"
+        ],
+        "qal_meaning": "be many, increase",
+        "dynamic_gloss": "Headship (leading, advancing) → Containment (enclosing, housing, giving form) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "cause to increase by revealing leading containment",
+          "Piel": "intensify multiplication by doubling containment, multiply abundantly"
+        },
+        "actuals": {
+          "Qal": "be many, increase",
+          "Hiphil": "make many, multiply",
+          "Piel": "multiply, make many"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "directional",
+            "note": "Causative increase right category, 'leading containment' nuance differs"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified multiplication matches 'multiply abundantly, make many'"
+          }
+        },
+        "reasoning": "Qal 'be many/increase' = lead/advance (ר) into contained form (ב) revealed visibly (ה), like heading housed multitudes into view. Hiphil adds Hei to causatively reveal the increase in others. Piel doubles ב's containment for intensive, thorough multiplication."
+      },
+      {
+        "root": "ירש",
+        "strongs": "H3423",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Piel"
+        ],
+        "qal_meaning": "possess, inherit, occupy",
+        "dynamic_gloss": "Agency (acting with purpose) → Headship (leading, advancing) → Intensification (extending, amplifying)",
+        "predictions": {
+          "Niphal": "be possessed through propagated agency, extend into inheritance passively",
+          "Hiphil": "cause to possess by revealing purposeful leading",
+          "Piel": "intensify occupation by doubling headship advance, conquer thoroughly"
+        },
+        "actuals": {
+          "Qal": "possess, inherit, occupy",
+          "Niphal": "be dispossessed, be heir",
+          "Hiphil": "dispossess, drive out",
+          "Piel": "take possession"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "partial",
+            "note": "Passive inheritance connects to 'be heir', but ignores 'be dispossessed'"
+          },
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causative possession directional, but actual is opposite 'dispossess'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified conquest matches 'take possession'"
+          }
+        },
+        "reasoning": "Qal 'possess/inherit/occupy' = act with purpose (י) leading (ר) into amplified extension (ש), like agency driving conquest. Niphal adds Nun to propagate the possession passively. Hiphil adds Hei to reveal/cause others' agency-possession. Piel doubles ר's headship for intensive leading conquest."
+      },
+      {
+        "root": "כתב",
+        "strongs": "H3789",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "write",
+        "dynamic_gloss": "Actualization (holding, measuring, realizing) → Completion (marking endpoints, sealing) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Niphal": "be written through propagated actualization, extend as inscribed passively",
+          "Piel": "write intensively by doubling completion, inscribe repeatedly or thoroughly"
+        },
+        "actuals": {
+          "Qal": "write",
+          "Niphal": "be written, be enrolled",
+          "Piel": "write, describe, inscribe"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be written' closely matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive/detailed writing aligns with 'inscribe, describe'"
+          }
+        },
+        "reasoning": "Qal 'write' = actualize/hold (כ) to complete/seal (ת) in contained form (ב), like measuring sealed enclosures. Niphal adds Nun propagation for the writing to extend passively. Piel doubles ת's completion for intensive, repeated sealing/inscribing."
+      },
+      {
+        "root": "נטה",
+        "strongs": "H5186",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal"
+        ],
+        "qal_meaning": "stretch out, incline, turn",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Materialization (emerging physically, coiling) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "cause to stretch by revealing propagated coiling",
+          "Niphal": "be stretched through propagated extension, incline reflexively outward"
+        },
+        "actuals": {
+          "Qal": "stretch out, incline, turn",
+          "Hiphil": "stretch out, extend, bend",
+          "Niphal": "be stretched out, be inclined"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative stretch/extend matches closely"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive stretch/incline matches"
+          }
+        },
+        "reasoning": "Qal 'stretch/incline/turn' = propagate/extend (נ) material coiling (ט) revealed (ה), like transmitting physical bends into view. Hiphil adds Hei to causatively reveal the stretching. Niphal adds Nun for double propagation, passive/reflexive extension."
+      },
+      {
+        "root": "עזב",
+        "strongs": "H5800",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual"
+        ],
+        "qal_meaning": "forsake, leave, abandon",
+        "dynamic_gloss": "Perception (seeing, beholding) → Division (cutting, separating forcefully) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Niphal": "be forsaken through propagated perception, extend abandonment passively",
+          "Pual": "be intensively divided from containment, be thoroughly abandoned passively"
+        },
+        "actuals": {
+          "Qal": "forsake, leave, abandon",
+          "Niphal": "be forsaken, deserted",
+          "Pual": "be abandoned"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be forsaken' matches"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Intensive passive abandonment matches"
+          }
+        },
+        "reasoning": "Qal 'forsake/leave/abandon' = perceive (ע) forceful division (ז) from containment (ב), like seeing cut from housing. Niphal adds Nun propagation for passive extension of abandonment. Pual intensifies doubles ז's division passively, thorough separation."
+      },
+      {
+        "root": "שכב",
+        "strongs": "H7901",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal",
+          "Niphal",
+          "Pual"
+        ],
+        "qal_meaning": "lie down, sleep, have sexual relations",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Actualization (holding, measuring, realizing) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Hiphil": "cause to lie down by revealing amplified actualization",
+          "Hophal": "be caused to lie in contained form passively, be laid down revealed",
+          "Niphal": "lie down reflexively through propagated intensification",
+          "Pual": "be intensively actualized in containment, be lain with thoroughly passively"
+        },
+        "actuals": {
+          "Qal": "lie down, sleep, have sexual relations",
+          "Hiphil": "lay down, make lie down",
+          "Hophal": "be laid down",
+          "Niphal": "be prostrated",
+          "Pual": "be lain with"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative 'lay down' matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive 'be laid down' matches"
+          },
+          "Niphal": {
+            "score": "directional",
+            "note": "Reflexive lying down in general category of 'be prostrated', but less specific"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Intensive passive 'be lain with' matches"
+          }
+        },
+        "reasoning": "Qal 'lie down/sleep/relations' = intensify/amplify (ש) actualized holding (כ) in containment (ב), like extended embrace in form. Hiphil adds Hei to causatively reveal lying. Hophal passive-causative reveals passive laying. Niphal adds Nun propagation for reflexive lying. Pual doubles כ intensively passive."
+      },
+      {
+        "root": "אהב",
+        "strongs": "H157",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "love",
+        "dynamic_gloss": "Origination (initiating, establishing presence) → Revelation (making visible, pointing to) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Niphal": "be loved through propagated origination, extend as beloved passively",
+          "Piel": "love intensively by doubling revelation, adore thoroughly"
+        },
+        "actuals": {
+          "Qal": "love",
+          "Niphal": "be loved",
+          "Piel": "love greatly"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be loved' matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified 'love greatly' matches"
+          }
+        },
+        "reasoning": "Qal 'love' = originate presence (א) revealed visibly (ה) in containment (ב), like initiating housed affection. Niphal adds Nun propagation for passive reception of love. Piel doubles ה's revelation for intensive, thorough loving."
+      },
+      {
+        "root": "יספ",
+        "strongs": "H3254",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Niphal"
+        ],
+        "qal_meaning": "add",
+        "dynamic_gloss": "Agency (acting with purpose) → Encirclement (surrounding, supporting) → Projection (propelling outward)",
+        "predictions": {
+          "Hiphil": "cause to add by revealing purposeful encirclement",
+          "Niphal": "be added through propagated agency, extend addition passively"
+        },
+        "actuals": {
+          "Hiphil": "add, increase, do again",
+          "Qal": "add",
+          "Niphal": "be added"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative add/increase matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive 'be added' matches"
+          }
+        },
+        "reasoning": "Qal 'add' = act with purpose (י) encircled/supporting (ס) projected outward (פ), like agency surrounding to propel more. Hiphil adds Hei to causatively reveal addition. Niphal adds Nun propagation for passive adding."
+      },
+      {
+        "root": "ברא",
+        "strongs": "H1254",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel",
+          "Hiphil"
+        ],
+        "qal_meaning": "create, shape, form",
+        "dynamic_gloss": "Containment (enclosing, housing, giving form) → Headship (leading, advancing) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Niphal": "be created, take form, be shaped",
+          "Piel": "form thoroughly, shape repeatedly, craft with leadership",
+          "Hiphil": "cause to create, reveal formation, make originate"
+        },
+        "actuals": {
+          "Qal": "create, shape, form",
+          "Niphal": "be created",
+          "Piel": "cut down, select",
+          "Hiphil": "create (always God as subject)"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be created' exactly"
+          },
+          "Piel": {
+            "score": "miss",
+            "note": "No connection to 'cut down, select'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches causative 'create' by God"
+          }
+        },
+        "reasoning": "Qal: Bet (containment) leads Resh (headship) to Aleph (origination) = enclose to lead into initiating form. Niphal: Nun propagation extends the form-taking passively. Piel: Doubling Resh intensifies headship mediation for thorough shaping. Hiphil: Hei revelation causes the origination of form to become visible."
+      },
+      {
+        "root": "מחה",
+        "strongs": "H4229",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Pual"
+        ],
+        "qal_meaning": "wipe out, destroy",
+        "dynamic_gloss": "Flow (channeling from source) → Vitalization (animating with life-force) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "be wiped out, be destroyed, extend into erasure",
+          "Hiphil": "cause to wipe out, reveal destruction, make flow into visibility of end",
+          "Pual": "be thoroughly destroyed, be vitally erased"
+        },
+        "actuals": {
+          "Qal": "wipe out, destroy",
+          "Niphal": "be wiped out",
+          "Hiphil": "wipe out, obliterate",
+          "Pual": "be obliterated"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be wiped out'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'wipe out, obliterate'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Matches 'be obliterated'"
+          }
+        },
+        "reasoning": "Qal: Mem (flow) channels Chet (vitalization) to Hei (revelation) = flow life-force to visible end/destruction. Niphal: Nun extends the destructive flow passively. Hiphil: Hei reveals the causation of vitalized wiping. Pual: Doubled Chet intensifies vitalization passively into total erasure."
+      },
+      {
+        "root": "אסר",
+        "strongs": "H631",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual"
+        ],
+        "qal_meaning": "bind, imprison",
+        "dynamic_gloss": "Origination (initiating, establishing presence) → Encirclement (surrounding, supporting) → Headship (leading, advancing)",
+        "predictions": {
+          "Niphal": "be bound, be imprisoned, extend into encirclement",
+          "Pual": "be tightly bound, be strongly imprisoned"
+        },
+        "actuals": {
+          "Qal": "bind, imprison",
+          "Niphal": "be bound",
+          "Pual": "be bound"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be bound'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Matches 'be bound'"
+          }
+        },
+        "reasoning": "Qal: Aleph (origination) initiates Samekh (encirclement) to Resh (headship) = start surrounding to lead/control. Niphal: Nun propagates the binding passively. Pual: Doubled Samekh intensifies encirclement passively for strong imprisonment."
+      },
+      {
+        "root": "מסס",
+        "strongs": "H4549",
+        "binyanim": [
+          "Niphal",
+          "Hiphil",
+          "Qal"
+        ],
+        "qal_meaning": "dissolve, melt",
+        "dynamic_gloss": "Flow (channeling from source) → Encirclement (surrounding, supporting) → Encirclement (surrounding, supporting)",
+        "predictions": {
+          "Niphal": "be dissolved, be melted, propagate into surrounding release",
+          "Hiphil": "cause to dissolve, reveal melting, make flow surround visibly"
+        },
+        "actuals": {
+          "Niphal": "dissolve, melt away",
+          "Hiphil": "cause to dissolve",
+          "Qal": "dissolve, melt"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'dissolve, melt away'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'cause to dissolve'"
+          }
+        },
+        "reasoning": "Qal: Mem (flow) through double Samekh (encirclement) = flow surrounded/dissolves supports. Niphal: Nun extends the melting passively. Hiphil: Hei reveals causation of encircled flow dissolution."
+      },
+      {
+        "root": "פדה",
+        "strongs": "H6299",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hophal",
+          "Niphal"
+        ],
+        "qal_meaning": "ransom, redeem",
+        "dynamic_gloss": "Projection (propelling outward) → Passage (directing through thresholds) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "cause to ransom, reveal redemption, make project through thresholds visibly",
+          "Hophal": "be ransomed, be redeemed passively",
+          "Niphal": "be ransomed, redeem oneself, extend into redemptive passage"
+        },
+        "actuals": {
+          "Qal": "ransom, redeem",
+          "Hiphil": "ransom, redeem",
+          "Hophal": "be ransomed",
+          "Niphal": "be ransomed"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'ransom, redeem'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be ransomed'"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be ransomed'"
+          }
+        },
+        "reasoning": "Qal: Pe (projection) propels Dalet (passage) to Hei (revelation) = project through to visible freedom. Hiphil: Hei causes revelation of redemptive projection. Hophal: Passive reception of caused redemption. Niphal: Nun propagates self-redemption."
+      },
+      {
+        "root": "נדד",
+        "strongs": "H5080",
+        "binyanim": [
+          "Niphal",
+          "Hiphil",
+          "Qal",
+          "Pual",
+          "Hophal"
+        ],
+        "qal_meaning": "flee",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Passage (directing through thresholds) → Passage (directing through thresholds)",
+        "predictions": {
+          "Niphal": "be made to flee, propagate fleeing further",
+          "Hiphil": "cause to flee, reveal flight through passages",
+          "Pual": "be driven away intensively, be forcefully propagated through",
+          "Hophal": "be caused to flee passively"
+        },
+        "actuals": {
+          "Niphal": "flee, wander",
+          "Hiphil": "lead away, banish",
+          "Qal": "flee",
+          "Pual": "be led away",
+          "Hophal": "be led away"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "partial",
+            "note": "Fleeing direction but adds wandering"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'lead away, banish'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Matches 'be led away'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be led away'"
+          }
+        },
+        "reasoning": "Qal: Nun (propagation) through double Dalet (passage) = extend through thresholds/flight. Niphal: Additional Nun doubles propagation passively. Hiphil: Hei reveals causation of passage flight. Pual: Doubled Dalet intensifies passage passively. Hophal: Passive caused fleeing."
+      },
+      {
+        "root": "גנב",
+        "strongs": "H1589",
+        "binyanim": [
+          "Qal",
+          "Pual",
+          "Niphal",
+          "Piel",
+          "Hitpael"
+        ],
+        "qal_meaning": "steal",
+        "dynamic_gloss": "Traversal (journeying, process, crossing distance) → Propagation (extending outward, transmitting) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Pual": "be stolen intensively, be thoroughly taken away",
+          "Niphal": "be stolen, propagate into containment theft",
+          "Piel": "steal thoroughly, traverse and propagate repeatedly",
+          "Hitpael": "steal from oneself, hide among selves through traversal"
+        },
+        "actuals": {
+          "Qal": "steal",
+          "Pual": "be stolen",
+          "Niphal": "be stolen",
+          "Piel": "steal",
+          "Hitpael": "act as a thief"
+        },
+        "scores": {
+          "Pual": {
+            "score": "precise",
+            "note": "Matches 'be stolen'"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be stolen'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Matches 'steal'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Matches 'act as a thief'"
+          }
+        },
+        "reasoning": "Qal: Gimel (traversal) journeys Nun (propagation) to Bet (containment) = cross to extend into enclosing/steal. Pual: Doubled Nun intensifies propagation passively. Niphal: Nun extends theft passively. Piel: Doubled Nun intensifies propagating theft. Hitpael: Hei-Tav reveals/completes self-traversal theft."
+      },
+      {
+        "root": "אחז",
+        "strongs": "H270",
+        "binyanim": [
+          "Niphal",
+          "Qal",
+          "Hophal",
+          "Piel"
+        ],
+        "qal_meaning": "seize, grasp",
+        "dynamic_gloss": "Origination (initiating, establishing presence) → Vitalization (animating with life-force) → Division (cutting, separating forcefully)",
+        "predictions": {
+          "Niphal": "be seized, be grasped, propagate into vital division",
+          "Hophal": "be caused to seize passively",
+          "Piel": "seize intensively, vitalize grasping thoroughly"
+        },
+        "actuals": {
+          "Niphal": "be seized",
+          "Qal": "seize, grasp",
+          "Hophal": "be seized",
+          "Piel": "take hold of"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be seized'"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Matches 'be seized'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Matches 'take hold of'"
+          }
+        },
+        "reasoning": "Qal: Aleph (origination) initiates Chet (vitalization) to Zayin (division) = start animating forceful separation/grasp. Niphal: Nun propagates passive seizing. Hophal: Passive caused grasping. Piel: Doubled Chet intensifies vitalization for thorough seizure."
+      },
+      {
+        "root": "עלמ",
+        "strongs": "H5956",
+        "binyanim": [
+          "Niphal",
+          "Hiphil",
+          "Hitpael",
+          "Qal"
+        ],
+        "qal_meaning": "conceal",
+        "dynamic_gloss": "Perception (seeing, beholding) → Direction (pointing toward, purposing) → Flow (channeling from source)",
+        "predictions": {
+          "Niphal": "be concealed, become hidden, propagate perceptual flow away",
+          "Hiphil": "cause to conceal, reveal the hiding, make perceive direction to flow invisibly",
+          "Hitpael": "conceal oneself, hide reciprocally through directed perception"
+        },
+        "actuals": {
+          "Niphal": "be hidden",
+          "Hiphil": "hide",
+          "Hitpael": "hide oneself",
+          "Qal": "conceal"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be hidden'"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'hide'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Matches 'hide oneself'"
+          }
+        },
+        "reasoning": "Qal: Ayin (perception) directs Lamed (direction) to Mem (flow) = see toward channeled hiding. Niphal: Nun propagates passive concealment. Hiphil: Hei paradoxically reveals causation of perceptual hiding. Hitpael: Hei-Tav self-completes reciprocal hiding."
+      },
+      {
+        "root": "חרה",
+        "strongs": "H2734",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hitpael",
+          "Niphal"
+        ],
+        "qal_meaning": "be hot, burn (anger)",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Headship (leading, advancing) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "cause to burn/hot, reveal anger's vital advancement",
+          "Hitpael": "burn oneself with anger, advance self-vitalization hotly",
+          "Niphal": "be made hot/burning, propagate vital heat passively"
+        },
+        "actuals": {
+          "Qal": "be hot, burn (anger)",
+          "Hiphil": "kindle (anger)",
+          "Hitpael": "be angry",
+          "Niphal": "be kindled"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Matches 'kindle (anger)'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Matches 'be angry'"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be kindled'"
+          }
+        },
+        "reasoning": "Qal: Chet (vitalization) animates Resh (headship) to Hei (revelation) = life-force leads to visible heat/anger. Hiphil: Hei causes revelation of burning. Hitpael: Hei-Tav self-reveals/completes vital burning. Niphal: Nun propagates passive heating."
+      },
+      {
+        "root": "יבש",
+        "strongs": "H3001",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "be dry, dried up, dry land",
+        "dynamic_gloss": "Agency (acting with purpose) → Containment (enclosing, housing, giving form) → Intensification (extending, amplifying)",
+        "predictions": {
+          "Hiphil": "make dry, cause to dry up, reveal dry land",
+          "Piel": "thoroughly dry out, intensely enclose and amplify dryness",
+          "Niphal": "become dry, be dried up by extension, propagate dryness"
+        },
+        "actuals": {
+          "Qal": "be dry, dried up, dry land",
+          "Hiphil": "make dry, dry up",
+          "Piel": "make dry, dry up",
+          "Niphal": "be dried up"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Core meaning 'make dry, dry up' matches exactly; extra 'reveal dry land' is minor overreach"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensification implied but actual is simple causative like Hiphil, not 'thoroughly enclose'"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Core 'become dry, be dried up' matches; extras like 'propagate' are interpretive"
+          }
+        },
+        "reasoning": "Qal: purposeful agency (י) encloses (ב) and amplifies (ש) into dryness. Hiphil adds revelation (ה), making dryness visible/caused. Piel doubles ב (containment), intensifying enclosure of dryness thoroughly. Niphal adds נ (propagation), extending the drying process passively."
+      },
+      {
+        "root": "קצפ",
+        "strongs": "H7107",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hitpael"
+        ],
+        "qal_meaning": "be wroth, angry",
+        "dynamic_gloss": "Summons (calling from depth) → Alignment (ordering toward justice) → Projection (propelling outward)",
+        "predictions": {
+          "Hiphil": "cause anger, provoke wrath, reveal deep summons to anger",
+          "Hitpael": "become angry with oneself, align inwardly toward wrath, reveal completed self-projection of anger"
+        },
+        "actuals": {
+          "Qal": "be wroth, angry",
+          "Hiphil": "make angry",
+          "Hitpael": "be angry"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause anger/provocation aligns with 'make angry'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Self-focused anger matches 'be angry'"
+          }
+        },
+        "reasoning": "Qal: summons from depth (ק) aligns (צ) to project (פ) anger. Hiphil adds ה (revelation), causing others to be summoned to anger. Hitpael adds ה+ת (revelation+completion), reflexively completing one's own deep alignment to wrath."
+      },
+      {
+        "root": "לוה",
+        "strongs": "H3867",
+        "binyanim": [
+          "Niphal",
+          "Hiphil",
+          "Qal"
+        ],
+        "qal_meaning": "pass the night, lodge",
+        "dynamic_gloss": "Direction (pointing toward, purposing) → Conjunction (joining, binding, linking) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "be lodged, remain overnight by extension, propagate binding stay",
+          "Hiphil": "cause to lodge, direct others to join and reveal overnight stay"
+        },
+        "actuals": {
+          "Niphal": "be joined, attached",
+          "Hiphil": "cause to lodge, join",
+          "Qal": "pass the night, lodge"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "miss",
+            "note": "Predicts lodging extension but actual is unrelated 'be joined'"
+          },
+          "Hiphil": {
+            "score": "directional",
+            "note": "Causative direction right, but mixes lodging with actual joining"
+          }
+        },
+        "reasoning": "Qal: direction (ל) joins (ו) to reveal (ה) lodging. Niphal adds נ (propagation), extending the binding passively as being lodged. Hiphil adds ה (revelation), causing purposeful joining for overnight revelation."
+      },
+      {
+        "root": "כתר",
+        "strongs": "H3807",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Piel",
+          "Pual",
+          "Hophal"
+        ],
+        "qal_meaning": "surround, encircle",
+        "dynamic_gloss": "Actualization (holding, measuring, realizing) → Completion (marking endpoints, sealing) → Headship (leading, advancing)",
+        "predictions": {
+          "Hiphil": "cause to encircle, reveal surrounding completion",
+          "Piel": "intensely surround, thoroughly seal and advance encirclement",
+          "Pual": "be thoroughly encircled, passively receive intensified sealing",
+          "Hophal": "be caused to encircle, passively revealed in surrounding"
+        },
+        "actuals": {
+          "Qal": "surround, encircle",
+          "Hiphil": "encircle, besiege",
+          "Piel": "encircle",
+          "Pual": "be encircled",
+          "Hophal": "be surrounded"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause to encircle matches 'encircle, besiege'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified surrounding matches 'encircle'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive encirclement matches"
+          },
+          "Hophal": {
+            "score": "directional",
+            "note": "Predicts causative but actual is passive 'be surrounded'"
+          }
+        },
+        "reasoning": "Qal: actualization (כ) completes (ת) with headship (ר) as encircling. Hiphil adds ה (revelation), causing encirclement. Piel doubles ת (completion), intensifying sealing around. Pual intensifies containment passively. Hophal passively reveals caused encirclement."
+      },
+      {
+        "root": "חק",
+        "strongs": "H2713",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "search, search out, examine",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Summons (calling from depth) → Headship (leading, advancing)",
+        "predictions": {
+          "Niphal": "be searched out, extend vitalized summons passively",
+          "Piel": "intensely examine, thoroughly summon from depth with life-force"
+        },
+        "actuals": {
+          "Qal": "search, search out, examine",
+          "Niphal": "be searched out",
+          "Piel": "search out, explore"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches 'be searched out'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified searching matches 'search out, explore'"
+          }
+        },
+        "reasoning": "Qal: vitalization (ח) summons (ק) to advance (ר) searching. Niphal adds נ (propagation), passively extending the search. Piel doubles ק (summons), intensifying deep calling in examination."
+      },
+      {
+        "root": "סגר",
+        "strongs": "H5462",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal",
+          "Pual",
+          "Piel"
+        ],
+        "qal_meaning": "shut, close",
+        "dynamic_gloss": "Encirclement (surrounding, supporting) → Traversal (journeying, process, crossing distance) → Headship (leading, advancing)",
+        "predictions": {
+          "Hiphil": "cause to shut, reveal encircled traversal closure",
+          "Niphal": "be shut, passively encircled in closure",
+          "Pual": "be thoroughly shut, passively receive intensified traversal",
+          "Piel": "intensely close, thoroughly traverse and seal shut"
+        },
+        "actuals": {
+          "Qal": "shut, close",
+          "Hiphil": "shut up, enclose",
+          "Niphal": "be shut up",
+          "Pual": "be shut up",
+          "Piel": "shut up, close"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause to shut matches 'shut up, enclose'"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive shut matches 'be shut up'"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Intensified passive matches 'be shut up'"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified closing matches 'shut up, close'"
+          }
+        },
+        "reasoning": "Qal: encirclement (ס) traverses (ג) to head (ר) shutting. Hiphil adds ה (revelation), causing closure. Niphal adds נ (propagation), passively extending shut state. Piel doubles ג (traversal), intensifying process of closing. Pual passively intensifies."
+      },
+      {
+        "root": "כעס",
+        "strongs": "H3707",
+        "binyanim": [
+          "Hiphil",
+          "Piel",
+          "Qal"
+        ],
+        "qal_meaning": "be grieved",
+        "dynamic_gloss": "Actualization (holding, measuring, realizing) → Perception (seeing, beholding) → Encirclement (surrounding, supporting)",
+        "predictions": {
+          "Hiphil": "cause grief, actualize and reveal perceived encirclement",
+          "Piel": "intensely grieve, thoroughly perceive and enclose sorrow"
+        },
+        "actuals": {
+          "Hiphil": "be angry, grieved",
+          "Piel": "vex, grieve",
+          "Qal": "be grieved"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Cause grief directionally related but actual emphasizes anger"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified grieving matches 'vex, grieve'"
+          }
+        },
+        "reasoning": "Qal: actualization (כ) perceives (ע) encirclement (ס) as grief. Hiphil adds ה (revelation), causing perceived grief. Piel doubles ע (perception), intensifying beholding of encircled grief."
+      },
+      {
+        "root": "כפר",
+        "strongs": "H3722",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Pual",
+          "Hitpael"
+        ],
+        "qal_meaning": "cover, atone, ransom",
+        "dynamic_gloss": "Actualization (holding, measuring, realizing) → Projection (propelling outward) → Headship (leading, advancing)",
+        "predictions": {
+          "Piel": "intensely cover, thoroughly project and actualize atonement",
+          "Pual": "be covered over, passively receive intensified projection",
+          "Hitpael": "cover oneself, reveal completed self-projection in ransoming"
+        },
+        "actuals": {
+          "Qal": "cover, atone, ransom",
+          "Piel": "atone, expiate, ransom",
+          "Pual": "be atoned for",
+          "Hitpael": "expiate, make atonement"
+        },
+        "scores": {
+          "Piel": {
+            "score": "precise",
+            "note": "Intensified covering matches atonement/ransom"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive matches 'be atoned for'"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Self-covering aligns with expiate/atonement"
+          }
+        },
+        "reasoning": "Qal: actualization (כ) projects (פ) to head (ר) covering/atoning. Piel doubles פ (projection), intensifying outward propelling as atonement. Pual passively receives. Hitpael adds ה+ת (revelation+completion), reflexively completing self-covering."
+      },
+      {
+        "root": "רחצ",
+        "strongs": "H7364",
+        "binyanim": [
+          "Qal",
+          "Hitpael",
+          "Pual"
+        ],
+        "qal_meaning": "wash, bathe",
+        "dynamic_gloss": "Headship (leading, advancing) → Vitalization (animating with life-force) → Alignment (ordering toward justice)",
+        "predictions": {
+          "Hitpael": "wash oneself, reveal completed self-vitalization toward alignment",
+          "Pual": "be washed, passively receive intensified vitalization"
+        },
+        "actuals": {
+          "Qal": "wash, bathe",
+          "Hitpael": "wash oneself",
+          "Pual": "be washed"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "precise",
+            "note": "Wash oneself matches exactly"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive washed matches"
+          }
+        },
+        "reasoning": "Qal: headship (ר) vitalizes (ח) to align (צ) washing. Hitpael adds ה+ת (revelation+completion), reflexively completing self-washing. Pual doubles ח (vitalization), passively intensifying life-force cleansing."
+      },
+      {
+        "root": "קלל",
+        "strongs": "H7043",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Hiphil",
+          "Niphal",
+          "Pual"
+        ],
+        "qal_meaning": "be light, slight, swift",
+        "dynamic_gloss": "Summons (calling from depth) → Direction (pointing toward, purposing) → Direction (pointing toward, purposing)",
+        "predictions": {
+          "Piel": "intensely lighten, thoroughly direct toward swiftness",
+          "Hiphil": "cause to be light/swift, reveal summoned direction",
+          "Niphal": "become light, propagate directed summons passively",
+          "Pual": "be thoroughly lightened, passively receive intensified direction"
+        },
+        "actuals": {
+          "Qal": "be light, slight, swift",
+          "Piel": "curse, lightly esteem",
+          "Hiphil": "curse, make light",
+          "Niphal": "be cursed, light",
+          "Pual": "be lightly esteemed"
+        },
+        "scores": {
+          "Piel": {
+            "score": "partial",
+            "note": "Lighten/swiftness connected to 'lightly esteem' but misses core 'curse'"
+          },
+          "Hiphil": {
+            "score": "partial",
+            "note": "Cause light matches part but misses 'curse'"
+          },
+          "Niphal": {
+            "score": "partial",
+            "note": "Become light matches part but misses 'be cursed'"
+          },
+          "Pual": {
+            "score": "partial",
+            "note": "Lightened connected to 'lightly esteemed' but ignores curse sense"
+          }
+        },
+        "reasoning": "Qal: summons (ק) directs (ל ל) to lightness/swiftness. Piel doubles ל (direction), intensifying purposeful pointing. Hiphil adds ה (revelation), causing lightness. Niphal adds נ (propagation), extending passively. Pual passively intensifies direction."
+      },
+      {
+        "root": "שלח",
+        "strongs": "H7503",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil",
+          "Hitpael",
+          "Piel"
+        ],
+        "qal_meaning": "send (forth), send away, stretch out",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Direction (pointing toward, purposing) → Vitalization (animating with life-force)",
+        "predictions": {
+          "Niphal": "be sent forth, extend oneself, be animated outward",
+          "Hiphil": "reveal/send forth, make visible the extension, cause to be vitalized outward",
+          "Hitpael": "extend oneself completely, reveal one's sending purpose, animate oneself forth",
+          "Piel": "intensively direct/send, amplify the purposed vitalization"
+        },
+        "actuals": {
+          "Qal": "send (forth), send away, stretch out",
+          "Niphal": "be sent",
+          "Hiphil": "send (forth), stretch out, let loose",
+          "Hitpael": "stretch oneself out",
+          "Piel": "send away, divorce"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Core meaning 'be sent' matches exactly"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Covers send forth and stretch out directly"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Matches stretch oneself out"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive sending aligns with send away, but divorce diverges"
+          }
+        },
+        "reasoning": "Qal anchors on intensified direction with vitalization (Shin-Lamed-Chet). Niphal adds Nun propagation for reflexive extension. Hiphil reveals the sending. Hitpael reveals/completes self-extension. Piel doubles Lamed to hyper-intensify directional purpose in sending."
+      },
+      {
+        "root": "צלע",
+        "strongs": "H6823",
+        "binyanim": [
+          "Piel",
+          "Pual",
+          "Qal"
+        ],
+        "qal_meaning": "limp, be lame",
+        "dynamic_gloss": "Alignment (ordering toward justice) → Direction (pointing toward, purposing) → Perception (seeing, beholding)",
+        "predictions": {
+          "Piel": "intensively align toward perception, order oneself justly in lameness, hobble repeatedly",
+          "Pual": "be intensively aligned in lameness, be passively ordered toward limping perception"
+        },
+        "actuals": {
+          "Qal": "limp, be lame",
+          "Piel": "make lame",
+          "Pual": "be made lame"
+        },
+        "scores": {
+          "Piel": {
+            "score": "precise",
+            "note": "Make lame captured directly"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Be made lame matches passive causative"
+          }
+        },
+        "reasoning": "Qal is alignment (Tsadi) directed (Lamed) to perception (Ayin) as limping. Piel doubles Lamed to intensify directional ordering into thorough hobbling. Pual passivizes this intensive alignment."
+      },
+      {
+        "root": "ספר",
+        "strongs": "H5595",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Hiphil"
+        ],
+        "qal_meaning": "count, recount, number",
+        "dynamic_gloss": "Encirclement (surrounding, supporting) → Projection (propelling outward) → Headship (leading, advancing)",
+        "predictions": {
+          "Niphal": "be counted/encompassed, extend one's numbering, be surrounded in projection",
+          "Hiphil": "reveal/cause to count, make visible the encircled projection, lead to numbering"
+        },
+        "actuals": {
+          "Qal": "count, recount, number",
+          "Niphal": "be numbered",
+          "Hiphil": "tell, declare, number, appoint"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "'Be counted' directly matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Covers tell, declare, number"
+          }
+        },
+        "reasoning": "Qal encircles (Samekh) projects (Pe) heads (Resh) as counting. Niphal propagates this reflexively as being numbered. Hiphil reveals the causative leading projection."
+      },
+      {
+        "root": "קדמ",
+        "strongs": "H6937",
+        "binyanim": [
+          "Hitpael",
+          "Qal",
+          "Hiphil"
+        ],
+        "qal_meaning": "meet, come opposite",
+        "dynamic_gloss": "Summons (calling from depth) → Passage (directing through thresholds) → Flow (channeling from source)",
+        "predictions": {
+          "Hitpael": "reveal/complete one's meeting, position oneself oppositely, flow through thresholds reciprocally",
+          "Hiphil": "cause to meet, reveal the summons through passage, make flow opposite"
+        },
+        "actuals": {
+          "Qal": "meet, come opposite",
+          "Hiphil": "cause to meet, bring before",
+          "Hitpael": "come to meet"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "precise",
+            "note": "Position oneself to meet captures come to meet"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause to meet and bring before align exactly"
+          }
+        },
+        "reasoning": "Qal summons (Qof) through passage (Dalet) flowing (Mem) to meet. Hitpael reveals/completes self-positioning. Hiphil reveals causative summoning."
+      },
+      {
+        "root": "נסכ",
+        "strongs": "H5258",
+        "binyanim": [
+          "Hiphil",
+          "Hophal",
+          "Qal",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "pour out, pour",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Encirclement (surrounding, supporting) → Actualization (holding, measuring, realizing)",
+        "predictions": {
+          "Hiphil": "cause to pour out, reveal the propagated encirclement, make actualized flow",
+          "Hophal": "be caused to pour, receive revealed propagation into containment",
+          "Piel": "intensively encircle/pour, repeatedly support the actualization",
+          "Niphal": "be poured out, propagate one's encircled actualization, extend in pouring"
+        },
+        "actuals": {
+          "Qal": "pour out, pour",
+          "Niphal": "be poured out",
+          "Piel": "pour out (libation)",
+          "Hiphil": "pour out, cast metal",
+          "Hophal": "be poured out"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "directional",
+            "note": "Cause to pour out right, but misses cast metal"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Be poured out matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive pour out for libation fits"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Be poured out exact"
+          }
+        },
+        "reasoning": "Qal propagates (Nun) encircles (Samekh) actualizes (Kaf) as pouring. Hiphil reveals causation. Hophal passivizes revelation. Piel doubles Samekh for intensive surrounding pour. Niphal adds propagation reflexively."
+      },
+      {
+        "root": "שכב",
+        "strongs": "H4900",
+        "binyanim": [
+          "Qal",
+          "Pual",
+          "Niphal"
+        ],
+        "qal_meaning": "lie down, lie, sleep, have sexual relations",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Actualization (holding, measuring, realizing) → Containment (enclosing, housing, giving form)",
+        "predictions": {
+          "Pual": "be intensively actualized in lying, be contained/amplified in passive holding",
+          "Niphal": "be lain down, propagate one's intensified containment, extend in lying"
+        },
+        "actuals": {
+          "Qal": "lie down, lie, sleep, have sexual relations",
+          "Niphal": "be lain with",
+          "Pual": "be lain with"
+        },
+        "scores": {
+          "Pual": {
+            "score": "precise",
+            "note": "Be lain with captured in lying context"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Be lain with matches reflexive/passive"
+          }
+        },
+        "reasoning": "Qal intensifies (Shin) actualizes (Kaf) contains (Bet) as lying. Pual passivizes intensive Kaf doubling for held containment. Niphal propagates reflexive lying."
+      },
+      {
+        "root": "רצה",
+        "strongs": "H7523",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "run",
+        "dynamic_gloss": "Headship (leading, advancing) → Alignment (ordering toward justice) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "be run/propelled, extend one's aligned headship, be advanced visibly",
+          "Piel": "intensively align/run, repeatedly order toward revelation, race justly"
+        },
+        "actuals": {
+          "Qal": "run",
+          "Niphal": "rush headlong",
+          "Piel": "race, run (swiftly)"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "directional",
+            "note": "Propelled running aligns with rush headlong"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive running matches race, run swiftly"
+          }
+        },
+        "reasoning": "Qal heads (Resh) aligns (Tsadi) reveals (Hei) as running. Niphal propagates passively. Piel doubles Tsadi for intensive just alignment in running."
+      },
+      {
+        "root": "חקה",
+        "strongs": "H2505",
+        "binyanim": [
+          "Niphal",
+          "Piel",
+          "Qal",
+          "Hitpael",
+          "Hiphil",
+          "Pual"
+        ],
+        "qal_meaning": "cut in, decree",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Summons (calling from depth) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "be cut in/decreed, propagate vitalized summons, be revealed in depth",
+          "Piel": "intensively summon/cut, repeatedly call from depth to vitalize",
+          "Hitpael": "vitalize oneself in decree, reveal/complete one's summoned cutting",
+          "Hiphil": "cause to decree, reveal the vitalized summons, make cut visible",
+          "Pual": "be intensively summoned/decreed, passively vitalized from depth"
+        },
+        "actuals": {
+          "Qal": "cut in, decree",
+          "Niphal": "be cut in",
+          "Piel": "cut in, trace, inscribe",
+          "Pual": "be cut in",
+          "Hitpael": "decree",
+          "Hiphil": "cut in, trace"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Be cut in matches"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive cut/trace/inscribe fits"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Self-decree aligns"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause to cut/trace matches"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Be cut in passive fits"
+          }
+        },
+        "reasoning": "Qal vitalizes (Chet) summons (Qof) reveals (Hei) as cutting/decree. Niphal propagates passively. Piel doubles Qof for intensive depth-calling. Hitpael reveals/completes reflexive. Hiphil reveals causation. Pual passivizes Piel."
+      },
+      {
+        "root": "שממ",
+        "strongs": "H8074",
+        "binyanim": [
+          "Niphal",
+          "Hiphil",
+          "Qal",
+          "Hophal"
+        ],
+        "qal_meaning": "be desolated, appalled",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Flow (channeling from source) → Flow (channeling from source)",
+        "predictions": {
+          "Niphal": "become desolated, propagate intensified flow, extend in appalled channeling",
+          "Hiphil": "cause desolation, reveal amplified flow, make appalled source visible",
+          "Hophal": "be caused to desolate, receive revealed intensified flow"
+        },
+        "actuals": {
+          "Qal": "be desolated, appalled",
+          "Niphal": "be desolated",
+          "Hiphil": "devastate, make desolate",
+          "Hophal": "be made desolate"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Become/be desolated matches"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause/make desolate exact"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Be made desolate fits"
+          }
+        },
+        "reasoning": "Qal intensifies (Shin) double flows (Mem-Mem) as desolation. Niphal propagates state. Hiphil reveals causation. Hophal passivizes revelation."
+      },
+      {
+        "root": "רפא",
+        "strongs": "H7495",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Niphal",
+          "Hitpael"
+        ],
+        "qal_meaning": "heal, cure",
+        "dynamic_gloss": "Headship (leading, advancing) → Projection (propelling outward) → Origination (initiating, establishing presence)",
+        "predictions": {
+          "Piel": "intensively project/heal, repeatedly propel toward origination, cure thoroughly",
+          "Niphal": "be healed, propagate headed projection, extend in curing",
+          "Hitpael": "heal oneself, reveal/complete projected headship, initiate self-restoration"
+        },
+        "actuals": {
+          "Qal": "heal, cure",
+          "Niphal": "be healed",
+          "Piel": "heal, restore",
+          "Hitpael": "get oneself healed"
+        },
+        "scores": {
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive heal/restore matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Be healed exact"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Self-heal matches get oneself healed"
+          }
+        },
+        "reasoning": "Qal heads (Resh) projects (Pe) originates (Aleph) as healing. Piel doubles Pe for intensive propulsion. Niphal propagates passively. Hitpael reveals/completes reflexive healing."
+      },
+      {
+        "root": "שלח",
+        "strongs": "H5564",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "to draw out, send away, let go",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Direction (pointing toward, purposing) → Vitalization (animating with life-force)",
+        "predictions": {
+          "Niphal": "to be drawn out, to be sent away, to extend oneself outward",
+          "Piel": "to send forth intensively, to purposefully propel with amplified life-force"
+        },
+        "actuals": {
+          "Qal": "to draw out, send away, let go",
+          "Niphal": "to be drawn out, be sent away",
+          "Piel": "to send out, stretch out, let loose"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Core meanings match exactly; extra prediction detail ignored"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive sending/propelling aligns generally with send/stretch out"
+          }
+        },
+        "reasoning": "Niphal adds Nun (Propagation), so the subject receives or reflexively propagates the Qal's extension-direction-vitalization, becoming 'drawn out/sent'. Piel doubles Lamed (Direction), intensifying the mediating purpose, yielding thorough, repeated sending with amplified Shin and vital Chet."
+      },
+      {
+        "root": "נוע",
+        "strongs": "H5128",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal"
+        ],
+        "qal_meaning": "to quiver, shake, totter, move to and fro",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Conjunction (joining, binding, linking) → Perception (seeing, beholding)",
+        "predictions": {
+          "Hiphil": "to cause to quiver, to reveal shaking motion, to make totter visibly",
+          "Niphal": "to be propagated in quivering, to shake oneself outwardly"
+        },
+        "actuals": {
+          "Qal": "to quiver, shake, totter, move to and fro",
+          "Hiphil": "to move, drive away, remove",
+          "Niphal": "to be moved, be shaken"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Shaking motion loosely relates to movement, but misses driving away"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Be shaken matches closely"
+          }
+        },
+        "reasoning": "Hiphil adds Hei (Revelation), causatively making visible the propagation-joining-perception quiver. Niphal adds Nun (Propagation), reinforcing R1 Nun for reflexive/outward extension of the to-and-fro motion."
+      },
+      {
+        "root": "בזל",
+        "strongs": "H962",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual"
+        ],
+        "qal_meaning": "to plunder, prey upon, take spoil",
+        "dynamic_gloss": "Containment (enclosing, housing, giving form) → Division (cutting, separating forcefully) → Direction (pointing toward, purposing)",
+        "predictions": {
+          "Niphal": "to be plundered, to be contained and directed into separation",
+          "Pual": "to be thoroughly preyed upon, to be intensely divided and enclosed as spoil"
+        },
+        "actuals": {
+          "Qal": "to plunder, prey upon, take spoil",
+          "Niphal": "to be plundered",
+          "Pual": "to be plundered"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Be plundered matches core sense"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Be plundered matches exactly"
+          }
+        },
+        "reasoning": "Niphal adds Nun (Propagation), so subject receives the containment-division-direction plundering. Pual doubles Zayin (Division) passively, intensifying forceful separation within containment-purpose, as thorough passive spoiling."
+      },
+      {
+        "root": "תממ",
+        "strongs": "H8552",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Hitpael"
+        ],
+        "qal_meaning": "to be complete, be at an end, finish, be gone",
+        "dynamic_gloss": "Completion (marking endpoints, sealing) → Flow (channeling from source) → Flow (channeling from source)",
+        "predictions": {
+          "Hiphil": "to cause completion, to reveal the end of flow, to make finish visibly",
+          "Hitpael": "to complete oneself, to seal one's own flowing to an end"
+        },
+        "actuals": {
+          "Qal": "to be complete, be at an end, finish, be gone",
+          "Hiphil": "to complete, finish, bring to an end",
+          "Hitpael": "to be completed, be finished"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause completion matches finish/bring to end"
+          },
+          "Hitpael": {
+            "score": "directional",
+            "note": "Self-completion aligns with be completed, but passive nuance differs"
+          }
+        },
+        "reasoning": "Hiphil adds Hei (Revelation), causatively revealing the completion-flow-flow endpoint. Hitpael adds Hei-Tav (Revelation-Completion), reflexively sealing the dual Mem flows toward personal completion."
+      },
+      {
+        "root": "מנה",
+        "strongs": "H4487",
+        "binyanim": [
+          "Qal",
+          "Niphal",
+          "Pual",
+          "Piel"
+        ],
+        "qal_meaning": "to count, number, reckon",
+        "dynamic_gloss": "Flow (channeling from source) → Propagation (extending outward, transmitting) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Niphal": "to be counted, to be propagated into visibility from flow",
+          "Pual": "to be thoroughly reckoned, to be intensely transmitted and revealed",
+          "Piel": "to count intensively, to repeatedly channel and propagate into reckoning"
+        },
+        "actuals": {
+          "Qal": "to count, number, reckon",
+          "Niphal": "to be numbered",
+          "Pual": "to be numbered",
+          "Piel": "to appoint, assign"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Be counted matches be numbered"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Be reckoned matches be numbered"
+          },
+          "Piel": {
+            "score": "partial",
+            "note": "Intensive counting vaguely relates to appoint, but diverges"
+          }
+        },
+        "reasoning": "Niphal adds Nun (Propagation), reinforcing R2 for passive reception of flow-propagation-revelation. Pual doubles Nun (Propagation) passively for intensive transmission in counting. Piel doubles Nun, intensifying propagation for thorough/repeated numbering."
+      },
+      {
+        "root": "יצר",
+        "strongs": "H6663",
+        "binyanim": [
+          "Qal",
+          "Hitpael",
+          "Hiphil",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "to be just, righteous",
+        "dynamic_gloss": "Agency (acting with purpose) → Alignment (ordering toward justice) → Headship (leading, advancing)",
+        "predictions": {
+          "Hitpael": "to align oneself righteously, to complete one's just agency",
+          "Hiphil": "to cause righteousness, to reveal justice in others",
+          "Piel": "to intensively align to justice, to thoroughly order righteousness",
+          "Niphal": "to be made just, to propagate righteous headship"
+        },
+        "actuals": {
+          "Qal": "to be just, righteous",
+          "Hitpael": "to show oneself righteous, justify oneself",
+          "Hiphil": "to justify, make righteous",
+          "Piel": "to form, mould (a figure)",
+          "Niphal": "to be formed"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "precise",
+            "note": "Align righteously matches show/justify oneself righteous"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause righteousness matches justify/make righteous"
+          },
+          "Piel": {
+            "score": "miss",
+            "note": "Justice alignment unrelated to form/mould"
+          },
+          "Niphal": {
+            "score": "miss",
+            "note": "Be made just unrelated to be formed"
+          }
+        },
+        "reasoning": "Hitpael adds Hei-Tav, reflexively revealing/completing agency-alignment-headship. Hiphil adds Hei, causatively revealing purpose-acting justice. Piel doubles Tsadi (Alignment), intensifying ordering for thorough righteousness. Niphal adds Nun, propagating passive righteousness."
+      },
+      {
+        "root": "ענה",
+        "strongs": "H6031",
+        "binyanim": [
+          "Piel",
+          "Hitpael",
+          "Niphal",
+          "Pual",
+          "Qal",
+          "Hiphil"
+        ],
+        "qal_meaning": "to sing, answer",
+        "dynamic_gloss": "Perception (seeing, beholding) → Propagation (extending outward, transmitting) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Piel": "to sing intensively, to propagate answers thoroughly",
+          "Hitpael": "to reveal one's own song/answer, to complete self-expression",
+          "Niphal": "to be answered/sung, to propagate perception reflexively",
+          "Pual": "to be thoroughly answered, to be intensely transmitted in song",
+          "Hiphil": "to cause to answer/sing, to reveal response in another"
+        },
+        "actuals": {
+          "Piel": "to afflict, oppress, humble",
+          "Hitpael": "to humble oneself",
+          "Niphal": "to be afflicted, be humbled",
+          "Pual": "to be afflicted",
+          "Qal": "to sing, answer",
+          "Hiphil": "to answer, respond"
+        },
+        "scores": {
+          "Piel": {
+            "score": "miss",
+            "note": "Intensive singing unrelated to afflict/oppress"
+          },
+          "Hitpael": {
+            "score": "miss",
+            "note": "Self-expression unrelated to humble oneself"
+          },
+          "Niphal": {
+            "score": "miss",
+            "note": "Be answered unrelated to be afflicted"
+          },
+          "Pual": {
+            "score": "miss",
+            "note": "Be answered unrelated to be afflicted"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause to answer matches respond"
+          }
+        },
+        "reasoning": "Piel doubles Nun (Propagation), intensifying transmission of perception-revelation. Hitpael adds Hei-Tav for reflexive revelation-completion of singing. Niphal adds Nun, propagating passive/reflexive answering. Pual doubles Nun passively for intensive reception. Hiphil adds Hei, causatively revealing the action."
+      },
+      {
+        "root": "חלל",
+        "strongs": "H2449",
+        "binyanim": [
+          "Hitpael",
+          "Qal",
+          "Piel",
+          "Hiphil",
+          "Pual"
+        ],
+        "qal_meaning": "to pollute, defile, profane",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Direction (pointing toward, purposing) → Direction (pointing toward, purposing)",
+        "predictions": {
+          "Hitpael": "to defile oneself, to complete one's own vitalized profanation",
+          "Piel": "to pollute intensively, to thoroughly direct life-force toward defilement",
+          "Hiphil": "to cause defilement, to reveal profanation in another",
+          "Pual": "to be thoroughly defiled, to be intensely vitalized into pollution"
+        },
+        "actuals": {
+          "Hitpael": "to profane oneself, defile oneself",
+          "Qal": "to pollute, defile, profane",
+          "Piel": "to begin (as euphemism)",
+          "Hiphil": "to begin",
+          "Pual": "to be profaned"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "precise",
+            "note": "Defile oneself matches exactly"
+          },
+          "Piel": {
+            "score": "miss",
+            "note": "Intensive pollution unrelated to begin"
+          },
+          "Hiphil": {
+            "score": "miss",
+            "note": "Cause defilement unrelated to begin"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Be defiled matches be profaned"
+          }
+        },
+        "reasoning": "Hitpael adds Hei-Tav, reflexively revealing/completing vitalization-direction-direction. Piel doubles Lamed (Direction), intensifying purpose for thorough profaning. Hiphil adds Hei, causatively revealing defilement. Pual doubles Lamed passively for intensive reception."
+      },
+      {
+        "root": "נקמ",
+        "strongs": "H5362",
+        "binyanim": [
+          "Hiphil",
+          "Piel",
+          "Qal"
+        ],
+        "qal_meaning": "to avenge, take vengeance",
+        "dynamic_gloss": "Propagation (extending outward, transmitting) → Summons (calling from depth) → Flow (channeling from source)",
+        "predictions": {
+          "Hiphil": "to cause vengeance, to reveal transmitted summons from depth",
+          "Piel": "to avenge intensively, to repeatedly summon flowing retribution"
+        },
+        "actuals": {
+          "Hiphil": "to avenge, take vengeance",
+          "Piel": "to avenge, exact vengeance",
+          "Qal": "to avenge, take vengeance"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause vengeance matches avenge"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive avenge matches exact vengeance"
+          }
+        },
+        "reasoning": "Hiphil adds Hei (Revelation), causatively making visible propagation-summons-flow vengeance. Piel doubles Qof (Summons), intensifying depth-calling for thorough/repeated avenging."
+      },
+      {
+        "root": "רעע",
+        "strongs": "H7489",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Niphal"
+        ],
+        "qal_meaning": "to be bad, be evil",
+        "dynamic_gloss": "Headship (leading, advancing) → Perception (seeing, beholding) → Perception (seeing, beholding)",
+        "predictions": {
+          "Hiphil": "to cause evil, to reveal badness in perception",
+          "Niphal": "to be made evil, to propagate headship into bad vision"
+        },
+        "actuals": {
+          "Hiphil": "to do evil, hurt, damage",
+          "Qal": "to be bad, be evil",
+          "Niphal": "to be hurt"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Cause evil matches do evil/hurt"
+          },
+          "Niphal": {
+            "score": "directional",
+            "note": "Be made evil aligns generally with be hurt"
+          }
+        },
+        "reasoning": "Hiphil adds Hei (Revelation), causatively revealing headship-perception-perception evil. Niphal adds Nun (Propagation), passively/reflexively extending the state of evil beholding."
+      },
+      {
+        "root": "תעו",
+        "strongs": "H8582",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Niphal"
+        ],
+        "qal_meaning": "wander, go astray",
+        "dynamic_gloss": "Completion (marking endpoints, sealing) → Perception (seeing, beholding) → Conjunction (joining, binding, linking)",
+        "predictions": {
+          "Hiphil": "cause to wander astray by revealing/marking a visible path of deviation",
+          "Niphal": "be led astray through extended perception-binding"
+        },
+        "actuals": {
+          "Qal": "wander, go astray",
+          "Niphal": "go astray, err",
+          "Hiphil": "lead astray, mislead"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation right, but 'revealing/marking visible path' adds unrelated specificity diverging from simple mislead"
+          },
+          "Niphal": {
+            "score": "miss",
+            "note": "Abstract 'perception-binding' lacks connection to erring or going astray"
+          }
+        },
+        "reasoning": "Qal: Completion-Perception-Conjunction = wandering astray (sealing a seen linked path off-course). Hiphil adds Hei (Revelation) to cause: reveal/mark the endpoint of perceptual wandering. Niphal adds Nun (Propagation): extension propagates the binding astray, subject receives wandering."
+      },
+      {
+        "root": "שחה",
+        "strongs": "H7812",
+        "binyanim": [
+          "Hitpael",
+          "Hiphil",
+          "Qal"
+        ],
+        "qal_meaning": "bow down",
+        "dynamic_gloss": "Intensification (extending, amplifying) → Vitalization (animating with life-force) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hitpael": "bow oneself down completely by revealing vitalized intensification",
+          "Hiphil": "cause to bow down by making the vital revelation visible"
+        },
+        "actuals": {
+          "Qal": "bow down",
+          "Hiphil": "cause to bow down",
+          "Hitpael": "prostrate oneself, worship"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "partial",
+            "note": "Intensification of bowing fits prostrate/worship, but 'revealing vitalized' is extraneous"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Closely matches causation of bowing down"
+          }
+        },
+        "reasoning": "Qal: Intensification-Vitalization-Revelation = bow down (amplified life-force pointed visibly low). Hitpael adds Hei-Tav (Revelation-Completion): reflexive completion of revealed bowing. Hiphil adds Hei: causative revelation of the vitalized bow."
+      },
+      {
+        "root": "בקע",
+        "strongs": "H1234",
+        "binyanim": [
+          "Niphal",
+          "Piel",
+          "Qal",
+          "Pual",
+          "Hitpael",
+          "Hiphil",
+          "Hophal"
+        ],
+        "qal_meaning": "split, cleave",
+        "dynamic_gloss": "Containment (enclosing, housing, giving form) → Summons (calling from depth) → Perception (seeing, beholding)",
+        "predictions": {
+          "Niphal": "be split open through extended summons-perception",
+          "Piel": "intensively summon-perceive to cleave containment",
+          "Pual": "be thoroughly cleaved by intensified summons-perception",
+          "Hitpael": "split oneself by revealing completed containment summons",
+          "Hiphil": "cause containment to be split by revealing the summons-perception",
+          "Hophal": "be caused to split through revealed summons-perception"
+        },
+        "actuals": {
+          "Qal": "split, cleave",
+          "Niphal": "be cleft, be rent",
+          "Piel": "split, cleave",
+          "Pual": "be split",
+          "Hiphil": "cause to cleave",
+          "Hophal": "be cleft",
+          "Hitpael": "cleave asunder"
+        },
+        "scores": {
+          "Niphal": {
+            "score": "precise",
+            "note": "Matches passive being split/cleft"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive cleaving aligns"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive intensive split matches"
+          },
+          "Hitpael": {
+            "score": "precise",
+            "note": "Reflexive cleaving asunder fits"
+          },
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative to cleave matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive causative cleft matches"
+          }
+        },
+        "reasoning": "Qal: Containment-Summons-Perception = split (enclosure called from depth and seen). Niphal: Nun extends the splitting passively. Piel doubles Qof: intensifies summons for thorough cleaving. Pual: passive intensive. Hitpael: reflexive reveal-complete the split. Hiphil: reveal-cause split. Hophal: passive caused reveal-split."
+      },
+      {
+        "root": "זנה",
+        "strongs": "H2181",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Pual"
+        ],
+        "qal_meaning": "commit fornication, be a harlot",
+        "dynamic_gloss": "Division (cutting, separating forcefully) → Propagation (extending outward, transmitting) → Revelation (making visible, pointing to)",
+        "predictions": {
+          "Hiphil": "cause to commit fornication by revealing the propagated division",
+          "Pual": "be thoroughly propagated in divisive fornication"
+        },
+        "actuals": {
+          "Qal": "commit fornication, be a harlot",
+          "Hiphil": "cause to commit harlotry, play the harlot",
+          "Pual": "be treated as a harlot"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "directional",
+            "note": "Causation of harlotry right, but 'revealing propagated division' differs in nuance"
+          },
+          "Pual": {
+            "score": "partial",
+            "note": "Intensive passive fits treatment as harlot loosely via propagation, but vague"
+          }
+        },
+        "reasoning": "Qal: Division-Propagation-Revelation = fornicate (force-separate extend visible). Hiphil adds Hei: reveal-cause the propagation of division. Pual doubles Nun: passive intensive propagation of divisive act."
+      },
+      {
+        "root": "טהר",
+        "strongs": "H2891",
+        "binyanim": [
+          "Hitpael",
+          "Qal",
+          "Piel",
+          "Pual"
+        ],
+        "qal_meaning": "be clean, pure",
+        "dynamic_gloss": "Materialization (emerging physically, coiling) → Revelation (making visible, pointing to) → Headship (leading, advancing)",
+        "predictions": {
+          "Hitpael": "make oneself purely by revealing completed materialization",
+          "Piel": "intensively reveal to materialize headship purity",
+          "Pual": "be thoroughly purified by intensified revelation"
+        },
+        "actuals": {
+          "Qal": "be clean, pure",
+          "Piel": "purify, cleanse",
+          "Pual": "be cleansed",
+          "Hitpael": "purify oneself"
+        },
+        "scores": {
+          "Hitpael": {
+            "score": "directional",
+            "note": "Reflexive purification right direction, but 'revealing materialization' off"
+          },
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive purification matches cleanse"
+          },
+          "Pual": {
+            "score": "precise",
+            "note": "Passive intensive cleansing matches"
+          }
+        },
+        "reasoning": "Qal: Materialization-Revelation-Headship = be clean (emerge visible leading pure). Hitpael: reflexive reveal-complete purity. Piel doubles Hei: intensive revelation for purity. Pual: passive intensive."
+      },
+      {
+        "root": "חתנ",
+        "strongs": "H2856",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Niphal",
+          "Piel"
+        ],
+        "qal_meaning": "become a son-in-law",
+        "dynamic_gloss": "Vitalization (animating with life-force) → Completion (marking endpoints, sealing) → Propagation (extending outward, transmitting)",
+        "predictions": {
+          "Hiphil": "cause to become son-in-law by revealing vitalized completion",
+          "Niphal": "be extended into son-in-law status through propagation",
+          "Piel": "intensively complete the vitalization into kinship"
+        },
+        "actuals": {
+          "Qal": "become a son-in-law",
+          "Hiphil": "make a bridegroom",
+          "Niphal": "become a bridegroom",
+          "Piel": "give in marriage"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation in kinship right category, but son-in-law to bridegroom shift and extras diverge"
+          },
+          "Niphal": {
+            "score": "partial",
+            "note": "Passive becoming in kinship, but propagation vague for bridegroom"
+          },
+          "Piel": {
+            "score": "directional",
+            "note": "Intensive kinship completion points to marriage-giving"
+          }
+        },
+        "reasoning": "Qal: Vitalization-Completion-Propagation = become son-in-law (animate seal extend family). Hiphil: reveal-cause it. Niphal: Nun propagates passively. Piel doubles Tav: intensive completion of vitalization."
+      },
+      {
+        "root": "פרש",
+        "strongs": "H6566",
+        "binyanim": [
+          "Qal",
+          "Piel",
+          "Niphal"
+        ],
+        "qal_meaning": "spread out, stretch",
+        "dynamic_gloss": "Projection (propelling outward) → Headship (leading, advancing) → Intensification (extending, amplifying)",
+        "predictions": {
+          "Piel": "intensively lead the projection to amplify spreading",
+          "Niphal": "be propagated in stretched spreading"
+        },
+        "actuals": {
+          "Qal": "spread out, stretch",
+          "Piel": "spread out, stretch out",
+          "Niphal": "be spread out"
+        },
+        "scores": {
+          "Piel": {
+            "score": "precise",
+            "note": "Intensive spreading matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive spreading matches"
+          }
+        },
+        "reasoning": "Qal: Projection-Headship-Intensification = spread (propel lead amplify). Piel doubles Resh: intensive headship for spreading. Niphal: Nun extends passively."
+      },
+      {
+        "root": "צפנ",
+        "strongs": "H6845",
+        "binyanim": [
+          "Qal",
+          "Hiphil",
+          "Niphal"
+        ],
+        "qal_meaning": "hide, treasure up",
+        "dynamic_gloss": "Alignment (ordering toward justice) → Projection (propelling outward) → Propagation (extending outward, transmitting)",
+        "predictions": {
+          "Hiphil": "cause to hide by revealing aligned projection",
+          "Niphal": "be extended into hidden alignment"
+        },
+        "actuals": {
+          "Qal": "hide, treasure up",
+          "Hiphil": "hide, lay up",
+          "Niphal": "be hidden"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "partial",
+            "note": "Causation of hiding right, but 'revealing aligned projection' contradictory"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive being hidden matches"
+          }
+        },
+        "reasoning": "Qal: Alignment-Projection-Propagation = hide (order propel transmit secret). Hiphil: reveal-cause hiding. Niphal: Nun propagates passive hiding."
+      },
+      {
+        "root": "יצר",
+        "strongs": "H3335",
+        "binyanim": [
+          "Qal",
+          "Pual",
+          "Niphal",
+          "Hophal"
+        ],
+        "qal_meaning": "form, fashion",
+        "dynamic_gloss": "Agency (acting with purpose) → Alignment (ordering toward justice) → Headship (leading, advancing)",
+        "predictions": {
+          "Pual": "be thoroughly aligned in purposeful formation",
+          "Niphal": "be extended into formed alignment",
+          "Hophal": "be caused to form through revealed agency"
+        },
+        "actuals": {
+          "Qal": "form, fashion",
+          "Niphal": "be formed",
+          "Pual": "be formed",
+          "Hophal": "be formed"
+        },
+        "scores": {
+          "Pual": {
+            "score": "precise",
+            "note": "Passive intensive formation matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive formation matches"
+          },
+          "Hophal": {
+            "score": "precise",
+            "note": "Passive causative formation matches"
+          }
+        },
+        "reasoning": "Qal: Agency-Alignment-Headship = form (act order lead shape). Pual doubles Tsadi: passive intensive alignment. Niphal: Nun passive. Hophal: passive causative reveal."
+      },
+      {
+        "root": "עור",
+        "strongs": "H5782",
+        "binyanim": [
+          "Hiphil",
+          "Qal",
+          "Niphal"
+        ],
+        "qal_meaning": "be awake, watch",
+        "dynamic_gloss": "Perception (seeing, beholding) → Conjunction (joining, binding, linking) → Headship (leading, advancing)",
+        "predictions": {
+          "Hiphil": "cause to awaken by revealing perceptual conjunction",
+          "Niphal": "be extended into wakeful perception"
+        },
+        "actuals": {
+          "Qal": "be awake, watch",
+          "Hiphil": "awake, watch",
+          "Niphal": "be awakened"
+        },
+        "scores": {
+          "Hiphil": {
+            "score": "precise",
+            "note": "Causative awakening/watch matches"
+          },
+          "Niphal": {
+            "score": "precise",
+            "note": "Passive awakening matches"
+          }
+        },
+        "reasoning": "Qal: Perception-Conjunction-Headship = awake (see bind lead alert). Hiphil: reveal-cause awakening. Niphal: Nun propagates passive."
+      }
+    ],
+    "tokens": {
+      "input": 42720,
+      "output": 35255
+    },
+    "cost_usd": 0.438
+  },
+  "test2": {
+    "methodology": "Structural analysis of prefix letter dynamics vs traditional binyan functions",
+    "prefixAnalysis": [
+      {
+        "binyan": "Niphal",
+        "addedLetters": "נ",
+        "addedDynamics": "Propagation (extending outward, transmitting)",
+        "traditionalFunction": "Passive / Reflexive",
+        "prediction": "Nun propagates the action outward — it extends/transmits the root process. When the action is \"propagated,\" it can be received (passive) or reflected back (reflexive). Propagation is outward extension: if what extends is the action itself, the subject becomes its recipient.",
+        "alignment": "moderate",
+        "assessment": "Nun's 'propagation' (outward extension) plausibly links to reflexive (action bouncing back) or passive (action received externally), as transmission implies directionality. However, Niphal's core etymology ties to נפל ('fall'), suggesting a semantic 'falling upon' rather than abstract propagation; the dynamic fits but feels somewhat post-hoc without independent evidence for nun=propagation."
+      },
+      {
+        "binyan": "Hiphil",
+        "addedLetters": "ה",
+        "addedDynamics": "Revelation (making visible, pointing to)",
+        "traditionalFunction": "Causative",
+        "prediction": "Hei makes the action visible/present — it reveals the root process. To \"reveal\" an action is to make it happen: causation is making-visible in the world. The causer is the one who makes the action appear.",
+        "alignment": "weak",
+        "assessment": "Linking ה (Hei) 'revelation/making visible' to causativity ('making the action happen') is forced. Causation is about agency and initiation, not visibility; Hei's phonetic role (h- prefix) and historical Semitic origins (causative from *h-) are better explained by sound symbolism or convention, not revelation. Post-hoc rationalization."
+      },
+      {
+        "binyan": "Hophal",
+        "addedLetters": "ה (passive vowel)",
+        "addedDynamics": "Revelation (passive form)",
+        "traditionalFunction": "Causative Passive",
+        "prediction": "Same ה (revelation) but passivized: the making-visible is received. Someone is caused to undergo the action — the revelation falls upon them.",
+        "alignment": "weak",
+        "assessment": "Passive 'revelation' for causative passive inherits Hiphil's weak link; passivization is a morphological process (vowel shift), not tied to Hei's supposed dynamic. Predicts nothing unique beyond Hiphil's flaws."
+      },
+      {
+        "binyan": "Hitpael",
+        "addedLetters": "הת",
+        "addedDynamics": "Revelation + Completion",
+        "traditionalFunction": "Reflexive / Reciprocal",
+        "prediction": "Hei (revelation) + Tav (completion): making the action visible AND sealing it back to the subject. The action is revealed (ה) and its endpoint marks the subject (ת). This creates reflexivity — the action cycles back to its origin, completing a circuit.",
+        "alignment": "moderate",
+        "assessment": "ה (revelation) + ת (completion) forming a 'circuit' for reflexive/reciprocal is creative and somewhat predictive of closure (Tav as endpoint marker in Hebrew script/morphology). Aligns with Hitpael's הת- prefix enclosing the root, but Hei's weakness carries over; plausible but not strongly predictive without broader Tav evidence."
+      },
+      {
+        "binyan": "Piel",
+        "addedLetters": "doubles R2",
+        "addedDynamics": "Intensification of the mediating dynamic",
+        "traditionalFunction": "Intensive",
+        "prediction": "R2 mediates the root action. Doubling R2 amplifies the mediation — the channel through which the action flows is widened, deepened, repeated. This produces intensity: more of the same action, done more thoroughly.",
+        "alignment": "strong",
+        "assessment": "Doubling R2 as 'intensification of mediation' genuinely predicts the intensive function: gemination universally amplifies (widens/deepens the 'channel' of R2, the root's medial pivot). Semitic linguistics supports reduplication for intensity; this is the most robust, non-post-hoc connection."
+      },
+      {
+        "binyan": "Pual",
+        "addedLetters": "doubles R2 (passive vowel)",
+        "addedDynamics": "Intensification of mediation (passive)",
+        "traditionalFunction": "Intensive Passive",
+        "prediction": "Same R2 doubling but passivized. The intensive action is received. The subject undergoes thorough, repeated, or intensive application of the root process.",
+        "alignment": "strong",
+        "assessment": "Passive counterpart to Piel's strong dynamic; the intensified mediation is received, directly predicting intensive passive. Morphological consistency with Piel strengthens it."
+      }
+    ],
+    "systemEvaluation": {
+      "overall_rating": "moderate",
+      "consistency": "Inconsistent: Strong for gemination binyanim (Piel/Pual), moderate for Niphal/Hitpael, weak for ה-based (Hiphil/Hophal). Pattern holds best where morphology is internal (doubling) but falters on prefixes.",
+      "alternative_explanations": "Standard Semitic linguistics: Prefixes from Proto-Semitic (n- reflexive/passive, h- causative); gemination for intensity via reduplication (universal). Historical sound changes, not abstract 'dynamics'; e.g., Niphal from *napʕal ('be fallen upon'), Hiphil from *ha- causative. No need for novel dynamics.",
+      "conclusion": "Intriguing metaphorical framework with real insight into Piel/Pual, but overall post-hoc and selective; doesn't displace etymological/historical accounts. Moderate viability as heuristic, weak as predictive theory."
+    },
+    "tokens": {
+      "input": 889,
+      "output": 726
+    },
+    "cost_usd": 0.009
+  }
+}
