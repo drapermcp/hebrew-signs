@@ -64,7 +64,7 @@ Rabbinic literature operates with intensely compressed Hebrew and Aramaic where 
 
 ### 6Q as General Epistemology
 
-The 6Q skeleton (Who/What/How/Where/When/Why mapped to 6 letters) was discovered independently in a knowledge management context (the NKB's 6Q framework) before the Hebrew mapping was found. The structural observation — that the first four questions are sequential and the last two (When, Why) require the earlier four — is an epistemological claim, not just a biblical one. Whether this has legs as a general framework for knowledge organization is an open question. The Hebrew corpus is evidence, not proof.
+The 6Q skeleton (Who/What/How/Where/When/Why mapped to 6 letters) was observed independently in an epistemological context before the Hebrew mapping was found. The structural observation — that the first four questions are sequential and the last two (When, Why) require the earlier four — is an epistemological claim, not just a biblical one. Whether this has legs as a general framework for organizing inquiry is an open question. The Hebrew corpus is evidence, not proof.
 
 ## What This Project Is Not
 
