@@ -186,10 +186,14 @@ Total computational cost: ~$1.00 in API calls. The entire evidence base runs in 
 ## Known Limitations
 
 1. **2 roots don't illuminate.** ארצ (earth) and צנה (cold) remain genuinely weak. Earth's materiality and cold's sensation may lie outside the relational dynamics' reach.
-2. **Verb stems (binyanim) not modeled.** Hebrew has 7 verb patterns that modify root meaning. The glosser handles base roots but doesn't yet capture causative/intensive/reflexive shifts.
+2. **Verb stems (binyanim) partially validated.** A blind prediction test across 100 roots (293 root-binyan pairs) achieved 78.5% predictive accuracy — dynamics + Qal meaning predict binyan meaning shifts before seeing actuals. Passive binyanim scored highest (Hophal 93%). Piel gemination as intensification is strongly validated. Hiphil prefix dynamics are weak and need revision. The glosser shows stem labels but does not yet model how binyan dynamics compound with root dynamics. [Binyanim validation](evidence/binyanim-validation.md)
 3. **Root extraction is heuristic.** Prefix/suffix stripping approximates morphology but doesn't handle all patterns. Phase 3 showed this produces ~15% noise in root samples. A proper morphological parser would improve accuracy.
 4. **LLM as evaluator.** We used Grok 4.1 to score alignments. Its assessments are informed but not authoritative. Human Hebrew scholars should verify key results.
 5. **This is a layer, not a replacement.** The dynamic reading adds a dimension. It doesn't replace lexical, grammatical, or contextual translation.
+
+## Research Directions
+
+See [AFFORDANCES.md](AFFORDANCES.md) for validated research directions (cross-Semitic verification, formal linguistics, academic publication) and open questions (cantillation correlation, Talmudic application, binyanim prefix dynamics). Organized by evidence strength.
 
 ## Contributing
 
